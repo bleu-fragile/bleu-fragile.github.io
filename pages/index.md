@@ -85,11 +85,11 @@ Voici les règles du jeu Bleu Fragile.
         2.  [Liste des technologies](#id4c9afb3)
 </details>
 
-<a id="orga56682e"></a>
+<a id="ida56682e"></a>
 
 # Présentation
 
-<a id="org02af981"></a>
+<a id="id02af981"></a>
 
 ## Synopsis
 
@@ -97,14 +97,14 @@ La situation climatique sur terre est inquiétante, le réchauffement et la mont
 La transition énergétique tant annoncée connaît des difficultés, en particulier en ce qui concerne l'approvisionnement en énergie, malgré des espoirs concernant l'utilisation de la fusion nucléaire.
 
 Dans le même temps, les avancées techniques dans le domaine aérospatial ont rendu envisageable une exploitation industrielle du système solaire.
-De nombreuses organisations se lancent dans cet effort, chacune avec ses motivations propres, ses forces et faiblesses.
+De nombreuses organisations se lancent dans cet effort, chacune avec ses forces, ses faiblesses et ses motivations propres.
 
 Chaque joueur incarne un individu à la tête d'une organisation.
 Cette organisation est chargée par les Nations Unies de prendre part au développement industriel du système solaire.
 Elle a reçu dans cette optique des droits d'exploitation du système solaire.
 
 
-<a id="org6ad34ac"></a>
+<a id="id6ad34ac"></a>
 
 ## Cadre de jeu
 
@@ -112,11 +112,11 @@ Le jeu s'organise en une succession de phases répétées durant lesquelles les 
 
 Il se déroule sur un temps relativement court, de l'ordre d'une journée à temps plein, ou bien étalé sur 2-3 semaines en asynchrone.
 
-Le jeu met en place un système économique dynamique et un système d'espionnage et d'actions clandestines.
+Le jeu met en place un système économique dynamique et un système d'espionnage et d'actions secrètes.
 
-L'objectif de cette économie dynamique est de fournir un support que les joueurs tenteront de manipuler et d'amener dans un état qui leur est favorable, soit parce que cela renforce ponctuellement leur position, soit parce que cela valide les objectifs qui leur sont initialement attribués.
+L'objectif de cette économie dynamique est de fournir un support que les joueurs tenteront de manipuler et d'amener dans un état qui leur est favorable, soit parce que cela renforce ponctuellement leur position, soit parce que cela valide les objectifs qui leurs sont initialement attribués.
 
-L'objectif du système d'actions clandestines est de permettre un jeu de manipulation des autres joueurs, de déduction de leurs objectifs et de bluff quant à leurs moyens et à ces objectifs. Ce système permet aussi d'agir de manière directe ou non sur l'écosystème économique, politique et climatique de la terre et des autres planètes.
+L'objectif du système d'actions secrètes est de permettre un jeu de manipulation des autres joueurs, de déduction de leurs objectifs et de bluff quant à leurs moyens et à ces objectifs. Ce système permet aussi d'agir de manière directe ou non sur l'écosystème économique, politique et climatique de la terre et des autres planètes.
 
 Ce jeu tente de mettre en place trois aspects principaux:
 
@@ -127,12 +127,12 @@ Ce jeu tente de mettre en place trois aspects principaux:
 Il vise un nombre de joueurs allant de 3 à 6 en plus d'un éventuel meneur de jeu dont le rôle sera d'élaborer la base des éléments roleplay qui introduisent la situation initiale et d'animer le déroulement de la partie.
 
 
-<a id="org8f81f71"></a>
+<a id="id8f81f71"></a>
 
 ## Principes généraux de jeu
 
 
-<a id="orgbc89fde"></a>
+<a id="idbc89fde"></a>
 
 ### Situation de la Terre
 
@@ -154,7 +154,7 @@ Cette approche réduit effectivement les effets des changements climatiques, au 
 La crise climatique a aussi des effets importants sur les capacités de production industrielles et agricoles de la terre dont les effets peuvent drastiquement changer la valeur accordée aux différentes ressources sur terre, et ainsi présenter des opportunités économiques pour les organisations contrôlées par les joueurs.
 
 
-<a id="org3aff71f"></a>
+<a id="id3aff71f"></a>
 
 ### Objectifs des joueurs
 
@@ -166,11 +166,11 @@ En particulier cela signifie qu'un joueur qui voit l'organisation qu'il contrôl
 Il pourra utiliser une autre organisation par la suite pour atteindre ses objectifs.
 
 
-<a id="orgbcf170a"></a>
+<a id="idbcf170a"></a>
 
 ### Organisations
 
-Ce sont ces entités qui organisent l'activité économique, industrielle et financière dans le système solaire. Elles construisent des mines et des usines, transportent des ressources, construisent des villes et sont en compétition les unes avec les autres dans ces activités.
+Ce sont ces entités qui organisent l'activité économique, industrielle et financière dans le système solaire. Elles construisent des mines et des usines, transportent des ressources, développent des villes, recherchent des technologies et sont en compétition les unes avec les autres dans ces activités.
 
 Chaque joueur peut en contrôler une ou plusieurs.
 
@@ -179,7 +179,7 @@ Quand un joueur contrôle une organisation, les autres joueurs ne savent pas de 
 Ces organisations ont la possibilité de rémunérer leurs propriétaires, le montant de cette rémunération est modulé par les résultats financiers de cette organisation.
 
 
-<a id="org256490e"></a>
+<a id="id256490e"></a>
 
 ### Ressources
 
@@ -191,7 +191,7 @@ Certaines de ces ressources sont nécessaires à la Terre dans sa gestion du dé
 Ces ressources permettent ainsi la construction de mines et d'usines pour produire d'autres ressources, mais aussi de vaisseaux pour transporter celles-ci, d'infrastructures de vie pour permettre l'installation de travailleurs ou bien de matériel pour mener à bien des opérations de stabilisation du climat de la terre.
 
 
-<a id="org4b3407b"></a>
+<a id="id4b3407b"></a>
 
 ### Bâtiments
 
@@ -202,18 +202,18 @@ Ces bâtiments peuvent être des mines qui extraient les ressources du sol, des 
 Ce jeu ne représente que le fonctionnement des bâtiments en dehors de la Terre, situés sur les corps céleste.
 
 
-<a id="orga0b2a98"></a>
+<a id="ida0b2a98"></a>
 
 ### Marchés
 
-Sur chaque corps céleste existe un marché qui est en charge de gérer les échanges de ressources et la formation des prix de ces ressources.
+Sur chaque corps céleste avec une activité humaine, existe un marché qui est en charge de gérer les échanges de ressources et la formation des prix de ces ressources.
 Tous les échanges de ressources passent par des marchés.
 Dès leur production les ressources sont immédiatement vendues au marché local, et les mines et usines achètent les ressources dont elles ont besoin pour fonctionner auprès des marchés locaux.
 Les organisations ne peuvent pas faire de stocks de ces ressources et doivent les acheter au moment de leur utilisation.
 Les marchés fixent dynamiquement les prix de ressources en fonction de l'offre et de la demande de celles-ci.
 
 
-<a id="orgd5df1e3"></a>
+<a id="idd5df1e3"></a>
 
 ### Faillite
 
@@ -230,7 +230,7 @@ En cas de faillite potentielle, une organisation doit d'abord vendre les actions
 La vente de ces actions peut faire changer de contrôleur de nombreuses organisations et être l'occasion de faire des affaires.
 
 
-<a id="org0265ec7"></a>
+<a id="id0265ec7"></a>
 
 ### Organismes de financement
 
@@ -239,7 +239,7 @@ Les organisations peuvent aussi prendre part à ces activités financières en m
 Cette participation peut aussi n'avoir comme objectif qu'un simple retour sur investissement.
 
 
-<a id="orgd1b39c4"></a>
+<a id="idd1b39c4"></a>
 
 ### Villes
 
@@ -249,7 +249,7 @@ Ces villes consomment des ressources nécessaires à leur fonctionnement et à l
 Les profits engrangés par la population via ses salaires peut provoquer l'extension des villes.
 
 
-<a id="orgb6a901b"></a>
+<a id="idb6a901b"></a>
 
 ### Opérations
 
@@ -259,15 +259,15 @@ Ces opérations vont de la construction d'usines à la participation à un organ
 Ce nombre d'opération est limité et contraint les organisations dans leur activité, encourageant les joueurs à contrôler plusieurs organisations pour réaliser leurs objectifs.
 
 
-<a id="org474ba66"></a>
+<a id="id474ba66"></a>
 
-### Opérations clandestines
+### Opérations secrètes
 
-Les organisations qui sont en compétition pour l'exploitation des ressources du système solaire agissent parfois de manière clandestine afin de favoriser leurs intérêts ou de nuire à ceux de leurs compétiteurs.
+Les organisations qui sont en compétition pour l'exploitation des ressources du système solaire agissent parfois de manière secrète afin de favoriser leurs intérêts ou de nuire à ceux de leurs compétiteurs.
 Il peut s'agir d'opération de manipulation des prix des marchés, de sabotage de mines, d'usines, de vaisseaux de transport, de stabilisation ou la déstabilisation de la Terre.
 
 
-<a id="orgba14fdf"></a>
+<a id="idba14fdf"></a>
 
 ### Vaisseaux de transport et routes commerciales
 
@@ -278,18 +278,18 @@ Le transport de ressources demande du carburant.
 La quantité de ressources transportée chaque tour et le coût en carburant dépendent de la distance entre l'origine et la destination ainsi que de la capacité totale des vaisseaux qui participent à la route commerciale.
 
 
-<a id="orgd6e0265"></a>
+<a id="idd6e0265"></a>
 
 # Règles
 
 
-<a id="orgdcbf4d4"></a>
+<a id="iddcbf4d4"></a>
 
 ## Tour de jeu
 
 Durant le tour de jeu, on résout les actions dans l'ordre suivant:
 
--   Résolution des opérations clandestines. Dans un ordre aléatoire.
+-   Résolution des opérations secrètes. Dans un ordre aléatoire.
 -   Mise à jour des lignes de commerce interplanétaire.
 -   Activation des lignes commerciales: chaque ligne achète et vend les ressources.
 -   Construction puis destruction de bâtiments.
@@ -311,12 +311,12 @@ Durant le tour de jeu, on résout les actions dans l'ordre suivant:
 -   Vérifications de objectifs.
 
 
-<a id="org91d813b"></a>
+<a id="id91d813b"></a>
 
 ## Objectifs des joueurs
 [TODO](/ideas-obj-players/)
 
-<a id="orgc99fd76"></a>
+<a id="idc99fd76"></a>
 
 ### Listes des différents objectifs
 
@@ -337,13 +337,13 @@ Durant le tour de jeu, on résout les actions dans l'ordre suivant:
     -   (I) Réalisation d'un projet objectif x2 pour chaque
     -   (I) Diversifié: produire chacune de ressources à au moins 10% du volume produit)
     -   (I) Marchand: avoir 100 vaisseaux de commerce. x2
-    -   (I) Barbouze: mener 100 opération clandestines. x2
+    -   (I) Barbouze: mener 100 opération secrètes. x2
     -   (I) Créancier: Obtenir plus de 1 000 000 de revenu via les intérêts de la dette. x2
     -   (I) Mauvais gestionnaire: subir 3 faillites
     -   (I) OPA: Obtenir le contrôle de 3 organisation préalablement contrôlées par d'autres joueurs.
 
 
-<a id="org0521d45"></a>
+<a id="id0521d45"></a>
 
 ### Répartition des objectifs en début de partie
 
@@ -351,7 +351,7 @@ Durant le tour de jeu, on résout les actions dans l'ordre suivant:
 -   Comme pour les technos, étalé sur les 10 premiers tours ? Draft avec conservation d'une partie des cartes et rendu d'une autre partie ? Passage direct à un autre joueur ? Sous format au tour k on en garde k et on en transmet n-k ? -> Possibilité de pivot, voire de récupération de collection.
 
 
-<a id="org5f69a3d"></a>
+<a id="id5f69a3d"></a>
 
 ## Critère de clôture de la partie
 
@@ -359,7 +359,7 @@ Durant le tour de jeu, on résout les actions dans l'ordre suivant:
 -   Taux/nombre d'objectifs instantanés atteints.
 
 
-<a id="orgc3abf59"></a>
+<a id="idc3abf59"></a>
 
 ## Fonctionnement des organisations
 
@@ -372,7 +372,7 @@ Le contrôle de ces organisations peut changer de main durant la durée de la pa
 La richesse d'une organisation est représentée soit par la quantité de fonds propre directement disponibles, soit par un niveau de dette (fonds négatifs). La quantité de dette est limitée par le mécanisme de faillite décrit plus loin. Cette dette demande de payer des intérêts.
 
 
-<a id="org46061b5"></a>
+<a id="id46061b5"></a>
 
 ### Opérations et actions
 
@@ -383,7 +383,7 @@ Les opérations possibles pour une organisation sont:
 -   Construire un bâtiment sur une case de terrain déjà possédée (coût: une action).
 -   Désassembler un bâtiment possédé (gratuit).
 -   Remettre en vente une case de terrain possédée (coût: une action). Lors de cette remise en vente, la somme payée pour l'acquisition est remboursée et la case de terrain sera disponible pour acquisition au tour suivant.
--   Réaliser une opération clandestine (coût: une action). La description des actions clandestine est faite plus loin dans les règles.
+-   Réaliser une opération secrète (coût: une action). La description des actions secrète est faite plus loin dans les règles.
 -   Construire un vaisseau de commerce dans un chantier spatial (coût: une action).
 -   Ouvrir une ligne de commerce interplanétaire (coût: une action).
 -   Placer ou retirer un vaisseau de commerce sur une ligne de commerce (gratuit).
@@ -398,7 +398,7 @@ Les opérations possibles pour une organisation sont:
 Chaque organisation dispose par défaut d'une action par tour de jeu. S'y ajoutent éventuellement, deux actions supplémentaires que chaque joueur peut distribuer parmi l'ensemble des organisations qu'il contrôle.
 
 
-<a id="org8decec1"></a>
+<a id="id8decec1"></a>
 
 ### Faillite
 
@@ -408,7 +408,7 @@ Si à l'issue du tour suivant la faillite aucun joueur ne se porte acquéreur, t
 La valeur d'une organisation est déterminée par la somme des valeurs de ses possessions (bâtiments, terrains, vaisseaux, organismes de financement): cette valeur est mise à jour lors de l'acquisition de chaque possession et est calculée de la manière suivante: la valeur d'un terrain est la valeur payée pour son acquisition. La valeur d'un bâtiment et le prix des ressources nécessaires à sa construction, même chose pour les vaisseaux. La valeur des organismes de financement est leur capital et est mise à jour à chaque tour, contrairement aux valeurs des autres possessions.
 
 
-<a id="org0779b11"></a>
+<a id="id0779b11"></a>
 
 ### Traits de organisations
 
@@ -458,12 +458,12 @@ Sauf mention du contraire, ces traits ne sont pas révélés publiquement. Cepen
     
     8.  Services spéciaux
     
-        Cette organisation peut réaliser gratuitement une opération clandestine par tour. Cette opération s'effectue avec un niveau de renseignement réduit de 1.
+        Cette organisation peut réaliser gratuitement une opération secrète par tour. Cette opération s'effectue avec un niveau de renseignement réduit de 1.
     
     9.  Organisation criminelle
     
         Lors du versement de fonds à cette organisation, celle ci ne reçoit que 80% de la somme. Lors du versement de fonds de cette organisation vers son contrôleur, celui ci ne reçoit que 80% de la somme.
-        Toute opération clandestine sur un corps céleste sur lequel cette organisation possède un centre d'opérations, voit son coût augmenté de 10%. Le surplus est transféré à l'organisation criminelle.
+        Toute opération secrète sur un corps céleste sur lequel cette organisation possède un centre d'opérations, voit son coût augmenté de 10%. Le surplus est transféré à l'organisation criminelle.
     
     10. Réseau de contrebandiers
     
@@ -493,18 +493,18 @@ Sauf mention du contraire, ces traits ne sont pas révélés publiquement. Cepen
         La quantité de carburant nécessaire au fonctionnement des vaisseau de transport est réduite de 10% (minimum 1) et le volume transporté part ceux ci est augmenté de 5%. Changer la répartition des vaisseaux d'une ligne commerciale coûte une action à l'organisation qui l'opère.
 
 
-<a id="org36be94c"></a>
+<a id="id36be94c"></a>
 
 ### Contrôle des organisations
 
 Le joueur contrôlant une organisation peut changer dans certains circonstances:
 
 -   En cas de faillite et de rachat par un joueur.
--   En conséquence de la réussite d'une opération clandestine dédiée mettant l'organisation en vente via un processus similaire à la faillite.
+-   En conséquence de la réussite d'une opération secrète dédiée mettant l'organisation en vente via un processus similaire à la faillite.
 -   Pour une société par action, si un joueur obtient strictement plus d'action que le contrôleur actuel.
 
 
-<a id="org7d9a5c1"></a>
+<a id="id7d9a5c1"></a>
 
 ### Nouvelles organisations
 
@@ -513,14 +513,14 @@ En début de partie, chaque joueur reçoit une nouvelle organisation possédant 
 À reprendre avec les mécaniques de cartes
 
 
-<a id="org4a276cd"></a>
+<a id="id4a276cd"></a>
 
 ## Ressources
 
 L'économie fonctionne autour de l'extraction, de la transformation et de la consommation de ressources. Il y a consommation de ressources par les villes, pour la construction de bâtiments, pour la production de ressources manufacturées et pour le déplacement des vaisseaux de commerce. 
 
 
-<a id="orga2ee4a2"></a>
+<a id="ida2ee4a2"></a>
 
 ### Liste des ressources
 
@@ -547,7 +547,7 @@ L'économie fonctionne autour de l'extraction, de la transformation et de la con
     -   Énergie: d'origine solaire ou non, elle est essentielle à toutes les activités industrielles. Elle peut être stockée par divers moyens.
 
 
-<a id="orgf184de3"></a>
+<a id="idf184de3"></a>
 
 ### Source de chacune des ressources
 
@@ -588,7 +588,7 @@ L'économie fonctionne autour de l'extraction, de la transformation et de la con
         -   5 Carburant -> 6 Énergie (centrale thermique)
 
 
-<a id="org2cb89a3"></a>
+<a id="id2cb89a3"></a>
 
 ## Corps célestes <code>[0/2]</code>
 
@@ -596,7 +596,7 @@ Les corps célestes sont là où les organisations extraient leurs ressources.
 Ces objets, normalement en mouvement sont ici considérés comme fixe du point de vue de la distance entre ceux ci pour les usages du jeu (en particulier les vaisseau de commerce et leur consommation de carburant).
 
 
-<a id="orga2e35a2"></a>
+<a id="ida2e35a2"></a>
 
 ### Fonctionnement d'un corps céleste
 
@@ -604,14 +604,14 @@ Chaque corps céleste est constitué de cases hexagonales composant la carte de 
 La production d'énergie solaire est la même sur chaque case d'un corps céleste et dépend uniquement de la distance de ce corps au soleil.
 
 
-<a id="org807b846"></a>
+<a id="id807b846"></a>
 
 ### Acquisition des cases
 
 Durant chaque tour, les organisations peuvent miser une certaine somme d'argent sur les cases non acquises. En fin de tour, si une seule organisation a misé sur une case, elle l'obtient gratuitement, dans le cas où plusieurs organisations ont misé pour acquérir la case, l'organisation ayant misé le plus débourse la 2e mise la plus haute et obtient la propriété de la case.
 
 
-<a id="orgd56ca85"></a>
+<a id="idd56ca85"></a>
 
 ### Corps du système solaire
 
@@ -630,37 +630,37 @@ Les différents corps du système solaire accessibles sont:
 -   Terra (pas de surface exploitable)
 
 
-<a id="org4c82acd"></a>
+<a id="id4c82acd"></a>
 
 ### Distances entre corps du système solaire
 
 
-<a id="orge60e719"></a>
+<a id="ide60e719"></a>
 
 ## Bâtiments <code>[0/5]</code>
 
 
-<a id="org4ab1d18"></a>
+<a id="id4ab1d18"></a>
 
 ### La construction d'un bâtiment
 
 
-<a id="org52f5de5"></a>
+<a id="id52f5de5"></a>
 
 ### La destruction d'un bâtiment
 
 
-<a id="orgf299355"></a>
+<a id="idf299355"></a>
 
 ### Les différents bâtiments
 
 
-<a id="org0c05945"></a>
+<a id="id0c05945"></a>
 
 ## Projets
 
 
-<a id="orgf0ef98a"></a>
+<a id="idf0ef98a"></a>
 
 ### Fonctionnement général
 
@@ -682,7 +682,7 @@ Dans le cas d'un projet accessible depuis plusieurs corps célestes, un surcoût
 Pour les projets coopératifs, si plus d'étapes que nécessaire ont été réalisées, lors de la résolution, on applique les contributions des organisations par ordre de nombre d'étapes croissante, et dès qu'on dépasse on annule les contributions suivantes (qui ne sont plus nécessaires).
 
 
-<a id="orge75b8bd"></a>
+<a id="ide75b8bd"></a>
 
 ### Liste des projets
 
@@ -767,7 +767,7 @@ Pour les projets coopératifs, si plus d'étapes que nécessaire ont été réal
     Voir la section suivante pour les projets publics. Les projets suivants sont des projets privés.
 
 
-<a id="org90d7a75"></a>
+<a id="id90d7a75"></a>
 
 ## Fonctionnement de la Terre
 
@@ -778,7 +778,7 @@ Le dérèglement du climat est représenté par un ensemble de cartes événemen
 Les joueurs peuvent, via les organisations qu'ils contrôlent, interagir avec la terre de plusieurs manières: fournir des ressources en échange de financement (mais pas en acheter), investir dans les activités sur terre ou participer à la dépollution, la transition et la protections des infrastructures et populations des régions de la terre. Cette interaction peut se faire pour aider l'humanité sur terre, ou bien simplement pour des intérêts extérieurs à la terre (commerce, investissement local, objectifs des joueurs).
 
 
-<a id="orgc583072"></a>
+<a id="idc583072"></a>
 
 ### Activité humaine dans les régions de la Terre
 
@@ -966,7 +966,7 @@ Le niveau de protection agit de manière complémentaire en réduisant l'exposit
             -   Description: Un réseau de station en orbite pour analyse et prévenir les événements climatiques à venir.
 
 
-<a id="org277f871"></a>
+<a id="id277f871"></a>
 
 ### Fonctionnement du système climatique terrestre
 
@@ -1062,12 +1062,12 @@ La dynamique du système climatique terrestre est alimentée uniquement par la p
         -   Ajouter des effets inévitable par de la protection ?
 
 
-<a id="org301f0a5"></a>
+<a id="id301f0a5"></a>
 
 ## Fonctionnement des marchés
 
 
-<a id="orge50e182"></a>
+<a id="ide50e182"></a>
 
 ### Échanges
 
@@ -1079,7 +1079,7 @@ Ces prix d'achat et de vente sont fixés à partir des historiques d'achat et de
 Le marché ajoute une taxe de 10% pour chaque achat et vente de ressource: si le cours de la ressource est à x, l'achat auprès du marché se fait à 110% de x et la vente se fait à 90% de x.
 
 
-<a id="orgf271631"></a>
+<a id="idf271631"></a>
 
 ### Formation des prix
 
@@ -1088,12 +1088,12 @@ Chaque marché tient le compte de l'évolution de l'offre et de la demande via d
 Ensuite, de manière à introduire une forme de retour à un équilibre dans le prix, on divise le nombre d'achats et ventes cumulées par 2.
 
 
-<a id="org8ca8833"></a>
+<a id="id8ca8833"></a>
 
 ## Commerce interplanétaire
 
 
-<a id="org2fb7ce8"></a>
+<a id="id2fb7ce8"></a>
 
 ### Vaisseaux de transport
 
@@ -1105,7 +1105,7 @@ Il y a deux modèles de vaisseaux disponibles:
 -   Le cargo, assez cher à construire(TODO), consommation de carburant haute(TODO), volume très important(TODO). Le rapport entre la consommation de carburant et le volume est meilleur que pour le courrier, mais le coût initial est plus important.
 
 
-<a id="orgf2798bf"></a>
+<a id="idf2798bf"></a>
 
 ### Lignes commerciales
 
@@ -1121,7 +1121,7 @@ Il est possible d'ajouter gratuitement des vaisseaux à une ligne ou bien de cha
 Une ligne commerciale à laquelle plus aucun vaisseau n'est affecté disparaît.
 
 
-<a id="orgf9d2542"></a>
+<a id="idf9d2542"></a>
 
 ### Ressources non concernées par le commerce
 
@@ -1129,12 +1129,12 @@ Une ligne commerciale à laquelle plus aucun vaisseau n'est affecté disparaît.
 -   L'énergie
 
 
-<a id="org4f1832a"></a>
+<a id="id4f1832a"></a>
 
 ## Villes
 
 
-<a id="orgadf75cf"></a>
+<a id="idadf75cf"></a>
 
 ### Fonctionnement des villes
 
@@ -1159,7 +1159,7 @@ Voici le détail des consommations à chaque tour et des tailles:
     -   Population maximale: 1 000 000
 
 
-<a id="orgee22fc6"></a>
+<a id="idee22fc6"></a>
 
 ### Construction des villes
 
@@ -1177,7 +1177,7 @@ Chaque augmentation de taille est déclenchée quand les critères sont atteints
     -   Disponible uniquement en cas de présence d'un habitat orbital.
 
 
-<a id="org3ec1af9"></a>
+<a id="id3ec1af9"></a>
 
 ### Fonctionnement de la population
 
@@ -1185,7 +1185,7 @@ Chaque augmentation de taille est déclenchée quand les critères sont atteints
 La ville paie pour les dépenses et récupère les salaires. Si après ces transactions (et la consommation fixe de la ville) le budget de la ville est positif, la population double, dans le cas contraire, elle baisse de 20%.
 
 
-<a id="orgcb3816d"></a>
+<a id="idcb3816d"></a>
 
 ## Fonctionnement des organismes de financement
 
@@ -1194,28 +1194,28 @@ Les organismes de financement sont les institutions qui gèrent les dettes et pl
 Ces organismes de financement reçoivent les intérêt payés par les organisations, mais encaissent aussi les pertes excédentaires des entreprises lors des faillites.
 
 
-<a id="org95b6d70"></a>
+<a id="id95b6d70"></a>
 
 ### Création des organismes
 
 Durant leur tour, les organisations peuvent utiliser une de leurs actions pour créer un organisme de financement. Lors de la création, il faut choisir le niveau de risque du fonds, le nom du fonds, le capital initial, et la valeur d'une part. Ces parts permettent à d'autre organisations de participer au capital. Il est possible de désactiver la participation d'autres organisations au capital d'un fonds lors de sa création.
 
 
-<a id="org220550d"></a>
+<a id="id220550d"></a>
 
 ### Fermeture des organismes de financement
 
 Durant leur tour, les organisations peuvent gratuitement fermer un organisme de financement. 90% des fonds disponibles sont récupérés après fermeture et distribués au prorata des parts possédées par les organisations.
 
 
-<a id="org607d00d"></a>
+<a id="id607d00d"></a>
 
 ### Constitution du capital
 
 Lors de la création du fonds, un capital initial est versé. Durant la suite du jeu, une organisation peut utiliser une action pour acheter un certain nombre de part d'un fonds, augmentant son capital de la valeur totale des parts acquises. Il est aussi possible de rendre tout ou partie de ses parts, pour une action, diminuant d'autant le capital du fonds.
 
 
-<a id="org97e4997"></a>
+<a id="id97e4997"></a>
 
 ### Répartition des intérêts
 
@@ -1228,7 +1228,7 @@ Le taux d'intérêt augmente donc en fonction du taux d'endettement de l'organis
 Ces intérêts sont directement envoyés aux organisations possédants des parts dans le fonds, au prorata des parts possédées. L'organisation possédant le fonds peut décider à sa création d'une taxe sur ces intérêt, en fixe ou en proportion des intérêts versés.
 
 
-<a id="orga68b2a2"></a>
+<a id="ida68b2a2"></a>
 
 ### Répartition des pertes
 
@@ -1237,7 +1237,7 @@ Ces pertes font diminuer le capital des organismes de financement.
 Si ces pertes font passer le capital en dessous de 0, l'organisme de financement disparaît et les fonds manquants sont retirés du budget de l'organisation qui possède le fonds. Les autres organisations ayants des parts dans le fonds ne perdent que leurs parts mais pas de budget.
 
 
-<a id="org2597036"></a>
+<a id="id2597036"></a>
 
 ### Subventions à l'investissement
 
@@ -1248,16 +1248,16 @@ Durant un même tour, toutes les subventions sont accordées
 L'arrêt ou la modification des subventions nécessite une action de l'organisation contrôlant l'organisme.
 
 
-<a id="org32ef1ab"></a>
+<a id="id32ef1ab"></a>
 
-## Opérations clandestines
+## Opérations secrètes
 
 
-<a id="orgd6ce181"></a>
+<a id="idd6ce181"></a>
 
 ### Fonctionnement général
 
-Chaque organisation peut réaliser des opérations clandestines.
+Chaque organisation peut réaliser des opérations secrètes.
 Chacune de ces opérations a un coût en travail et en matériel, achetés directement sur les marchés.
 Chaque opération dispose par défaut d'un niveau de difficulté (D) et d'un niveau de surveillance (S). Ces deux grandeurs déterminent respectivement les chances de réussite de l'opération et les chances que celle ci soit attribuée à l'organisation qui l'a organisée. La réussite d'une opération et son attribution à une organisation sont complètement indépendantes l'une de l'autre. Ces deux grandeurs ne peuvent prendre des valeurs qu'entre -10 et 10.
 Lors de l'organisation de l'opération il est possible de diminuer le niveau de difficulté ou de surveillance. Cela a pour effet d'augmenter aussi le coût de l'opération considérée. 
@@ -1385,13 +1385,13 @@ Les taux d'échec et de découverte associés sont les suivants (formule: $1-(\f
 </tbody>
 </table>
 
-Il est possible de réduire le coût d'une opération via le niveau de renseignement d'une organisation sur un corps céleste. Ce niveau de renseignement est fourni par des bâtiments dédiés: les centres d'opération clandestines. Chaque centre d'opération clandestine d'une organisation augmente le niveau de renseignement (I) de l'organisation qui le possède de 1 pour les opération sur le corps céleste sur lequel ce centre d'opérations clandestines est situé.
+Il est possible de réduire le coût d'une opération via le niveau de renseignement d'une organisation sur un corps céleste. Ce niveau de renseignement est fourni par des bâtiments dédiés: les centres d'opération secrètes. Chaque centre d'opération secrète d'une organisation augmente le niveau de renseignement (I) de l'organisation qui le possède de 1 pour les opération sur le corps céleste sur lequel ce centre d'opérations secrètes est situé.
 Il est aussi possible de réduire le coût d'une opération en planifiant celle ci sur plusieurs tours (N). Celle ci est alors payée immédiatement et se réalise après N+1 tours.
 En plus des modifications de la difficulté et de la surveillance, il est possible d'augmenter l'effet E d'une opération, avec des conséquence décrite dans chaque opération.
 Le coût en ressources d'une opération est donné par le coût de base multiplié par $(S+D+E-2N-I)^2$ (minimum 1).
 
 
-<a id="org38078bf"></a>
+<a id="id38078bf"></a>
 
 ### Liste des opérations
 
@@ -1427,7 +1427,7 @@ Le coût en ressources d'une opération est donné par le coût de base multipli
 
 6.  Sabotage d'une opération en cours
 
-    Une opération ciblée et déjà connue (via l'opération de révélation) échoue automatiquement. Ces opérations de sabotage sont résolues avant les autres opérations clandestines.
+    Une opération ciblée et déjà connue (via l'opération de révélation) échoue automatiquement. Ces opérations de sabotage sont résolues avant les autres opérations secrètes.
     Coût: 1 Travail, 1 composant électronique
     Difficulté de base 2, surveillance de base -5.
 
@@ -1457,7 +1457,7 @@ Le coût en ressources d'une opération est donné par le coût de base multipli
     Difficulté de base 1, surveillance de base -5.
 
 
-<a id="org591b549"></a>
+<a id="id591b549"></a>
 
 ## Technologies
 
@@ -1465,7 +1465,7 @@ Les progrès technologiques sont conduits d'abord par les organisation contrôl�
 La représentation de ces progrès en jeu est centrée sur la lutte contre le dérèglement climatique ainsi que l'activité humaine dans le système solaire. Les technologies disponibles se répartissent entre les recherches publiques, développées en commun et fournissant des bonus communs, et les brevets privés, développés par les organisation et ne fournissant de bonus qu'à l'organisation réussissant à le développer en premier.
 
 
-<a id="org76d96e2"></a>
+<a id="id76d96e2"></a>
 
 ### Fonctionnement général
 
@@ -1493,7 +1493,7 @@ Un bureau d'études prospective produit par défaut 100 de capacité d'innovatio
 La capacité d'innovation réduit aussi le coût d'entretien d'une technologie en le divisant par 1+(capacité d'innovation/200).
 
 
-<a id="org4c9afb3"></a>
+<a id="id4c9afb3"></a>
 
 ### Liste des technologies
 
@@ -1629,12 +1629,12 @@ La capacité d'innovation réduit aussi le coût d'entretien d'une technologie e
         Nombre d'exemplaires: 2
 
 
-<a id="org2415174"></a>
+<a id="id2415174"></a>
 
 # Objectifs du jeu et inspiration
 
 
-<a id="org308e9e4"></a>
+<a id="id308e9e4"></a>
 
 ## Inspirations
 
@@ -1647,7 +1647,7 @@ La capacité d'innovation réduit aussi le coût d'entretien d'une technologie e
 -   Terra Invicta
 
 
-<a id="org359a82f"></a>
+<a id="id359a82f"></a>
 
 ## Objectifs du jeu
 
