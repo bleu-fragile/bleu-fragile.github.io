@@ -159,7 +159,7 @@ La crise climatique a aussi des effets importants sur les capacités de producti
 ### Objectifs des joueurs
 
 Chaque joueur obtient en début de partie des objectifs à remplir.
-Ces objectifs concernent la plupart du temps l'état du système solaire plutôt que celui d'une organisation en particulier.
+Ces objectifs concernent souvent l'état du système solaire plutôt que celui d'une organisation en particulier.
 Ceci permet aux joueurs de poursuivre ces objectifs via le contrôle de différentes organisations, une organisation pouvant servir les desseins d'un joueur puis éventuellement ceux d'un autre.
 On peut retrouver dans ces objectifs le développement d'une planète en particulier, le maintien ou la destruction de l'influence et de la capacité économique de la Terre, de son environnement, etc.
 En particulier cela signifie qu'un joueur qui voit l'organisation qu'il contrôlait en faillite, ou récupérée par un autre joueur n'a pas pour autant perdu la partie.
@@ -279,92 +279,52 @@ La quantité de ressources transportée chaque tour et le coût en carburant dé
 
 
 <a id="idd6e0265"></a>
-
 # Règles
 
 
 <a id="iddcbf4d4"></a>
-
 ## Tour de jeu
 
 Durant le tour de jeu, on résout les actions dans l'ordre suivant:
 
--   Résolution des opérations secrètes. Dans un ordre aléatoire.
--   Mise à jour des lignes de commerce interplanétaire.
--   Activation des lignes commerciales: chaque ligne achète et vend les ressources.
--   Construction puis destruction de bâtiments.
--   Activation puis désactivation des bâtiments.
--   Fonctionnement des bâtiments: chaque bâtiment consomme et produit les ressources nécessaires à son fonctionnement
--   Résolution de la participation aux projets.
--   Résolution des enchères pour les cases (portion de terrain).
--   Remise à disposition des cases libérées.
--   Paiement des intérêts de la dette.
--   Vente des actions d'organisations.
--   Résolution des enchères d'achat des actions d'organisations.
--   Paiement des dividendes des organisations.
--   Résolutions des faillites.
--   Évolution des populations dans les villes.
--   Mise à niveau des villes.
--   Résolution du fonctionnement de la terre.
-    -   TODO détailler ici.
--   Mise à jour des prix des ressources.
--   Vérifications de objectifs.
+- Résolution des opérations secrètes. Dans un ordre aléatoire.
+- Mise à jour des lignes de commerce interplanétaire.
+- Activation des lignes commerciales: chaque ligne achète et vend les ressources.
+- Construction puis destruction de bâtiments.
+- Fonctionnement des bâtiments: chaque bâtiment consomme et produit les ressources nécessaires à son fonctionnement
+- Résolution de la participation aux projets.
+- Résolution des enchères pour les cases (portion de terrain).
+- Remise à disposition des cases libérées.
+- Paiement des intérêts de la dette.
+- Vente des actions d'organisations.
+- Résolution des enchères d'achat des actions d'organisations.
+- Paiement des dividendes des organisations.
+- Résolutions des faillites.
+- Évolution des populations dans les villes.
+- Mise à niveau des villes.
+- Résolution du fonctionnement de la terre.
+    - TODO détailler ici.
+- Mise à jour des prix des ressources.
+- Vérifications de objectifs.
 
 
 <a id="id91d813b"></a>
 
 ## Objectifs des joueurs
-[TODO](/ideas-obj-players/)
-
-<a id="idc99fd76"></a>
-
-### Listes des différents objectifs
-
-1.  Idées
-
-    -   (F) Nationaliste: Protection d'une région de la terre en particulier (conserver un niveau de population/industrie/agriculture) + commence avec un certain niveau d'influence dans la région
-    -   (F) Gardien de la terre: Protection de population de la terre toute entière + commence avec un certain niveau d'influence partout
-    -   (F) Écologiste: Protection du climat de la terre (objectif de niveau de pollution, de dérèglement et de niveau de la mer ?) + commence avec une tech adaptée ?
-    -   (F) Plus de planète A: Réduction de l'importance de la terre (niveau total de pop/industrie/agriculture)
-    -   (F) Indépendantiste: Terre moins forte que le reste du système solaire (sur quelle métrique ?!)
-    -   (F) Transhumaniste: Avoir la production globale automatisée en majorité sur l'ensemble des corps célestes
-    -   (F) Prince Marchand: avoir la majorité des vaisseau en part de la capacité de transport. x2
-    -   (F) Financier: avoir la majorité des capitaux dans des fonds. x2
-    -   (F) Humaniste: production humaine en majorité sur l'ensemble des corps célestes
-    -   (F) Monopoliste: par ses sociétés avoir la majorité de la production d'une ressource en particulier ou bien d'une au pif x2
-    -   (I) Home sweet home: Développement d'un corps céleste en particulier (niveau de la ville)
-    -   (I) Expansionniste: Développement de la présence humaine dans le système solaire (somme des niveaux des villes) x2
-    -   (I) Réalisation d'un projet objectif x2 pour chaque
-    -   (I) Diversifié: produire chacune de ressources à au moins 10% du volume produit)
-    -   (I) Marchand: avoir 100 vaisseaux de commerce. x2
-    -   (I) Barbouze: mener 100 opération secrètes. x2
-    -   (I) Créancier: Obtenir plus de 1 000 000 de revenu via les intérêts de la dette. x2
-    -   (I) Mauvais gestionnaire: subir 3 faillites
-    -   (I) OPA: Obtenir le contrôle de 3 organisation préalablement contrôlées par d'autres joueurs.
-
-
-<a id="id0521d45"></a>
-
-### Répartition des objectifs en début de partie
-
--   Via un tour de draft ? 4 objectifs, draftés, on en garde 3 ? -> Il faut des doublons ou au moins 24 objectifs.
--   Comme pour les technos, étalé sur les 10 premiers tours ? Draft avec conservation d'une partie des cartes et rendu d'une autre partie ? Passage direct à un autre joueur ? Sous format au tour k on en garde k et on en transmet n-k ? -> Possibilité de pivot, voire de récupération de collection.
-
+[TODO: À préciser](/ideas-obj-players/)
 
 <a id="id5f69a3d"></a>
 
 ## Critère de clôture de la partie
 
--   Tech/projet spécial qui clôt la partie ?
--   Taux/nombre d'objectifs instantanés atteints.
-
+[TODO: À préciser](/ideas-end-condition/)
 
 <a id="idc3abf59"></a>
 
 ## Fonctionnement des organisations
 
-Les agent principaux dans ce jeu sont nommées organisations et regroupent aussi bien des entreprise au sens économique classique, que des entités dont le fonctionnement s'en éloigne un peu, comme des ONG. La nature de ces organisations peut leur fournir des modificateurs spécifiques mais influence surtout l'aspect roleplay.
-Ce sont ces organisations qui organisent la majeur partie de l'activité économique (hors gestion de l'échange des ressources).
+Les agent principaux dans ce jeu sont nommées organisations et regroupent aussi bien des entreprise au sens économique classique, que des entités dont le fonctionnement s'en éloigne un peu, comme des ONG ou des agences gouvernementales. La nature de ces organisations peut leur fournir des modificateurs spécifiques mais influence surtout l'aspect roleplay.
+Ce sont ces organisations qui organisent la majeure partie de l'activité économique (hors gestion de l'échange des ressources).
 Pour cela elles peuvent construire, posséder et opérer des bâtiments d'extraction et de transformation de ressources, des vaisseaux de commerce, etc.
 Ces organisations sont contrôlées par des joueurs qui incarnent selon leur choix des individus fortunés ou des groupes d'individus aux motivations diverses.
 Le contrôle de ces organisations peut changer de main durant la durée de la partie, et il n'y a pas nécessairement d'association directe et unique entre organisation et joueur. Ces organisations sont les outils avec lesquels les joueurs réalisent leurs objectifs.
@@ -383,7 +343,7 @@ Les opérations possibles pour une organisation sont:
 -   Construire un bâtiment sur une case de terrain déjà possédée (coût: une action).
 -   Désassembler un bâtiment possédé (gratuit).
 -   Remettre en vente une case de terrain possédée (coût: une action). Lors de cette remise en vente, la somme payée pour l'acquisition est remboursée et la case de terrain sera disponible pour acquisition au tour suivant.
--   Réaliser une opération secrète (coût: une action). La description des actions secrète est faite plus loin dans les règles.
+-   Réaliser une opération secrète (coût: une action). La description des actions secrètes est faite plus loin dans les règles.
 -   Construire un vaisseau de commerce dans un chantier spatial (coût: une action).
 -   Ouvrir une ligne de commerce interplanétaire (coût: une action).
 -   Placer ou retirer un vaisseau de commerce sur une ligne de commerce (gratuit).
@@ -391,7 +351,6 @@ Les opérations possibles pour une organisation sont:
 -   Créer un organisme financier (coût: une action).
 -   Fermer un organisme financier (gratuit).
 -   Participer à un projet (coût: une action). Voir la partie sur le fonctionnement de la Terre.
--   Activer ou désactiver un bâtiment (gratuit): le bâtiment ne produit ni ne consomme plus rien tant qu'il est désactivé.
 -   Transférer des fonds à son contrôleur (gratuit): cela n'est possible que si l'organisation ne possède pas de dettes.
 -   Recevoir des fonds de son contrôleur (coût: une action)
 
@@ -402,17 +361,17 @@ Chaque organisation dispose par défaut d'une action par tour de jeu. S'y ajoute
 
 ### Faillite
 
-Lorsque le montant des dettes d'une organisation, dépasse la valeur de cette organisation, cette organisation est placée en faillite. Dans le tour qui suit son placement en faillite, il est possible pour les joueurs de miser une somme pour acquérir cette organisation. La mise minimale correspond à 115% de la quantité d'argent nécessaire à ajouter au budget de l'organisation pour que ses dettes soient inférieures à sa valeur. Comme pour la gestion de l'acquisition de terrain, la mise la plus haute remporte l'enchère et la somme payée est la seconde mise la plus haute. Cet argent est transféré directement dans le budget de l'organisation.
+Lorsque le montant des dettes d'une organisation dépasse la valeur de cette organisation, cette organisation est placée en faillite. Dans le tour qui suit son placement en faillite, il est possible pour les joueurs de miser une somme pour acquérir cette organisation. La mise minimale correspond à 115% de la quantité d'argent nécessaire à ajouter au budget de l'organisation pour que ses dettes soient inférieures à sa valeur. Comme pour la gestion de l'acquisition de terrain, la mise la plus haute remporte l'enchère et la somme payée est la seconde mise la plus haute. Cet argent est transféré directement dans le budget de l'organisation.
 Si à l'issue du tour suivant la faillite aucun joueur ne se porte acquéreur, tous les bâtiments et vaisseaux sont désassemblés, les terrains sont vendus, et les organismes financiers fermés. Si cela suffit à rembourser les dettes, le reste des fonds est transféré au contrôleur de l'organisation et celle ci est dissoute. Si cela ne suffit pas à rembourser les dettes, le montant restant est soustrait au capital des organismes financiers existant selon la règle décrite dans la section sur les organismes financiers, puis l'organisation est dissoute.
 
-La valeur d'une organisation est déterminée par la somme des valeurs de ses possessions (bâtiments, terrains, vaisseaux, organismes de financement): cette valeur est mise à jour lors de l'acquisition de chaque possession et est calculée de la manière suivante: la valeur d'un terrain est la valeur payée pour son acquisition. La valeur d'un bâtiment et le prix des ressources nécessaires à sa construction, même chose pour les vaisseaux. La valeur des organismes de financement est leur capital et est mise à jour à chaque tour, contrairement aux valeurs des autres possessions.
+La valeur d'une organisation est déterminée par la somme des valeurs de ses possessions (bâtiments, terrains, vaisseaux, organismes de financement): cette valeur est mise à jour lors de l'acquisition de chaque possession et est calculée de la manière suivante: la valeur d'un terrain est la valeur payée pour son acquisition. La valeur d'un bâtiment est le prix des ressources nécessaires à sa construction, même chose pour les vaisseaux. La valeur des organismes de financement est leur capital et est mise à jour à chaque tour, contrairement aux valeurs des autres possessions.
 
 
 <a id="id0779b11"></a>
 
 ### Traits de organisations
 
-Chaque organisation peut avoir des traits spécifiques qui modifient un peu son fonctionnement ou lui donnent des bonus. Un de ces traits est présents lors de la création de l'organisation, mais certains peuvent être ajoutés par la suite via la participation à des projets. Le nombre de traits est limité à 2 au maximum.
+Chaque organisation peut avoir des traits spécifiques qui modifient un peu son fonctionnement ou lui donnent des bonus. Un de ces traits est présents lors de la création de l'organisation, mais certains peuvent être ajoutés par la suite via la participation à des projets. Le nombre de traits est limité à 3 au maximum.
 Sauf mention du contraire, ces traits ne sont pas révélés publiquement. Cependant, durant de la phase d'enchères pour reprise suite à une faillite, ces traits sont affichés.
 
 1.  Liste de traits
@@ -431,14 +390,14 @@ Sauf mention du contraire, ces traits ne sont pas révélés publiquement. Cepen
         
         En cas de faillite, l'organisation perd le trait de société par actions et suit le processus normal de faillite.
         Ce trait est révélé publiquement.
-    
+
     2.  Techniques de d'extraction frugales
     
-        Les mines de cette organisation produisent 2 unité de ressources de moins mais consomment 2 unité d'énergie de moins.
+        Les mines de cette organisation produisent 5% unité de ressources de moins mais consomment 5% unité d'énergie de moins.
     
     3.  Techniques de d'extraction puissantes
     
-        Les mines de cette organisation produisent 2 unités de ressources de plus mais consomment 2 unités d'énergie en plus.
+        Les mines de cette organisation produisent 5% unités de ressources de plus mais consomment 5% unités d'énergie en plus.
     
     4.  Startup
     
@@ -446,7 +405,7 @@ Sauf mention du contraire, ces traits ne sont pas révélés publiquement. Cepen
     
     5.  Contacts dans l'industrie de construction
     
-        Cette organisation peut réaliser une action de construction gratuite. Lors d'une construction, la quantité de chaque ressource nécessaire est augmentée de 1.
+        Cette organisation peut réaliser une action de construction gratuite. Lors d'une construction, la quantité de chaque ressource nécessaire est augmentée de 3%.
     
     6.  Infrastructure modulaire
     
@@ -468,11 +427,11 @@ Sauf mention du contraire, ces traits ne sont pas révélés publiquement. Cepen
     10. Réseau de contrebandiers
     
         Quand cette organisation opère une ligne commerciale entre deux corps céleste, le niveau de renseignement sur chaque corps est égal au niveau de renseignement le plus élevé des deux corps, limité par le nombre de vaisseaux dans la ligne.
-        Le volume transporté par chaque vaisseau est réduit de 2.
+        Le volume transporté par chaque vaisseau est réduit de 5%.
     
     11. Too big to fail
     
-        Les organismes de financement gérés par cette organisation opèrent avec un bonus de 5 à leur niveau de risque pour la perception des revenus. En cas de faillite, les dettes restantes sont réparties entre les autres organisations contrôlées par le contrôleur de cette organisation.
+        Les organismes de financement gérés par cette organisation opèrent avec un bonus de 10% à leur niveau de risque pour la perception des revenus. En cas de faillite, les dettes restantes sont réparties entre les autres organisations contrôlées par le contrôleur de cette organisation.
         Trait révélé publiquement.
     
     12. Techniques de placement liquides
@@ -486,11 +445,11 @@ Sauf mention du contraire, ces traits ne sont pas révélés publiquement. Cepen
     
     14. Gestion financière prudente
     
-        Le taux des intérêts payés par cette organisation est réduit de 3% (minimum 1%). Le seuil de faillite est abaissé à 90% de la valeur de l'organisation.
+        Le taux des intérêts payés par cette organisation est réduit de 3% (réduction absolue du taux d'intérêt: si le taux devait être à 5%, il est à 2% à la place, avec un minimum de 1%). Le seuil de faillite est abaissé à 90% de la valeur de l'organisation.
     
     15. Logistique en flux tendu
     
-        La quantité de carburant nécessaire au fonctionnement des vaisseau de transport est réduite de 10% (minimum 1) et le volume transporté part ceux ci est augmenté de 5%. Changer la répartition des vaisseaux d'une ligne commerciale coûte une action à l'organisation qui l'opère.
+        La quantité de carburant nécessaire au fonctionnement des vaisseaux de transport est réduite de 10% (minimum 1) et le volume transporté part ceux ci est augmenté de 5%. Changer la répartition des vaisseaux d'une ligne commerciale coûte une action à l'organisation qui l'opère.
 
 
 <a id="id36be94c"></a>
@@ -508,10 +467,8 @@ Le joueur contrôlant une organisation peut changer dans certains circonstances:
 
 ### Nouvelles organisations
 
-À chaque tour, si le nombre d'organisations est inférieurs à 3 fois le nombre de joueurs, des "jeunes organisations" sont créées. Leur nombre et leurs traits sont tirés aléatoirement: entre 1 et le nombre de joueurs. Chacune de ces organisations reçoit entre 1 et 3 traits choisis aléatoirement parmi ceux disponibles. Celles-ci sont mises en vente, comme si elles venaient de subir une faillite.
+À chaque tour, si le nombre d'organisations est inférieur à 3 fois le nombre de joueurs, des "jeunes organisations" sont créées. Leur nombre et leurs traits sont tirés aléatoirement: entre 1 et le nombre de joueurs. Chacune de ces organisations reçoit entre 1 et 2 traits choisis aléatoirement parmi ceux disponibles. Celles-ci sont mises en vente, comme si elles venaient de subir une faillite.
 En début de partie, chaque joueur reçoit une nouvelle organisation possédant 3 traits choisis parmi un ensemble de 5. Il en devient immédiatement le contrôleur avant le début de la partie.
-À reprendre avec les mécaniques de cartes
-
 
 <a id="id4a276cd"></a>
 
