@@ -809,7 +809,7 @@ Le niveau de protection agit de manière complémentaire en réduisant l'exposit
         
             -   Nombre d'étapes: 20
             -   Projet collaboratif
-            -   Coût de chaque étape: (1+Niveau actuel de transition)$\times$(1 métaux légers + 5 composants électroniques + 5 métaux nobles)
+            -   Coût de chaque étape: (1+Niveau actuel de transition)$\times$(100 métaux légers + 500 composants électroniques + 500 métaux nobles)
             -   Effet: augmente de 1 le niveau de transition de la piste considérée.
             -   Description: Changement dans les techniques industrielles pour réduire les effets sur l'environnement
         
@@ -817,7 +817,7 @@ Le niveau de protection agit de manière complémentaire en réduisant l'exposit
         
             -   Nombre d'étapes: 15
             -   Projet collaboratif
-            -   Coût de chaque étape: (1+Niveau actuel de protection)$\times$(7 métaux légers + 1 composants électroniques + 1 métaux nobles)
+            -   Coût de chaque étape: (1+Niveau actuel de protection)$\times$(700 métaux légers + 100 composants électroniques + 100 métaux nobles)
             -   Effet: augmente de 1 le niveau de protection de la piste considérée. Distribue 10 d'influence dans la région répartis entre les participants, en proportion de la participation avec un minimum de 1 par participant
             -   Description: Protection des infrastructures agricoles pour réduire leur exposition aux éléments.
         
@@ -825,7 +825,7 @@ Le niveau de protection agit de manière complémentaire en réduisant l'exposit
         
             -   Nombre d'étapes: 15
             -   Projet collaboratif
-            -   Coût de chaque étape: (1+Niveau actuel de protection)\*(5 métaux légers + 3 composants électroniques + 1 métaux nobles)
+            -   Coût de chaque étape: (1+Niveau actuel de protection)$\times$(500 métaux légers + 300 composants électroniques + 100 métaux nobles)
             -   Effet: augmente de 1 le niveau de protection de la piste considérée. Distribue 10 d'influence dans la région répartis entre les participants, en proportion de la participation avec un minimum de 1 par participant
             -   Description: Protection des infrastructures industrielles pour réduire leur exposition aux éléments.
         
@@ -833,7 +833,7 @@ Le niveau de protection agit de manière complémentaire en réduisant l'exposit
         
             -   Nombre d'étapes: 25
             -   Projet collaboratif
-            -   Coût de chaque étape: (1+Niveau actuel de protection)\*(15 métaux légers + 10 composants électroniques + 5 métaux nobles)
+            -   Coût de chaque étape: (1+Niveau actuel de protection)$\times$(1500 métaux légers + 1000 composants électroniques + 500 métaux nobles)
             -   Effet: augmente de 1 le niveau de protection de la piste considérée. Distribue 20 d'influence dans la région répartis entre les participants, en proportion de la participation avec un minimum de 1 par participant
             -   Description: Protection des infrastructures industrielles pour réduire leur exposition aux éléments.
     
