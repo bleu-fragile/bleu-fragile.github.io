@@ -845,7 +845,7 @@ Le niveau de protection agit de manière complémentaire en réduisant l'exposit
         
             -   Nombre d'étapes: 50
             -   Projet collaboratif
-            -   Coût de chaque étape: (101-Niveau actuel de pollution)/10\*(5 métaux légers + 1 composants électroniques + 5 métaux nobles)
+            -   Coût de chaque étape: (101-Niveau actuel de pollution)/10\*(500 métaux légers + 1 composants électroniques + 500 métaux nobles)
             -   Effet: diminue de 1 le niveau de pollution mondial. Distribue 5 d'influence dans chaque région répartis entre les participants de manière aléatoire. Augmente de 25 niveaux au total les jauges d'évolution, es jauges augmentées sont choisies au hasard.
             -   Description: Extraction du CO2 de l'atmosphère et des déchets divers de l'environnement. Relancé à chaque completion.
         
@@ -854,7 +854,7 @@ Le niveau de protection agit de manière complémentaire en réduisant l'exposit
             -   Prérequis: Technologie régulation climatique
             -   Nombre d'étapes: 5
             -   Projet collaboratif
-            -   Coût de chaque étape: (5 métaux légers + 5 composants électroniques + 1 métaux nobles)
+            -   Coût de chaque étape: (500 métaux légers + 500 composants électroniques + 100 métaux nobles)
             -   Effet: débloque le projet Système d'observation et de contrôle climatique - construction. Distribue 5 points d'influence par régions, répartis au hasard.
             -   Description: Conception d'un réseau de stations et de modèles pour modéliser, prédire et contrôler le climat et la météo.
         
@@ -863,8 +863,8 @@ Le niveau de protection agit de manière complémentaire en réduisant l'exposit
             -   Prérequis: Système d'observation et de contrôle climatique - conception
             -   Nombre d'étapes: 20
             -   Projet collaboratif
-            -   Coût de chaque étape: (15 métaux légers + 15 composants électroniques + 5 métaux nobles)
-            -   Effet: Lors de la résolution des événement climatiques, chaque baisse de niveau d'une jauge d'évolution a 5% de chance d'être annulée. Distribue 15 points d'influence par région, répartis au hasard. Augmente de 50 niveaux au total les jauges d'évolution des pistes terrestres, les jauges augmentées sont choisies au hasard.
+            -   Coût de chaque étape: (1500 métaux légers + 1500 composants électroniques + 500 métaux nobles)
+            -   Effet: Lors de la résolution des événement climatiques, chaque jeton de dégât a 5% de chance d'être annulé. Distribue 15 points d'influence par région, répartis au hasard. Augmente de 50 niveaux au total les jauges d'évolution des pistes terrestres, les jauges augmentées sont choisies au hasard.
             -   Description: Construction d'un réseau de stations et de modèles pour modéliser, prédire et contrôler le climat et la météo.
         
         4.  Stabilisation climatique
@@ -872,7 +872,7 @@ Le niveau de protection agit de manière complémentaire en réduisant l'exposit
             -   Prérequis: Système d'observation et de contrôle climatique.
             -   Nombre d'étapes: 30
             -   Projet collaboratif
-            -   Coût de chaque étape: (10 métaux légers + 10 composants électroniques + 10 métaux nobles)
+            -   Coût de chaque étape: (1000 métaux légers + 1000 composants électroniques + 1000 métaux nobles)
             -   Effet: Réduisez de 1 le nombre d'événement climatiques piochés à chaque tour. Distribue 5 d'influence dans chaque région répartie entre les participants de manière aléatoire.
             -   Description: Stabilisation des sous systèmes régulant le climat sur terre. Reconduit à chaque completion.
         
@@ -881,7 +881,7 @@ Le niveau de protection agit de manière complémentaire en réduisant l'exposit
             -   Prérequis: Technologie régulation climatique
             -   Nombre d'étapes: 30
             -   Projet collaboratif
-            -   Coût de chaque étape: (10 métaux légers + 10 composants électroniques + 10 métaux nobles)
+            -   Coût de chaque étape: (1000 métaux légers + 1000 composants électroniques + 1000 métaux nobles)
             -   Effet: Diminuez de 1 le niveau d'un des événement au hasard dans l'ensemble de ceux disponibles. Distribue 5 d'influence dans chaque région répartie entre les participants de manière aléatoire.
             -   Description: Prévention des conditions de formation des événement extrêmes. Reconduit à chaque complétion, avec un événement au hasard comme cible.
         
@@ -890,7 +890,7 @@ Le niveau de protection agit de manière complémentaire en réduisant l'exposit
             -   Prérequis: Un niveau de pollution de 5 ou moins.
             -   Nombre d'étapes: 50
             -   Projet collaboratif
-            -   Coût de chaque étape: (10 métaux légers + 5 composants électroniques + 1 métaux nobles)
+            -   Coût de chaque étape: (1000 métaux légers + 500 composants électroniques + 100 métaux nobles)
             -   Effet: Diminuez de 1 Diminuez de 1 le niveau de la mer. Distribue 5 d'influence dans chaque région répartie entre les participants de manière aléatoire.
             -   Description: Les calotte glaciaire sont reformées par congélation de l'eau liquide.
         
@@ -899,7 +899,7 @@ Le niveau de protection agit de manière complémentaire en réduisant l'exposit
             -   Nombre d'étapes: 50
             -   Projet collaboratif
             -   Effet: permet au niveau de pollution mondiale de diminuer à la dizaine inférieure. Distribue 5 d'influence dans chaque région.
-            -   Coût de chaque étape: (50 métaux légers + 25 composants électroniques + 50 métaux nobles)
+            -   Coût de chaque étape: (5000 métaux légers + 2500 composants électroniques + 5000 métaux nobles)
             -   Description: Passe dans l'autre sens une limite planétaire.
         
         8.  Réseau de contrôle météorologique
@@ -907,7 +907,7 @@ Le niveau de protection agit de manière complémentaire en réduisant l'exposit
             -   Prérequis: Technologie régulation climatique avancée
             -   Nombre d'étapes: 6
             -   Projet compétitif
-            -   Coût de chaque étape: (5 métaux légers + 5 composants électroniques + 5 métaux nobles)
+            -   Coût de chaque étape: (500 métaux légers + 500 composants électroniques + 500 métaux nobles)
             -   Effet: Permet à l'organisation qui le contrôle, pour une action, de regarder les événements climatiques à venir et d'en annuler au plus un avec 50% de chances.
             -   Description: Un réseau de station en orbite pour analyse et prévenir les événements climatiques à venir.
 
@@ -922,14 +922,14 @@ La dynamique du système climatique terrestre est alimentée uniquement par la p
 
     L'activité agricole et industrielle de chacune des régions contribue à cette pollution et définit un niveau de repos de celle ci, entre 0 et 100. Ce niveau de repos est égal à la somme des niveaux des agricultures et industries des différentes régions de la terre, pondéré par le niveau de transition de ces industries et agricultures.
     À chaque tour, le niveau de pollution évolue vers son niveau de repos de manière à réduire la distance entre le niveau actuel et le niveau de repos d'un tiers (avec une évolution minimum d'une unité). Cette évolution a lieu après la mise à jour des niveau d'activité humaines dans chacune des régions.
-    Chaque multiple de 10 du niveau de pollution bloque la descente du niveau de repos. Une fois ce niveau de repos passé au dessus d'un multiple de 10, il ne peut plus redescendre en dessous sans la réalisation d'un projet spécifique.
+    Chaque multiple de 20 du niveau de pollution bloque la descente du niveau de repos. Une fois ce niveau de repos passé au dessus d'un multiple de 20, il ne peut plus redescendre en dessous sans la réalisation d'un projet spécifique.
 
 2.  Effets de la pollution
 
     Pour chaque augmentation d'un niveau de pollution complet, est choisi au hasard l'effet suivant:
     
     -   Augmentation du nombre de cartes événement à tirer à chaque tour.
-    -   Évolution défavorable d'un événement choisi au hasard dans l'ensemble de ceux déjà existants.
+    -   Évolution défavorable d'un événement choisi au hasard dans l'ensemble de ceux déjà existants. Rien ne ne passe si tous sont déjà dans leur version la plus défavorable.
     -   Augmentation de la fonte des glaces.
     
     Ces effets ne peuvent être déclenchés qu'une seule fois pour chaque niveau entier de pollution, tant que le niveau de repos de la pollution est au dessus du niveau concerné. Si le niveau de repos de la pollution devait baisser sous un niveau entier de pollution, les effets liés au passage de ce niveau de pollution pourraient être déclenchés à nouveau.
@@ -1002,12 +1002,7 @@ La dynamique du système climatique terrestre est alimentée uniquement par la p
         -   Niveau 2: Ajouter 5 jetons de dégâts à l'agriculture, 7 à l'industrie et à la population d'une région. La région est choisie lors du tirage de la carte.
         -   Niveau 3: Ajouter 7 jetons de dégâts à l'agriculture, 9 à l'industrie et à la population d'une région. La région est choisie lors du tirage de la carte.
     
-    8.  Idées
-    
-        -   Ajouter des effets sur le niveau de protection d'une piste ?
-        -   Ajouter des effets inévitable par de la protection ?
-
-
+    8. [Idées autres](/ideas-climate-events/)
 <a id="id301f0a5"></a>
 
 ## Fonctionnement des marchés
@@ -1019,7 +1014,7 @@ La dynamique du système climatique terrestre est alimentée uniquement par la p
 
 La seule ressource qui s'accumule dans le jeu est l'argent. Pour toutes les autres ressources, celles ci n'existent que virtuellement: dès leur production elles sont vendues à un marché, et juste avant leur consommation elle sont achetées à un marché.
 Chaque entité qui achète et vend une ressource doit passer par un marché local et reçoit ou transfère la somme correspondante au marché correspondant.
-Ces marchés sont situés sur chaque corps céleste et sont responsables de la fixation des prix. Ainsi, chaque ressource a des prix d'achat et de vente décidés par le marché.
+Ces marchés sont situés sur les corps célestes et sont responsables de la fixation des prix. Ainsi, chaque ressource a des prix d'achat et de vente décidés par le marché.
 Les marchés ne peuvent tomber à court de liquidités mais ajustent leur prix en fonction de la demande et de l'offre de ces ressources: une ressource vendue au marché en plus grande quantité qu'elle n'est achetée va voir son prix baisser et une ressource achetée en plus grande quantité qu'elle n'est vendue va voir son prix augmenter.
 Ces prix d'achat et de vente sont fixés à partir des historiques d'achat et de vente et indépendants entre eux d'une ressource à l'autre.
 Le marché ajoute une taxe de 10% pour chaque achat et vente de ressource: si le cours de la ressource est à x, l'achat auprès du marché se fait à 110% de x et la vente se fait à 90% de x.
@@ -1030,7 +1025,7 @@ Le marché ajoute une taxe de 10% pour chaque achat et vente de ressource: si le
 ### Formation des prix
 
 Pour chaque marché et chaque ressource, on tient à jour le nombre de ressources achetées et vendues chaque tour.
-Chaque marché tient le compte de l'évolution de l'offre et de la demande via deux nombres: les achats cumulés et le ventes cumulées. En fin de tour, on met à jour ces deux nombres en y ajoutant les achats et ventes du tour. On met ensuite à jour le prix de la manière suivante: on calcule le volume total des transactions (achat + ventes), puis la balance (achat - ventes) et on divise la balance par le volume pour obtenir la balance relative. Puis, on fixe le nouveau prix à (1+balance relative) fois l'ancien prix, avec au minimum une variation de prix de 1.
+Chaque marché tient le compte de l'évolution de l'offre et de la demande via deux nombres: les achats cumulés et le ventes cumulées. En fin de tour et pour chaque ressource, on met à jour ces deux nombres en y ajoutant les achats et ventes du tour. On met ensuite à jour le prix de la manière suivante: on calcule le volume total des transactions (achat + ventes), puis la balance (achat - ventes) et on divise la balance par le volume pour obtenir la balance relative. Puis, on fixe le nouveau prix à (1+balance relative) fois l'ancien prix, avec au minimum une variation de prix de 1.
 Ensuite, de manière à introduire une forme de retour à un équilibre dans le prix, on divise le nombre d'achats et ventes cumulées par 2.
 
 
@@ -1043,12 +1038,18 @@ Ensuite, de manière à introduire une forme de retour à un équilibre dans le 
 
 ### Vaisseaux de transport
 
-Les vaisseaux de transport permettent d'acheminer des ressources entre corps céleste. Ceux ci sont construit par les organisations, sur des corps céleste via un bâtiment spécifique: le chantier spatial.
-Un vaisseau est caractérisé par son volume de transport et sa consommation de carburant. La consommation de carburant est exprimée pour une utilisation du vaisseau pendant un tour complet.
-Il y a deux modèles de vaisseaux disponibles:
+Les vaisseaux de transport permettent d'acheminer des ressources entre corps célestes. Ceux ci sont construit par les organisations, sur des corps célestes via un bâtiment spécifique: le chantier spatial.
+Un vaisseau est caractérisé par son volume de transport, sa vitesse de base et sa consommation de carburant. La consommation de carburant est exprimée pour une utilisation du vaisseau pendant un tour complet. 
+Pour un trajet donné, le volume de transport et la vitesse de base permettent d'obtenir le volume effectif: $\frac{\text{vitesse de base}\times\text{volume de transport}{\text{longueur du trajet}}$.
+Un vaisseau plus rapide fera plus d'aller retour sur la durée d'un tour, ce qui explique que la vitesse permette d'augmenter le volume effectif. Cependant cela se fait au prix d'une dépense plus importante de carburant.
 
--   Le courrier, peu cher à construire (TODO), consommation de carburant moyenne(TODO), volume faible(TODO).
--   Le cargo, assez cher à construire(TODO), consommation de carburant haute(TODO), volume très important(TODO). Le rapport entre la consommation de carburant et le volume est meilleur que pour le courrier, mais le coût initial est plus important.
+Il y a deux modèles de vaisseaux disponibles ayant un volume effectif similaire:
+
+-   Le courrier, peu cher à construire (100 énergie, 1000 métaux légers, 100 métaux nobles, 100 composants électroniques, 200 travail), consommation de carburant faible (100 unités), volume faible (500 unités), vitesse de base importante (500). Le volume effectif est donc de 250 000.
+-   Le cargo, assez cher à construire (500 énergie, 6000 métaux légers, 500 métaux nobles, 100 composants électroniques, 1000 travail), consommation de carburant haute (500 unités), volume très important(10 000 unités), vitesse de base faible (100). Le volume effectif est donc de 1 000 000.
+
+Un courrier nécessite un plus faible investissement initial et est viable si le carburant n'est pas prépondérant dans le coût de transport.
+Un cargo nécessite un investissement conséquent mais rend les coûts en carburants plus faibles.
 
 
 <a id="idf2798bf"></a>
@@ -1059,13 +1060,19 @@ Les organisations peuvent établir des lignes commerciales entre les différents
 L'établissement d'une telle ligne permet des échanges de ressources entre différents marchés locaux.
 Une organisation peut, lors de son tour utiliser une action pour établir une ligne en choisissant deux corps du système solaire et pour chaque corps des ressources à y acheter (pour les vendre sur l'autre corps).
 
-Il est ensuite possible d'affecter à une ligne commerciale des vaisseaux pour réaliser le transport. L'ensemble des vaisseaux affectés à une ligne donne le volume effectif de marchandises déplacé par la ligne (la somme des volumes effectifs de chaque vaisseau divisée par la distance entre les deux corps) ainsi que la consommation en carburant de la ligne (la somme des consommations de chaque vaisseau).
+Il est ensuite possible d'affecter à une ligne commerciale des vaisseaux pour réaliser le transport. L'ensemble des vaisseaux affectés à une ligne donne le volume effectif de marchandises déplacé par la ligne (la somme des volumes effectifs de chaque vaisseau divisée par la distance entre les deux corps) ainsi que la consommation en carburant de la ligne (la somme des consommations de chaque vaisseau à l'exposant 1.1, ce qui amplifie le coût en carburant sur des distances importantes et favorise les trajets court).
 À chaque tour, la ligne commerciale achète dans les marchés des extrémités les ressources et les revend à l'autre extrémité. Le carburant nécessaire est acheté à l'extrémité où il est le moins cher.
 
 Il est possible d'ajouter gratuitement des vaisseaux à une ligne ou bien de changer les ressources achetées et vendues aux deux extrémités, mais pour changer ces extrémités, il est nécessaire de recréer une ligne.
 
 Une ligne commerciale à laquelle plus aucun vaisseau n'est affecté disparaît.
 
+### Modes de transport
+
+Une ligne commerciale peut opter pour deux modes de transport alternatifs pour s'adapter aux variations des prix des ressources, dont celle du carburant.
+
+- En mode rapide, la vitesse de base des tous les vaisseaux de la ligne (et donc le volume effectif de la ligne) est augmentée de 20% et leur consommation de carburant est augmentée de 30%. Cela réduit le volume transporté par unité de carburant mais augmente le volume total transporté.
+- En mode économe, la vitesse de base de tous les vaisseaux de la ligne (et donc le volume effectif de la ligne) est réduite de 20% et leur consommation de carburant est diminuée de 30%. À l'inverse, cela réduit le volume effectif total mais augmente le nombre d'unités transportées par unité de carburant.
 
 <a id="idf9d2542"></a>
 
@@ -1073,7 +1080,6 @@ Une ligne commerciale à laquelle plus aucun vaisseau n'est affecté disparaît.
 
 -   Le travail
 -   L'énergie
-
 
 <a id="id4f1832a"></a>
 
@@ -1089,19 +1095,19 @@ Les villes s'organisent en différents niveaux représentants leur taille. Au fu
 Voici le détail des consommations à chaque tour et des tailles:
 
 -   Niveau 0 - Avant poste scientifique
-    -   1 énergie, 1 oxygène, 1 composé organique, 1 eau
+    -   100 énergie, 100 oxygène, 100 composé organique, 100 eau
     -   Population maximale: 100
 -   Niveau 1 - Petite ville
-    -   5 énergie, 5 oxygène, 5 composé organique, 5 eau, 1 composant électronique
+    -   500 énergie, 500 oxygène, 500 composé organique, 500 eau, 100 composant électronique
     -   Population maximale: 1000
 -   Niveau 2 - Ville moyenne
-    -   25 énergie, 25 oxygène, 25 composé organique, 25 eau, 5 composants électroniques, 1 carburant
+    -   2500 énergie, 2500 oxygène, 2500 composé organique, 2500 eau, 500 composants électroniques, 100 carburant
     -   Population maximale: 10 000
 -   Niveau 3 - Grande ville
-    -   125 énergie, 125 oxygène, 125 composé organique, 125 eau, 25 composants électroniques, 5 carburant, 1 matériaux de construction
+    -   12500 énergie, 12500 oxygène, 12500 composé organique, 12500 eau, 2500 composants électroniques, 500 carburant, 100 matériaux de construction
     -   Population maximale: 100 000
 -   Niveau 4 - Métropole
-    -   625 énergie, 625 oxygène, 625 composé organique, 625 eau, 125 composants électroniques, 25 carburant, 5 matériaux de construction
+    -   62500 énergie, 62500 oxygène, 62500 composé organique, 62500 eau, 12500 composants électroniques, 2500 carburant, 500 matériaux de construction
     -   Population maximale: 1 000 000
 
 
@@ -1127,7 +1133,7 @@ Chaque augmentation de taille est déclenchée quand les critères sont atteints
 
 ### Fonctionnement de la population
 
-À chaque tour, la population d'une ville vend sa force de travail au marché local et achète de la nourriture, de l'eau et de l'oxygène. Chaque groupe de 100 population produit 10 unités de travail et consomme une unité d'eau, de nourriture et d'oxygène, arrondi à l'inférieur.
+À chaque tour, la population d'une ville vend sa force de travail au marché local et achète de la nourriture, de l'eau et de l'oxygène. Chaque groupe de 100 population produit 1000 unités de travail et consomme 100 unités d'eau, de nourriture et d'oxygène, arrondi à l'inférieur.
 La ville paie pour les dépenses et récupère les salaires. Si après ces transactions (et la consommation fixe de la ville) le budget de la ville est positif, la population double, dans le cas contraire, elle baisse de 20%.
 
 
@@ -1144,7 +1150,7 @@ Ces organismes de financement reçoivent les intérêt payés par les organisati
 
 ### Création des organismes
 
-Durant leur tour, les organisations peuvent utiliser une de leurs actions pour créer un organisme de financement. Lors de la création, il faut choisir le niveau de risque du fonds, le nom du fonds, le capital initial, et la valeur d'une part. Ces parts permettent à d'autre organisations de participer au capital. Il est possible de désactiver la participation d'autres organisations au capital d'un fonds lors de sa création.
+Durant leur tour, les organisations peuvent utiliser une de leurs actions pour créer un organisme de financement. Lors de la création, il faut choisir le niveau de risque de l'organisme, le nom de l'organisme, le capital initial, et la valeur d'une part. Ces parts permettent à d'autre organisations de participer au capital. Il est possible de désactiver la participation d'autres organisations au capital d'un fonds lors de sa création.
 
 
 <a id="id220550d"></a>
@@ -1158,7 +1164,7 @@ Durant leur tour, les organisations peuvent gratuitement fermer un organisme de 
 
 ### Constitution du capital
 
-Lors de la création du fonds, un capital initial est versé. Durant la suite du jeu, une organisation peut utiliser une action pour acheter un certain nombre de part d'un fonds, augmentant son capital de la valeur totale des parts acquises. Il est aussi possible de rendre tout ou partie de ses parts, pour une action, diminuant d'autant le capital du fonds.
+Lors de la création du fonds (organisme de financement), un capital initial est versé. Durant la suite du jeu, une organisation peut utiliser une action pour acheter un certain nombre de part d'un fonds, augmentant son capital de la valeur totale des parts acquises. Il est aussi possible de rendre tout ou partie de ses parts, pour une action, diminuant d'autant le capital du fonds.
 
 
 <a id="id97e4997"></a>
@@ -1168,7 +1174,7 @@ Lors de la création du fonds, un capital initial est versé. Durant la suite du
 À chaque fin de tour, chaque organisation possédant des dettes paie des intérêts. La totalité de ces intérêts est ensuite répartie entre tous les organismes de financement en proportion de leur capital et de leur niveau de risque.
 Le niveau des intérêts payés par chaque organisation dépend de la quantité de dettes possédée par cette organisation $d$, du seuil de dette maximal autorisé pour cette organisation avant faillite $s$, de la quantité totale de dette possédée par toutes les organisations $D$ et de la quantité totale de capital possédé par tous les organismes financiers $K$.
 Si on note le total des intérêts payé par un organisation $i$, on a la relation:
-$i = (\frac{5D}{100K}+\frac{10d}{100s})\times s$, c'est à dire 5% de la dette pour autant de capital total que de dette et 1% pour chaque dixième du seuil maximum de dette.
+$i = \left(\frac{5D}{100K}+\frac{d}{10s}\right)\times d$, c'est à dire 5% de la dette pour autant de capital total que de dette et 1% pour chaque dixième du seuil maximum de dette.
 Le taux d'intérêt augmente donc en fonction du taux d'endettement de l'organisation et du taux d'endettement global.
 
 Ces intérêts sont directement envoyés aux organisations possédants des parts dans le fonds, au prorata des parts possédées. L'organisation possédant le fonds peut décider à sa création d'une taxe sur ces intérêt, en fixe ou en proportion des intérêts versés.
@@ -1190,7 +1196,8 @@ Si ces pertes font passer le capital en dessous de 0, l'organisme de financement
 Certains fonds peuvent être modifiés pour proposer des subventions pour la construction de certains bâtiments sur certains corps célestes.
 Plutôt que d'être directement envoyés dans le budget de l'organisation possédant l'organisme de financement, les intérêts sont mis de côté. Lors de la construction des bâtiments concernés par la subvention 50% du coût de construction est transférée à l'organisation qui construit le bâtiment et la même somme est transférée à l'organisation qui possède l'organisme de financement. 150% de cette somme est retirée de la réserve alimentée par les intérêts.
 En tout, pour chaque 1.5 unités d'intérêts, on peut transférer 2 unités d'argent: une en subvention et une en intérêts débloqué en cas de subvention. Cela expose toutefois à ce que ces subventions soient récupérées par d'autres organisations que celle possédant l'organisme de financement.
-Durant un même tour, toutes les subventions sont accordées
+Durant un même tour, toutes les subventions sont accordées. Si la quantité d'argent disponible pour accorder des subventions (obtenue via intérêts) est trop faible (10% du capital du fonds), les subventions sont suspendues le temps que cette quantité remonte. Si durant un tour des subvention sont accordées pour un montant total supérieur à ce qui est disponible, le montant passe en négatif et les subventions sont suspendues jusqu'à une remontée des fonds disponibles.
+En cas de faillite avec une quantité d'argent négative, l'argent manquant est pris au capital du fonds avant de poursuivre la faillite.
 L'arrêt ou la modification des subventions nécessite une action de l'organisation contrôlant l'organisme.
 
 
@@ -1207,7 +1214,33 @@ Chaque organisation peut réaliser des opérations secrètes.
 Chacune de ces opérations a un coût en travail et en matériel, achetés directement sur les marchés.
 Chaque opération dispose par défaut d'un niveau de difficulté (D) et d'un niveau de surveillance (S). Ces deux grandeurs déterminent respectivement les chances de réussite de l'opération et les chances que celle ci soit attribuée à l'organisation qui l'a organisée. La réussite d'une opération et son attribution à une organisation sont complètement indépendantes l'une de l'autre. Ces deux grandeurs ne peuvent prendre des valeurs qu'entre -10 et 10.
 Lors de l'organisation de l'opération il est possible de diminuer le niveau de difficulté ou de surveillance. Cela a pour effet d'augmenter aussi le coût de l'opération considérée. 
-Les taux d'échec et de découverte associés sont les suivants (formule: $1-(\frac{1}{1+e^{-\frac{x}{3.397}})}$ avec x la difficulté):
+Les taux d'échec et de découverte associés sont les suivants (formule: $1-\left(\frac{1}{1+e^{-\frac{x}{3.397}}\right)}$ avec x la difficulté):
+
+|-------------------------|--------------------------------------|
+| difficulté/surveillance | taux d'échec/d'attribution (en %) |
+|-------------------------|--------------------------------------|
+|                      10 |                                    5 |
+|                       9 |                                  6.6 |
+|                       8 |                                  8.6 |
+|                       7 |                                 11.3 |
+|                       6 |                                 14.6 |
+|                       5 |                                 18.7 |
+|                       4 |                                 23.6 |
+|                       3 |                                 29.3 |
+|                       2 |                                 35.7 |
+|                       1 |                                 42.7 |
+|                       0 |                                   50 |
+|                      -1 |                                 57.3 |
+|                      -2 |                                 64.3 |
+|                      -3 |                                 70.8 |
+|                      -4 |                                76.45 |
+|                      -5 |                                81.33 |
+|                      -6 |                                 85.4 |
+|                      -7 |                                 88.7 |
+|                      -8 |                                 91.3 |
+|                      -9 |                                 93.4 |
+|                     -10 |                                   95 |
+|-------------------------|--------------------------------------|
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -1220,7 +1253,7 @@ Les taux d'échec et de découverte associés sont les suivants (formule: $1-(\f
 <thead>
 <tr>
 <th scope="col" class="org-right">difficulté/surveillance</th>
-<th scope="col" class="org-right">taux d'échec/de d'attribution (en %)</th>
+<th scope="col" class="org-right">taux d'échec/d'attribution (en %)</th>
 </tr>
 </thead>
 <tbody>
@@ -1344,62 +1377,62 @@ Le coût en ressources d'une opération est donné par le coût de base multipli
 1.  Manipulations des cours des ressources (à la baisse ou à la hausse)
 
     Sur le marché d'un corps céleste, le cours d'une ressource au choix augmente (ou diminue) de (3+2E)%, avec une variation d'au moins 1.
-    Coût: 1 Travail, 2 composant électronique.
+    Coût: 100 Travail, 200 composant électronique.
     Difficulté de base 1, surveillance de base -3.
 
 2.  Manipulations des cours des actions d'une société (à la baisse ou à la hausse)
 
     Le cours d'une société par action au choix augmente (ou diminue) de (3+2E)%, avec une variation d'au moins 1. Le niveau de renseignement est celui du corps céleste sur lequel l'organisation visée possède le plus de bâtiments.
-    Coût: 1 Travail, 2 composant électronique.
+    Coût: 100 Travail, 200 composant électronique.
     Difficulté de base 1, surveillance de base -3.
 
 3.  Sabotage d'un bâtiment (temporaire)
 
     Un bâtiment ciblé est désactivé pendant 1 + $\frac{E}{3}$, arrondi à l'inférieur.
-    Coût: 3 Travail, 1 composant électronique.
+    Coût: 300 Travail, 100 composant électronique.
     Difficulté de base 1, surveillance de base 0.
 
 4.  Sabotage d'un bâtiment (définitif)
 
     Un bâtiment ciblé est détruit. E n'as pas d'effet sur le résultat obtenu.
-    Coût: 3 Travail, 1 composant électronique, 1 carburant, 1 énergie.
+    Coût: 300 Travail, 100 composant électronique, 100 carburant, 100 énergie.
     Difficulté de base 3, surveillance de base -3.
 
 5.  Révélation des opérations en cours sur un corps céleste
 
     2E opérations au hasard en cours d'organisation sur un corps céleste sont révélées au joueur contrôlant l'organisation qui réalise cette opération. Les opérations révélées sont celles d'organisations autres que celles contrôlées par le joueur.
-    Coût: 1 Travail, 1 composant électronique
+    Coût: 100 Travail, 100 composant électronique
     Difficulté de base 0, surveillance de base 3.
 
 6.  Sabotage d'une opération en cours
 
     Une opération ciblée et déjà connue (via l'opération de révélation) échoue automatiquement. Ces opérations de sabotage sont résolues avant les autres opérations secrètes.
-    Coût: 1 Travail, 1 composant électronique
+    Coût: 100 Travail, 100 composant électronique
     Difficulté de base 2, surveillance de base -5.
 
 7.  Sabotage d'un vaisseau de commerce (temporaire)
 
-    Un vaisseau de commerce ciblé est inactif pour $\frac{E}{2}$ tours, arrondi à l'inférieur. Pour le coût et le niveau de renseignement, l'opération a lieu sur un corps céleste à l'extrémité de la ligne commerciale à laquelle le vaisseau participe.
-    Coût: 2 Travail, 2 composant électronique, 2 carburant.
+    Un vaisseau de commerce ciblé est inactif pour $\frac{E}{2}$ tours, arrondi à l'inférieur. Le coût et le niveau de renseignement sont déterminés comme si l'opération avait lieu sur un corps céleste à l'extrémité de la ligne commerciale à laquelle le vaisseau participe.
+    Coût: 200 Travail, 200 composant électronique, 2 carburant.
     Difficulté de base -1, surveillance de base 0.
 
 8.  Sabotage d'un vaisseau de commerce (définitif)
 
-    Un vaisseau de commerce ciblé est détruit. Pour le coût et le niveau de renseignement a lieu sur un corps céleste à l'extrémité de la ligne commerciale à laquelle le vaisseau participe.
-    Coût: 1 Travail, 3 composant électronique, 3 carburant.
-    Taux de réussite de base 30%, taux de découverte de base 60%.
+    Un vaisseau de commerce ciblé est détruit.
+    Le coût et le niveau de renseignement sont déterminés comme si l'opération avait lieu sur un corps céleste à l'extrémité de la ligne commerciale à laquelle le vaisseau participe.
+    Coût: 100 Travail, 300 composant électronique, 300 carburant.
     Difficulté de base 3, surveillance de base 2.
 
 9.  Vol des fonds d'une organisation
 
     2E% (max 10%) de la valeur d'une organisation ciblée est transférée à l'organisation réalisant cette opération. Si l'organisation ciblée ne dispose pas des fonds propres, la dette est augmentée de la valeur manquante.
-    Coût: 3 Travail, 3 composant électronique
+    Coût: 300 Travail, 300 composant électronique
     Difficulté de base 3, surveillance de base 3.
 
 10. Révélations des traits d'une organisation
 
     Les traits d'une organisation ciblée sont révélés au joueur qui contrôle l'organisation qui réalise cette opération. La valeur de E n'influence pas les effets de cette opération.
-    Coût: 1 Travail, 1 composant électronique
+    Coût: 100 Travail, 100 composant électronique
     Difficulté de base 1, surveillance de base -5.
 
 
@@ -1407,7 +1440,7 @@ Le coût en ressources d'une opération est donné par le coût de base multipli
 
 ## Technologies
 
-Les progrès technologiques sont conduits d'abord par les organisation contrôlées par les joueurs.
+Les progrès technologiques sont conduits d'abord par les organisations contrôlées par les joueurs.
 La représentation de ces progrès en jeu est centrée sur la lutte contre le dérèglement climatique ainsi que l'activité humaine dans le système solaire. Les technologies disponibles se répartissent entre les recherches publiques, développées en commun et fournissant des bonus communs, et les brevets privés, développés par les organisation et ne fournissant de bonus qu'à l'organisation réussissant à le développer en premier.
 
 
@@ -1416,25 +1449,25 @@ La représentation de ces progrès en jeu est centrée sur la lutte contre le d�
 ### Fonctionnement général
 
 Les technologies ne sont pas toutes disponibles à la recherche immédiatement. Sur l'ensemble des technologies qu'il est actuellement possible de rechercher (prérequis atteints), chaque organisation se voit distribuer à chaque tour un certain nombre d'entre elles, selon les bâtiments possédés. Les options de technologies distribuées ne le sont pas forcément de manière exclusive.
-Les organisations peuvent construire des bureaux d'études prospective sur un corps céleste qui incarnent leur capacité à conduire des activités de recherche technologique.
+Les organisations peuvent construire des bureaux d'étude prospective sur un corps céleste qui incarnent leur capacité à conduire des activités de recherche technologique.
 
 Une organisation peut décider de faire plusieurs choses de ces technologies:
 
--   Si la technologie une recherche publique, l'organisation peut décider de réaliser une étude préliminaire, rendant cette technologie éligible à la mise en recherche commune. Cela coûte 1 unité de travail, un composant électronique et une unité d'énergie et doit être réalisé dans un bureau d'études prospectives.
+-   Si la technologie une recherche publique, l'organisation peut décider de réaliser une étude préliminaire, rendant cette technologie éligible à la mise en recherche commune. Cela coûte 100 unités de travail, 100 composant électronique et 100 unités d'énergie et doit être réalisé dans un bureau d'études prospectives.
 -   Si la technologie est privée, l'organisation peut décider de lancer le développement de celle ci. Le coût total de développement est indiqué par les détails de la technologie. Cette mise en développement peut se faire sur plusieurs tours. La première organisation à achever le développement remporte le brevet donnant les bonus de cette technologie. Cette action doit être réalisée dans un bureau d'études prospectives. Une seule technologie privée peut être développée en même temps.
--   L'organisation peut décider de mettre de côté la technologie pour plus tard. Ceci coûte un entretien de 3 unités de travail par tour pour chaque technologie en attente, majoré de 20% pour chaque nouvelle technologie en attente au de là de la première.
+-   L'organisation peut décider de mettre de côté la technologie pour plus tard. Ceci coûte un entretien de 300 unités de travail par tour pour chaque technologie en attente, majoré de 20% pour chaque nouvelle technologie en attente au delà de la première.
 
-Le choix des recherche publiques à développer se fait par l'organisation ayant le plus contribué au développement de celle dont le développement vient de terminer et qui est remplacée. À chaque instant il y a 2 technologies publiques en cours de développement.
+Le choix des recherches publiques à développer se fait par l'organisation ayant le plus contribué au développement de la technologie publique dont le développement vient de terminer et qui est remplacée. À chaque instant il y a 2 technologies publiques en cours de développement.
 
 Le développement d'une recherche publique fonctionne comme un projet coopératif et demande un nombre d'étapes qui diffère selon la technologie.
 
 Le développement d'un brevet privé fonctionne comme un projet compétitif mais contrairement aux projets compétitifs classiques, seules les organisations ayant accès à la technologie lors de la distribution peuvent lancer le développement de ce projet.
 
-Le coût des technologies est en nombre d'étapes, dépendant uniquement de la technologie et des cours du marché pour les ressources concernées. Le coût d'une étape est de 3 unité de travail, 1 composant électronique et 3 unité d'énergie.
+Le coût des technologies est en nombre d'étapes, dépendant uniquement de la technologie et des cours du marché pour les ressources concernées. Le coût d'une étape est de 300 unité de travail, 100 composants électronique et 300 unités d'énergie.
 
 Le nombre de technologies proposées est déterminé par une grandeur appelée "capacité d'innovation". Cette capacité d'innovation est produite par les bureaux d'études prospectives.
 
-Un bureau d'études prospective produit par défaut 100 de capacité d'innovation. Au début de chaque tour, pour déterminer le nombre de technologies proposées à une organisation, prend la capacité d'innovation totale, on la considère comme un pourcentage. Cela donne les chances d'obtenir une première technologie. Si cette technologie est obtenue, on divise par quatre la capacité d'innovation et on recommence. En cas d'échec, le processus s'arrête là. Il faut donc 100 de capacité d'innovation pour être certain d'avoir au moins une technologie, 400 pour être certain d'en avoir 2, 1600 pour être certain d'en avoir 3, etc.
+Un bureau d'études prospective produit par défaut 100 de capacité d'innovation. Au début de chaque tour, pour déterminer le nombre de technologies proposées à une organisation, on considère la capacité d'innovation totale, on la voit comme un pourcentage. Cela donne les chances d'obtenir une première technologie. Si cette technologie est obtenue, on divise par quatre la capacité d'innovation et on recommence. En cas d'échec, le processus s'arrête là. Il faut donc 100 de capacité d'innovation pour être certain d'avoir au moins une technologie, 400 pour être certain d'en avoir 2, 1600 pour être certain d'en avoir 3, etc.
 
 La capacité d'innovation réduit aussi le coût d'entretien d'une technologie en le divisant par 1+(capacité d'innovation/200).
 
@@ -1574,6 +1607,7 @@ La capacité d'innovation réduit aussi le coût d'entretien d'une technologie e
         Effet: Augmente de 1% les capitaux déposés dans un fonds d'investissement.
         Nombre d'exemplaires: 2
 
+[TODO](Idées de technologies)
 
 <a id="id2415174"></a>
 
