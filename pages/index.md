@@ -938,7 +938,7 @@ Ensuite, de manière à introduire une forme de retour à un équilibre dans le 
 
 Les vaisseaux de transport permettent d'acheminer des ressources entre corps célestes. Ceux ci sont construit par les organisations, sur des corps célestes via un bâtiment spécifique: le chantier spatial.
 Un vaisseau est caractérisé par son volume de transport, sa vitesse de base et sa consommation de carburant. La consommation de carburant est exprimée pour une utilisation du vaisseau pendant un tour complet. 
-Pour un trajet donné, le volume de transport et la vitesse de base permettent d'obtenir le volume effectif: $\frac{\text{vitesse de base}\times\text{volume de transport}{\text{longueur du trajet}}$.
+Pour un trajet donné, le volume de transport et la vitesse de base permettent d'obtenir le volume effectif: $\frac{\text{vitesse de base}\times\text{volume de transport}}{\text{longueur du trajet}}$.
 Un vaisseau plus rapide fera plus d'aller retour sur la durée d'un tour, ce qui explique que la vitesse permette d'augmenter le volume effectif. Cependant cela se fait au prix d'une dépense plus importante de carburant.
 
 Il y a deux modèles de vaisseaux disponibles ayant un volume effectif similaire:
@@ -1107,63 +1107,63 @@ Le coût en ressources d'une opération est donné par le coût de base multipli
 ####  Manipulations des cours des ressources (à la baisse ou à la hausse)
 
 Sur le marché d'un corps céleste, le cours d'une ressource au choix augmente (ou diminue) de (3+2E)%, avec une variation d'au moins 1.
-Coût: 100 Travail, 200 composant électronique.
-Difficulté de base 1, surveillance de base -3.
+- Coût: 100 Travail, 200 composant électronique.
+- Difficulté de base 1, surveillance de base -3.
 
 ####  Manipulations des cours des actions d'une société (à la baisse ou à la hausse)
 
 Le cours d'une société par action au choix augmente (ou diminue) de (3+2E)%, avec une variation d'au moins 1. Le niveau de renseignement est celui du corps céleste sur lequel l'organisation visée possède le plus de bâtiments.
-Coût: 100 Travail, 200 composant électronique.
-Difficulté de base 1, surveillance de base -3.
+- Coût: 100 Travail, 200 composant électronique. 
+- Difficulté de base 1, surveillance de base -3.
 
 ####  Sabotage d'un bâtiment (temporaire)
 
 Un bâtiment ciblé est désactivé pendant 1 + $\frac{E}{3}$, arrondi à l'inférieur.
-Coût: 300 Travail, 100 composant électronique.
-Difficulté de base 1, surveillance de base 0.
+- Coût: 300 Travail, 100 composant électronique.
+- Difficulté de base 1, surveillance de base 0.
 
 ####  Sabotage d'un bâtiment (définitif)
 
 Un bâtiment ciblé est détruit. E n'as pas d'effet sur le résultat obtenu.
-Coût: 300 Travail, 100 composant électronique, 100 carburant, 100 énergie.
-Difficulté de base 3, surveillance de base -3.
+- Coût: 300 Travail, 100 composant électronique, 100 carburant, 100 énergie.
+- Difficulté de base 3, surveillance de base -3.
 
 ####  Révélation des opérations en cours sur un corps céleste
 
 2E opérations au hasard en cours d'organisation sur un corps céleste sont révélées au joueur contrôlant l'organisation qui réalise cette opération. Les opérations révélées sont celles d'organisations autres que celles contrôlées par le joueur.
-Coût: 100 Travail, 100 composant électronique
-Difficulté de base 0, surveillance de base 3.
+- Coût: 100 Travail, 100 composant électronique
+- Difficulté de base 0, surveillance de base 3.
 
 ####  Sabotage d'une opération en cours
 
 Une opération ciblée et déjà connue (via l'opération de révélation) échoue automatiquement. Ces opérations de sabotage sont résolues avant les autres opérations secrètes.
-Coût: 100 Travail, 100 composant électronique
-Difficulté de base 2, surveillance de base -5.
+- Coût: 100 Travail, 100 composant électronique
+- Difficulté de base 2, surveillance de base -5.
 
 ####  Sabotage d'un vaisseau de commerce (temporaire)
 
 Un vaisseau de commerce ciblé est inactif pour $\frac{E}{2}$ tours, arrondi à l'inférieur. Le coût et le niveau de renseignement sont déterminés comme si l'opération avait lieu sur un corps céleste à l'extrémité de la ligne commerciale à laquelle le vaisseau participe.
-Coût: 200 Travail, 200 composant électronique, 2 carburant.
-Difficulté de base -1, surveillance de base 0.
+- Coût: 200 Travail, 200 composant électronique, 2 carburant.
+- Difficulté de base -1, surveillance de base 0.
 
 ####  Sabotage d'un vaisseau de commerce (définitif)
 
 Un vaisseau de commerce ciblé est détruit.
 Le coût et le niveau de renseignement sont déterminés comme si l'opération avait lieu sur un corps céleste à l'extrémité de la ligne commerciale à laquelle le vaisseau participe.
-Coût: 100 Travail, 300 composant électronique, 300 carburant.
-Difficulté de base 3, surveillance de base 2.
+- Coût: 100 Travail, 300 composant électronique, 300 carburant.
+- Difficulté de base 3, surveillance de base 2.
 
 ####  Vol des fonds d'une organisation
 
 2E% (max 10%) de la valeur d'une organisation ciblée est transférée à l'organisation réalisant cette opération. Si l'organisation ciblée ne dispose pas des fonds propres, la dette est augmentée de la valeur manquante.
-Coût: 300 Travail, 300 composant électronique
-Difficulté de base 3, surveillance de base 3.
+- Coût: 300 Travail, 300 composant électronique
+- Difficulté de base 3, surveillance de base 3.
 
 #### Révélations des traits d'une organisation
 
 Les traits d'une organisation ciblée sont révélés au joueur qui contrôle l'organisation qui réalise cette opération. La valeur de E n'influence pas les effets de cette opération.
-Coût: 100 Travail, 100 composant électronique
-Difficulté de base 1, surveillance de base -5.
+- Coût: 100 Travail, 100 composant électronique
+- Difficulté de base 1, surveillance de base -5.
 
 ## Technologies
 
@@ -1201,131 +1201,131 @@ La capacité d'innovation réduit aussi le coût d'entretien d'une technologie e
 
 ##### Régulation climatique
 
-Prérequis: Aucun
-Nombre d'étapes: 12
-Effet: Ouvre l'accès à des projets de gestion du climat sur terre (Système d'observation et de contrôle climatique - conception, Régulation des événements climatiques extrêmes).
-Nombre d'exemplaires: 2
+- Prérequis: Aucun
+- Nombre d'étapes: 12
+- Effet: Ouvre l'accès à des projets de gestion du climat sur terre (Système d'observation et de contrôle climatique - conception, Régulation des événements climatiques extrêmes).
+- Nombre d'exemplaires: 2
         
 ##### Techniques de capture du CO2 (5 niveaux)
         
-Prérequis: Le niveau précédent s'il existe
-Nombre d'étape: 20 + 5 fois le niveau.
-Effet: Ouvre l'accès aux projets collaboratifs "Campagne de dépollution avancée"
-Effet: réduit de 5% le coût des projets Dépollution
-Nombre d'exemplaires: 2
+- Prérequis: Le niveau précédent s'il existe
+- Nombre d'étapes: 20 + 5 fois le niveau.
+- Effet: Ouvre l'accès aux projets collaboratifs "Campagne de dépollution avancée"
+- Effet: réduit de 5% le coût des projets Dépollution
+- Nombre d'exemplaires: 2
         
 ##### Techniques avancées de capture du CO2
         
-Prérequis: techniques de capture du CO2 niveau 3
-Nombre d'étapes: 20
-Effet: Ouvre l'accès aux projets collaboratifs "Campagne de dépollution avancée"
-Nombre d'exemplaires: 2
+- Prérequis: techniques de capture du CO2 niveau 3
+- Nombre d'étapes: 20
+- Effet: Ouvre l'accès aux projets collaboratifs "Campagne de dépollution avancée"
+- Nombre d'exemplaires: 2
         
 ##### Techniques d'urbanisme flottant (5 niveaux)
         
-Prérequis: Le niveau précédent s'il existe
-Nombre d'étape: 20 + 5 fois le niveau.
-Effet: réduit de 5% le coût des projets Protection de l'industrie et Protection de la population.
-Nombre d'exemplaires: 2
+- Prérequis: Le niveau précédent s'il existe
+- Nombre d'étapes: 20 + 5 fois le niveau.
+- Effet: réduit de 5% le coût des projets Protection de l'industrie et Protection de la population.
+- Nombre d'exemplaires: 2
         
 ##### Techniques d'agriculture d'intérieur (5 niveaux)
         
-Prérequis: Le niveau précédent s'il existe
-Nombre d'étape: 20 + 5 fois le niveau.
-Effet: réduit de 5% le coût des projets Protection de l'agriculture
-Nombre d'exemplaires: 2
+- Prérequis: Le niveau précédent s'il existe
+- Nombre d'étapes: 20 + 5 fois le niveau.
+- Effet: réduit de 5% le coût des projets Protection de l'agriculture
+- Nombre d'exemplaires: 2
         
 ##### Maîtrise des écosystèmes agricoles (5 niveaux)
         
-Prérequis: Le niveau précédent s'il existe
-Nombre d'étape: 20 + 5 fois le niveau.
-Effet: réduit de 5% le coût des projets Transition de l'agriculture
-Nombre d'exemplaires: 2
+- Prérequis: Le niveau précédent s'il existe
+- Nombre d'étapes: 20 + 5 fois le niveau.
+- Effet: réduit de 5% le coût des projets Transition de l'agriculture
+- Nombre d'exemplaires: 2
         
 ##### Procédés industriels propres
         
-Prérequis: Le niveau précédent s'il existe
-Nombre d'étape: 20 + 5 fois le niveau.
-Effet: réduit de 5% le coût des projets Transition de l'industrie
-Nombre d'exemplaires: 2
+- Prérequis: Le niveau précédent s'il existe
+- Nombre d'étapes: 20 + 5 fois le niveau.
+- Effet: réduit de 5% le coût des projets Transition de l'industrie
+- Nombre d'exemplaires: 2
         
 ##### Matériaux supraconducteurs
         
-Prérequis: Aucun
-Nombre d'étape: 40
-Effet: Prérequis d'autres technologies. 5% de réduction de consommation en énergie des bâtiments construits (ou modernisés) après la recherche de cette technologie.
-Nombre d'exemplaires: 1
+- Prérequis: Aucun
+- Nombre d'étapes: 40
+- Effet: Prérequis d'autres technologies. 5% de réduction de consommation en énergie des bâtiments construits (ou modernisés) après la recherche de cette technologie.
+- Nombre d'exemplaires: 1
         
 ##### Régulation des systèmes financiers
         
-Prérequis: Aucun
-Nombre d'étape: 40
-Effet: Réduction des taux d'intérêts de 1 (pour un minimum de 1)
-Nombre d'exemplaires: 1
+- Prérequis: Aucun
+- Nombre d'étapes: 40
+- Effet: Réduction des taux d'intérêts de 1 (pour un minimum de 1)
+- Nombre d'exemplaires: 1
 
 #### Privées
 
 ##### Méthodes de gouvernances efficaces
 
-Prérequis: Aucun
-Nombre d'étapes: 4
-Effet: l'organisation dispose d'une action gratuite par tour.
-Nombre d'exemplaires: 2
+- Prérequis: Aucun
+- Nombre d'étapes: 4
+- Effet: l'organisation dispose d'une action gratuite par tour.
+- Nombre d'exemplaires: 2
         
 ##### Régulation climatique avancé
         
-Prérequis: Régulation climatique.
-Nombre d'étapes: 8
-Effet: L'organisation peut lancer le projet Réseau de contrôle météorologique
-Nombre d'exemplaires: 2
+- Prérequis: Régulation climatique.
+- Nombre d'étapes: 8
+- Effet: L'organisation peut lancer le projet Réseau de contrôle météorologique
+- Nombre d'exemplaires: 2
         
 ##### Conception électrique économe (5 niveaux)
         
-Prérequis: supraconducteurs et le niveau précédent s'il existe.
-Nombre d'étape: 10
-Effet: réduit de 5% la consommation d'énergie des bâtiments de l'organisation.
-Nombre d'exemplaires: 2
+- Prérequis: supraconducteurs et le niveau précédent s'il existe.
+- Nombre d'étapes: 10
+- Effet: réduit de 5% la consommation d'énergie des bâtiments de l'organisation.
+- Nombre d'exemplaires: 2
         
 ##### Construction économe (5 niveaux)
         
-Prérequis: Le niveau précédent s'il existe
-Nombre d'étape: 10
-Effet: réduit de 5% le coût de construction d'un bâtiment.
-Nombre d'exemplaires: 2
+- Prérequis: Le niveau précédent s'il existe
+- Nombre d'étapes: 10
+- Effet: réduit de 5% le coût de construction d'un bâtiment.
+- Nombre d'exemplaires: 2
         
 ##### Chaînes de production efficaces (5 niveaux)
         
-Prérequis: Le niveau précédent s'il existe
-Nombre d'étape: 10
-Effet: Augmente de 3% les quantités de ressources produites par les bâtiments
-Nombre d'exemplaires: 3
+- Prérequis: Le niveau précédent s'il existe
+- Nombre d'étapes: 10
+- Effet: Augmente de 3% les quantités de ressources produites par les bâtiments
+- Nombre d'exemplaires: 3
         
 ##### Ingénierie de la dette (5 niveaux)
         
-Prérequis: Le niveau précédent s'il existe
-Nombre d'étape: 10
-Effet: Réduit de 5% le montant des intérêts payés.
-Nombre d'exemplaires: 3
+- Prérequis: Le niveau précédent s'il existe
+- Nombre d'étapes: 10
+- Effet: Réduit de 5% le montant des intérêts payés.
+- Nombre d'exemplaires: 3
         
 ##### Méthodes de recherche avancée (5 niveaux)
         
-Prérequis: Le niveau précédent s'il existe
-Nombre d'étape: 10
-Effet: Réduit de 5% le coût des étapes de recherche d'une technologie privée.
-Nombre d'exemplaires: 2
+- Prérequis: Le niveau précédent s'il existe
+- Nombre d'étapes: 10
+- Effet: Réduit de 5% le coût des étapes de recherche d'une technologie privée.
+- Nombre d'exemplaires: 2
         
 ##### Modèles statistiques de risque financier (5 niveaux)
         
-Prérequis: Le niveau précédent s'il existe
-Nombre d'étape: 10
-Effet: Augmente de 5% le niveau de risque lors de la perception des revenus
-Nombre d'exemplaires: 2
+- Prérequis: Le niveau précédent s'il existe
+- Nombre d'étapes: 10
+- Effet: Augmente de 5% le niveau de risque lors de la perception des revenus
+- Nombre d'exemplaires: 2
         
 ##### Techniques d'exonération des investissements (5 niveaux)
 
-Prérequis: Le niveau précédent s'il existe
-Nombre d'étape: 10
-Effet: Augmente de 2% les capitaux déposés dans un fonds d'investissement.
-Nombre d'exemplaires: 2
+- Prérequis: Le niveau précédent s'il existe
+- Nombre d'étapes: 10
+- Effet: Augmente de 2% les capitaux déposés dans un fonds d'investissement.
+- Nombre d'exemplaires: 2
 
 ##### [TODO Idées de technologies](/ideas-tech-effects)
