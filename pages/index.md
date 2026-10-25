@@ -8,6 +8,7 @@ description: Page du jeu Bleu Fragile
 Voici les règles du jeu Bleu Fragile.
     
 ## Table des matières
+
 <details markdown="1">
   <summary>Déplier  </summary>
 
@@ -91,11 +92,7 @@ Voici les règles du jeu Bleu Fragile.
 
 </details>
 
-
-
 # Présentation
-
-
 
 ## Synopsis
 
