@@ -603,11 +603,12 @@ Les différents corps du système solaire accessibles sont:
 
 ### Distances entre corps du système solaire
 
+[TODO](/ideas-celestial-map/)
 
 <a id="ide60e719"></a>
 
-## Bâtiments <code>[0/5]</code>
-
+## Bâtiments
+TODO
 
 <a id="id4ab1d18"></a>
 
@@ -628,7 +629,6 @@ Les différents corps du système solaire accessibles sont:
 
 ## Projets
 
-
 <a id="idf0ef98a"></a>
 
 ### Fonctionnement général
@@ -636,7 +636,7 @@ Les différents corps du système solaire accessibles sont:
 Les projets consistent en des réalisation auxquelles les organisations participent sur un ou plusieurs tours de manière individuelle ou collective.
 Ces projets peuvent avoir des effets divers comprenant entre autre des opérations de géo-ingénierie pour réguler le climat terrestre, ou protéger ses habitants, mais aussi la réalisation d'objectifs de victoire.
 
-Chaque projet possède un nombre d'étapes à réaliser avant complétion, dont le coût est exprimé en ressources, achetées sur un marché. Ce projet est associé à un ou plusieurs corps céleste à partir desquels il est possible de réaliser une ou plusieurs étapes du projet en achetant les ressources sur le marché du corps céleste et en dépensant une action.
+Chaque projet possède un nombre d'étapes à réaliser avant complétion, dont le coût est exprimé en ressources, achetées sur un marché. Ce projet est associé à un ou plusieurs corps célestes à partir desquels il est possible de réaliser une ou plusieurs étapes du projet en achetant les ressources sur le marché du corps céleste et en dépensant une action.
 Les organisations peuvent choisir de payer plusieurs fois le coût en ressources pour avancer de plusieurs étapes, toujours pour une action. Un financement de plusieurs étapes d'un coût augmente le coût total de 3(x-1)% du nombre d'étapes où x est le nombre d'étapes simultanées réalisées.
 
 Une fois un projet complété, on applique ses effets, dont une partie consiste en la distribution de récompenses pour les organisations l'ayant réalisé.
@@ -644,11 +644,9 @@ Une fois un projet complété, on applique ses effets, dont une partie consiste 
 Les projets sont de deux types: les projets coopératifs dans lesquels toutes les organisations complètent collectivement les étapes du projet, et les projets compétitifs dans lesquels chaque organisation doit réaliser seule toutes les étapes d'un projet, et seule la première à réaliser ces étapes complète le projet, les investissements des autres organisations sont alors perdus.
 
 Les récompenses d'un projet coopératif sont réparties au prorata du nombre d'étapes complétées par chaque organisation ayant contribué.
-Pour un projet compétitif, seul la première organisation à compléter le projet reçoit les récompenses. En cas d'achèvement conjoint, les deux organisation obtiennent la récompense.
+Pour un projet compétitif, seul la première organisation à compléter le projet reçoit les récompenses. En cas d'achèvement conjoint, les deux organisations obtiennent la récompense.
 
-Dans le cas d'un projet accessible depuis plusieurs corps célestes, un surcoût en carburant lié à la distance entre le site réel du projet est appliqué.
-
-Pour les projets coopératifs, si plus d'étapes que nécessaire ont été réalisées, lors de la résolution, on applique les contributions des organisations par ordre de nombre d'étapes croissante, et dès qu'on dépasse on annule les contributions suivantes (qui ne sont plus nécessaires).
+Pour les projets coopératifs, si plus d'étapes que nécessaire ont été réalisées, lors de la résolution, on applique les contributions des organisations par ordre de nombre d'étapes décroissante, et dès qu'on dépasse on annule les contributions suivantes (qui ne sont plus nécessaires).
 
 
 <a id="ide75b8bd"></a>
@@ -661,7 +659,7 @@ Pour les projets coopératifs, si plus d'étapes que nécessaire ont été réal
     
         -   Nombre d'étapes: 4
         -   Projet collaboratif
-        -   Coût de chaque étape: 15 énergie, 15 travail, 5 composants électroniques
+        -   Coût de chaque étape: 1500 énergie, 1500 travail, 500 composants électroniques
         -   Effet: débloque le projet "Télescope gravitationnel géant - construction"
         -   Description: Conception d'un immense télescope gravitationnel à effet de lentille en orbite.
     
@@ -670,7 +668,7 @@ Pour les projets coopératifs, si plus d'étapes que nécessaire ont été réal
         -   Débloqué par un autre projet: Télescope gravitationnel géant - conception
         -   Nombre d'étapes: 16
         -   Projet compétitif
-        -   Coût de chaque étape: 5 Travail 20 énergie, 20 matériaux de construction, 15 composants électroniques, 5 métaux nobles, 10 métaux légers, 20 Carburant
+        -   Coût de chaque étape: 500 Travail 2000 énergie, 2000 matériaux de construction, 1500 composants électroniques, 500 métaux nobles, 1000 métaux légers, 2000 Carburant
         -   Effet: Fournit le trait "télescope gravitationnel" à l'organisation qui réalise ce projet.
         -   Description: Transformation d'un astéroïde en télescope gravitationnel géant et ajustement de son orbite.
     
@@ -678,7 +676,7 @@ Pour les projets coopératifs, si plus d'étapes que nécessaire ont été réal
     
         -   Nombre d'étapes: 7
         -   Projet collaboratif
-        -   Coût de chaque étape: 15 énergie, 15 travail, 5 composants électroniques
+        -   Coût de chaque étape: 1500 énergie, 1500 travail, 500 composants électroniques
         -   Effet: débloque le projet "Vaisseau générationnel - construction"
         -   Description: Conception d'un vaisseau générationnel pour un voyage interstellaire
     
@@ -687,7 +685,7 @@ Pour les projets coopératifs, si plus d'étapes que nécessaire ont été réal
         -   Débloqué par un autre projet: Vaisseau générationnel - conception
         -   Nombre d'étapes: 26
         -   Projet collaboratif
-        -   Coût de chaque étape: 30 Travail 30 énergie, 50 matériaux de construction, 25 composants électroniques, 15 métaux nobles, 50 métaux légers, 10 Carburant, 50 Isotopes fissiles, 50 Composés organiques
+        -   Coût de chaque étape: 3000 Travail 3000 énergie, 5000 matériaux de construction, 2500 composants électroniques, 1500 métaux nobles, 5000 métaux légers, 1000 Carburant, 5000 Isotopes fissiles, 5000 Composés organiques
         -   Effet: Fournit le trait "vaisseau générationnel" à chaque organisation réalisant au moins 3 étapes.
         -   Description: Construction d'un vaisseau générationnel pour le voyage interstellaire.
     
@@ -695,7 +693,7 @@ Pour les projets coopératifs, si plus d'étapes que nécessaire ont été réal
     
         -   Nombre d'étapes: 3
         -   Projet collaboratif
-        -   Coût de chaque étape: 15 énergie, 15 travail, 5 composants électroniques
+        -   Coût de chaque étape: 1500 énergie, 1500 travail, 500 composants électroniques
         -   Effet: débloque le projet "Habitat orbital - construction"
         -   Description: Conception d'un habitat en orbite accueillant des centaines de milliers de personnes.
     
@@ -705,36 +703,16 @@ Pour les projets coopératifs, si plus d'étapes que nécessaire ont été réal
         -   Une version disponible pour chaque corps du système solaire
         -   Nombre d'étapes: 12
         -   Projet collaboratif
-        -   Coût de chaque étape: 20 Travail, 20 énergie, 20 matériaux de construction, 20 composants électroniques, 10 métaux nobles, 20 métaux légers, 10 carburant, 10 composés organiques
+        -   Coût de chaque étape: 2000 Travail, 2000 énergie, 2000 matériaux de construction, 2000 composants électroniques, 1000 métaux nobles, 2000 métaux légers, 1000 carburant, 1000 composés organiques
         -   Effet: Distribution de 100 000 unités d'argent entre les organisations ayant participé. Ces fonds sont pris dans les caisses de la ville. Augmentation du niveau de la ville d'une unité. Autorise le passage de la ville au niveau métropole.
         -   Description: Construction en orbite d'un corps céleste d'un module d'habitation étendant la ville présente à la surface.
     
-    7.  Idées
-    
-        -   Bouclier magnétique de protection de Mars, Mercure
-        -   Projet de colonisation d'Europe via création de corps adapté par génie génétique.
-        -   Aérostats Vénusiens
-        -   Accélérateur de particules géant (format planète/lune)
-        -   Immense accélérateur de particules ? (format orbite planète géante, dans les anneaux)
-        -   Système de défense planétaire (protection contre les géo croiseurs).
 
-2.  Projets d'infrastructure
+2.  Projets en lien avec la Terre
 
-    -   Crochet spatial: réduction sur le prix du carburant mais taxation en ce sens. Ne peut être que net bénéfique pour les utilisateurs. Niveau de réduction décidé par le possesseur ou bien fixé en dur.
-        -   Réduit uniquement les arcs sol/orbite
-    -   Ascenseur spatial: pareil
-        -   Comment gérer si en plusieurs fois ? Ne conserver que le premier (ou les deux premiers) ?
-    -   Réseau laser de déplacement: même principe, mais uniquement pour les vaisseaux équipés.
-        -   Réduit tous les arcs orbite/orbite pour le système planétaire concerné.
-        -   Construit en théorie sur un petit corps céleste
-    -   Mass-driver
-        -   Même effet que les autres, possible uniquement sur les corps sans atmosphère -> convertit une partie du coup en carburant en coût en énergie
-    -   Chacune de ces infrastructures produit une réduction du coût de déplacement des vaisseaux, en pourcentage. Les lignes commerciales sont obligées d'utiliser ces infrastructures quand celles ci sont disponibles. Une ligne commerciale qui utilise une de ces infrastructures décompose le coût total de déplacement entre la partie avec carburant et celle prise en charge par chaque infrastructure qui permet une réduction. Elle paie ensuite le carburant à l'extrémité la moins coûteuse puis paie l'énergie de chacune des infrastructures utilisées au prix de l'énergie à l'endroit où est localisée l'infrastructure. Elle reverse ensuite à chaque infrastructure un surcout de 10% de la somme dépensée en énergie.
+    Voir la section suivante.
 
-3.  Projets en lien avec la Terre
-
-    Voir la section suivante pour les projets publics. Les projets suivants sont des projets privés.
-
+3. [Autres idées (TODO)](/ideas-projects/)
 
 <a id="id90d7a75"></a>
 
@@ -743,24 +721,23 @@ Pour les projets coopératifs, si plus d'étapes que nécessaire ont été réal
 La terre est divisée en 5 régions: Amérique, Afrique, Asie, Europe et Océanie.
 Pour chacune de ces régions, l'activité humaine y est représentée par trois pistes: population, agriculture et industrie dont le niveau évolue dynamiquement au cours de la partie.
 L'activité humaine sur terre alimente une piste de pollution mondiale qui dérègle le climat.
-Le dérèglement du climat est représenté par un ensemble de cartes événements, chacune ayant un impact négatif sur l'activité humaine. Lors de chaque tour, on tire un ensemble de cartes événement dans ce paquet et on résout les effets de ceux ci sur l'activité humaine. Le nombre de cartes et les effets des événements augmentent avec l'importance du dérèglement climatique. En plus du dérèglement climatique, la terre doit faire face à une montée du niveau de la mer dont le rythme peut être chaotique.
-Les joueurs peuvent, via les organisations qu'ils contrôlent, interagir avec la terre de plusieurs manières: fournir des ressources en échange de financement (mais pas en acheter), investir dans les activités sur terre ou participer à la dépollution, la transition et la protections des infrastructures et populations des régions de la terre. Cette interaction peut se faire pour aider l'humanité sur terre, ou bien simplement pour des intérêts extérieurs à la terre (commerce, investissement local, objectifs des joueurs).
-
+Le dérèglement du climat est représenté par un ensemble de cartes événements, chacune ayant un impact négatif sur l'activité humaine. Lors de chaque tour, on tire un ensemble de cartes événement dans ce paquet et on résout les effets de ceux ci sur l'activité humaine. Le nombre de cartes et les effets des événements augmentent avec l'importance du dérèglement climatique. En plus du dérèglement climatique, la terre doit faire face à une montée du niveau de la mer dont le rythme peut être chaotique et les effets dévastateurs.
+Les joueurs peuvent, via les organisations qu'ils contrôlent, interagir avec la terre de plusieurs manières: fournir des ressources en échange de financement (mais pas en acheter, à cause du coût de mise en orbite), investir dans les activités sur terre ou participer à la dépollution, la transition et la protections des infrastructures et populations des régions de la terre. Cette interaction peut se faire pour aider l'humanité sur terre, ou bien simplement pour des intérêts extérieurs à la terre (commerce, investissement local, objectifs des joueurs).
 
 <a id="idc583072"></a>
 
 ### Activité humaine dans les régions de la Terre
 
 Dans chaque région, le niveau de l'activité humaine est représenté par une piste dans 3 domaines: population, agriculture et industrie. Ces pistes déterminent le type d'activité sur place ainsi que les prix des ressources sur terre. Cette piste est comprise entre 0 et 10, 0 représentant l'absence totale d'activité.
-Le niveau de l'agriculture et de l'industrie ne peuvent être plus du triple de celle de la population. Si la variation de l'une d'entre ces quantité devait amener l'agriculture ou l'industrie au delà, celles si seraient ramenées immédiatement à cette valeur maximale.
+Le niveau de l'agriculture et de l'industrie ne peuvent être plus du triple de celle de la population. Si la variation de l'une d'entre ces quantité devait amener l'agriculture ou l'industrie au delà, celles ci seraient ramenées immédiatement à cette valeur maximale.
 
-Dans chaque région, pour chaque piste (population, agriculture, industrie), on dispose d'une jauge d'évolution graduée entre -10 et 10. Lorsque cette jauge atteint 10 on augmente le niveau de la piste associée de 1 et on remet le niveau à 0, lorsqu'elle atteint -10 on diminue le niveau de la piste associée de un et on remet le niveau à 0.
+Dans chaque région, pour chaque piste (population, agriculture, industrie), on dispose d'une jauge d'évolution graduée entre -10 et 10. Lorsque cette jauge atteint 10 on augmente le niveau de la piste associée de 1 et on remet la jauge à 0, lorsqu'elle atteint -10 on diminue le niveau de la piste associée de un et on remet la jauge à 0.
 
-Le niveau de ces jauges d'évolution est modifié par les événements climatiques extrêmes (de manière négative) qui y placent des jetons dégâts, ce qui revient à réduire de 1 le niveau de la jauge considérée. Ce fonctionnement est détaillé dans une section postérieure.
-Il peut être modifié négativement positivement lors de la variation du niveau d'une autre piste d'activité humaine, dans la même région ou dans une autre. Ce fonctionnement est détaillé dans la section suivante.
+Le niveau de ces jauges d'évolution est modifié par les événements climatiques extrêmes (de manière négative) qui y placent des jetons dégâts, ce qui revient à réduire de 1 le niveau de la jauge considérée. Ce fonctionnement est détaillé dans une section suivante.
+Il peut être modifié négativement positivement ou négativement lors de la variation du niveau d'une autre piste d'activité humaine, dans la même région ou dans une autre. Ce fonctionnement est détaillé dans la section suivante.
 Il peut être modifié positivement (et parfois négativement) à l'initiative de projets des organisations contrôlées par les joueurs.
 
-Dans chaque région et pour chaque piste, est associé à un niveau de transition et un niveau de protection, chacun entre 0 et 9. Le niveau de transition représente les changements effectués pour limiter la pollution réalisées sur les différentes pistes et impacte directement le niveau de repos de la pollution sur terre. La population fait exception et n'a pas de piste de transition. Les organisations contrôlées par les joueurs peuvent faire progresser ce niveau de transition pour limiter l'impact de l'activité humaine d'une région sur la pollution mondiale. La contribution d'une piste au niveau mondial de pollution est égale à son niveau multiplié par 1-(le niveau de transition divisé par 10). De cette manière quand le niveau de transition est à 0, la contribution à la pollution est égale au niveau de la piste, et quand elle est à 9, la contribution à la pollution est égale au niveau de la piste divisé par 10.
+Dans chaque région et pour chaque piste, est associé à un niveau de transition et un niveau de protection, chacun entre 0 et 9. Le niveau de transition représente les changements effectués pour limiter la pollution réalisées sur les différentes pistes et impacte directement le niveau de repos de la pollution sur terre. La population fait exception et n'a pas de piste de transition. Les organisations contrôlées par les joueurs peuvent faire progresser ce niveau de transition pour limiter l'impact de l'activité humaine d'une région sur la pollution mondiale. La contribution d'une piste au niveau mondial de pollution est égale à son niveau multiplié par 1-($\frac{\text{niveau de transition}}{10}$). De cette manière quand le niveau de transition est à 0, la contribution à la pollution est égale au niveau de la piste, et quand elle est à 9, la contribution à la pollution est égale au niveau de la piste divisé par 10 ($\frac{1}{10} = 0.1 = 1-\frac{9}{10}$).
 
 Le niveau de protection agit de manière complémentaire en réduisant l'exposition des activités humaines aux effets du changement climatique. Lors de l'ajout d'un jeton de dégâts sur la jauge d'une piste, il y a niveau de protection chances sur 10 de prévenir l'augmentation de la jauge d'évolution. À un niveau de protection 0, cela ne laisse aucune chance d'éviter la diminution, et à 9 de niveau de protection, cela donne 9 chances sur 10 (90%) de chance d'éviter la variation de la jauge d'évolution.
 
@@ -785,16 +762,16 @@ Le niveau de protection agit de manière complémentaire en réduisant l'exposit
         Les organisations contrôlées par les joueurs peuvent vendre à la terre des ressources. Il est par contre impossible d'en acheter en raison du coût énergétique trop important pour acheminer ces ressources en orbite.
         Le prix d'achat de ces ressource est déterminé par la quantité de ressources vendues récemment et la somme des niveaux des pistes humaines de chaque réion.
         
-        Le niveaux des pistes humaines fixe un prix de repos. Chaque unité de ressource vendu fait baisser ce prix d'1%. Chaque ressources achetée pour des projets locaux fait monter ce prix d'1%.
+        Le niveaux des pistes humaines fixe un prix de repos. Chaque unité de ressource vendue fait baisser ce prix d'1%. Chaque ressources achetée pour des projets locaux fait monter ce prix d'1%.
         
-        Cette variation a lieu en fin de tour, après la vente et l'achat des ressources sur la base de la balance nette de ressources vendues et achetées.. Avant la variation due au commerce, le prix de chaque ressource se rapproche de son prix de repos en parcourant 1/3 de la distance à celui ci.
+        Cette variation a lieu en fin de tour, après la vente et l'achat des ressources sur la base de la balance nette de ressources vendues et achetées. Avant la variation due au commerce, le prix de chaque ressource se rapproche de son prix de repos en parcourant 1/3 de la distance à celui ci.
         
         Il est possible d'y vendre les ressources suivantes:
         
-        -   Nourriture (prix de repos = \(10 \times \left(1+\frac{Population}{1+2\times Agriculture}\right)\))
-        -   Métaux nobles (prix de repos = $30 \times \left(1+\frac{Population}{1+2times Industrie}\right)$)
-        -   Métaux légers (prix de repos = $10 \times \left(1+\frac{Population}{1+3times Industrie}\right)$
-        -   Composants électroniques (prix de repos = $40 \times \left(1+\frac{Population}{1 + 4 \times Industrie}\right)$)
+        -   Nourriture prix de repos = \\(10 \times \left(1+\frac{Population}{1+2\times Agriculture}\right)\\))
+        -   Métaux nobles prix de repos = $30 \times \left(1+\frac{Population}{1+2times Industrie}\right)$
+        -   Métaux légers prix de repos = $10 \times \left(1+\frac{Population}{1+3times Industrie}\right)$
+        -   Composants électroniques prix de repos = $40 \times \left(1+\frac{Population}{1 + 4 \times Industrie}\right)$
     
     2.  Investissement et influence politique sur les régions
     
