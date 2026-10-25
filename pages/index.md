@@ -354,66 +354,63 @@ Ce trait est révélé publiquement.
 
 ##### Techniques de d'extraction frugales
 
-        Les mines de cette organisation produisent 5% unité de ressources de moins mais consomment 5% unité d'énergie de moins.
+Les mines de cette organisation produisent 5% unité de ressources de moins mais consomment 5% unité d'énergie de moins.
         
-        ##### Techniques de d'extraction puissantes
+##### Techniques de d'extraction puissantes
         
-        Les mines de cette organisation produisent 5% unités de ressources de plus mais consomment 5% unités d'énergie en plus.
+Les mines de cette organisation produisent 5% unités de ressources de plus mais consomment 5% unités d'énergie en plus.
         
-        ##### Startup
+##### Startup
         
-        Cette organisation peut effectuer une action gratuitement à chaque tour. Le taux des intérêts payés par cette organisation est augmenté de 1%.
+Cette organisation peut effectuer une action gratuitement à chaque tour. Le taux des intérêts payés par cette organisation est augmenté de 1%.
         
-        ##### Contacts dans l'industrie de construction
+##### Contacts dans l'industrie de construction
         
-        Cette organisation peut réaliser une action de construction gratuite. Lors d'une construction, la quantité de chaque ressource nécessaire est augmentée de 3%.
+Cette organisation peut réaliser une action de construction gratuite. Lors d'une construction, la quantité de chaque ressource nécessaire est augmentée de 3%.
         
-        ##### Infrastructure modulaire
+##### Infrastructure modulaire
         
-        Cette organisation récupère 100% des ressources lors du désassemblage d'un bâtiment mais ce désassemblage coûte une action.
+Cette organisation récupère 100% des ressources lors du désassemblage d'un bâtiment mais ce désassemblage coûte une action.
         
-        ##### Agence de renseignements
+##### Agence de renseignements
         
-        Lors d'un transfert de fonds au joueur, celui ci ne reçoit que 90% de la somme. Les opérations sont réalisées avec un bonus de 2 à leur niveau de renseignement.
+Lors d'un transfert de fonds au joueur, celui ci ne reçoit que 90% de la somme. Les opérations sont réalisées avec un bonus de 2 à leur niveau de renseignement.
         
-        ##### Services spéciaux
+##### Services spéciaux
         
-        Cette organisation peut réaliser gratuitement une opération secrète par tour. Cette opération s'effectue avec un niveau de renseignement réduit de 1.
+Cette organisation peut réaliser gratuitement une opération secrète par tour. Cette opération s'effectue avec un niveau de renseignement réduit de 1.
         
-        ##### Organisation criminelle
+##### Organisation criminelle
         
-        Lors du versement de fonds à cette organisation, celle ci ne reçoit que 80% de la somme. Lors du versement de fonds de cette organisation vers son contrôleur, celui ci ne reçoit que 80% de la somme.
-        Toute opération secrète sur un corps céleste sur lequel cette organisation possède un centre d'opérations, voit son coût augmenté de 10%. Le surplus est transféré à l'organisation criminelle.
+Lors du versement de fonds à cette organisation, celle ci ne reçoit que 80% de la somme. Lors du versement de fonds de cette organisation vers son contrôleur, celui ci ne reçoit que 80% de la somme.
+Toute opération secrète sur un corps céleste sur lequel cette organisation possède un centre d'opérations, voit son coût augmenté de 10%. Le surplus est transféré à l'organisation criminelle.
         
-        ##### Réseau de contrebandiers
+##### Réseau de contrebandiers
         
-        Quand cette organisation opère une ligne commerciale entre deux corps céleste, le niveau de renseignement sur chaque corps est égal au niveau de renseignement le plus élevé des deux corps, limité par le nombre de vaisseaux dans la ligne.
-        Le volume transporté par chaque vaisseau est réduit de 5%.
+Quand cette organisation opère une ligne commerciale entre deux corps céleste, le niveau de renseignement sur chaque corps est égal au niveau de renseignement le plus élevé des deux corps, limité par le nombre de vaisseaux dans la ligne.
+Le volume transporté par chaque vaisseau est réduit de 5%.
         
-        ##### Too big to fail
+##### Too big to fail
         
-        Les organismes de financement gérés par cette organisation opèrent avec un bonus de 10% à leur niveau de risque pour la perception des revenus. En cas de faillite, les dettes restantes sont réparties entre les autres organisations contrôlées par le contrôleur de cette organisation.
-        Trait révélé publiquement.
+Les organismes de financement gérés par cette organisation opèrent avec un bonus de 10% à leur niveau de risque pour la perception des revenus. En cas de faillite, les dettes restantes sont réparties entre les autres organisations contrôlées par le contrôleur de cette organisation.
+Trait révélé publiquement.
         
-        ##### Techniques de placement liquides
+##### Techniques de placement liquides
         
-        Les organismes de financements gérés par cette organisation coûtent une action à fermer mais récupèrent 95% des fonds disponibles au lieu de 90%.
+Les organismes de financements gérés par cette organisation coûtent une action à fermer mais récupèrent 95% des fonds disponibles au lieu de 90%.
         
-        ##### Réseaux financiers bien établis
+##### Réseaux financiers bien établis
         
-        Les montants versés par les fonds d'investissement de cette organisation sont augmentés de 5% par rapport à la quantité d'intérêts perçus.
-        Trait révélé publiquement.
+Les montants versés par les fonds d'investissement de cette organisation sont augmentés de 5% par rapport à la quantité d'intérêts perçus.
+Trait révélé publiquement.
         
-        ##### Gestion financière prudente
+##### Gestion financière prudente
         
-        Le taux des intérêts payés par cette organisation est réduit de 3% (réduction absolue du taux d'intérêt: si le taux devait être à 5%, il est à 2% à la place, avec un minimum de 1%). Le seuil de faillite est abaissé à 90% de la valeur de l'organisation.
+Le taux des intérêts payés par cette organisation est réduit de 3% (réduction absolue du taux d'intérêt: si le taux devait être à 5%, il est à 2% à la place, avec un minimum de 1%). Le seuil de faillite est abaissé à 90% de la valeur de l'organisation.
         
-        ##### Logistique en flux tendu
+##### Logistique en flux tendu
         
-        La quantité de carburant nécessaire au fonctionnement des vaisseaux de transport est réduite de 10% (minimum 1) et le volume transporté part ceux ci est augmenté de 5%. Changer la répartition des vaisseaux d'une ligne commerciale coûte une action à l'organisation qui l'opère.
-
-
-
+La quantité de carburant nécessaire au fonctionnement des vaisseaux de transport est réduite de 10% (minimum 1) et le volume transporté part ceux ci est augmenté de 5%. Changer la répartition des vaisseaux d'une ligne commerciale coûte une action à l'organisation qui l'opère.
 
 ### Contrôle des organisations
 
@@ -423,15 +420,10 @@ Le joueur contrôlant une organisation peut changer dans certains circonstances:
 -   En conséquence de la réussite d'une opération secrète dédiée mettant l'organisation en vente via un processus similaire à la faillite.
 -   Pour une société par action, si un joueur obtient strictement plus d'action que le contrôleur actuel.
 
-
-
-
 ### Nouvelles organisations
 
 À chaque tour, si le nombre d'organisations est inférieur à 3 fois le nombre de joueurs, des "jeunes organisations" sont créées. Leur nombre et leurs traits sont tirés aléatoirement: entre 1 et le nombre de joueurs. Chacune de ces organisations reçoit entre 1 et 2 traits choisis aléatoirement parmi ceux disponibles. Celles-ci sont mises en vente, comme si elles venaient de subir une faillite.
 En début de partie, chaque joueur reçoit une nouvelle organisation possédant 3 traits choisis parmi un ensemble de 5. Il en devient immédiatement le contrôleur avant le début de la partie.
-
-
 
 ## Ressources
 
@@ -441,92 +433,77 @@ L'économie fonctionne autour de l'extraction, de la transformation et de la con
 
 ####  Extraites
 
-    -   Eau: essentielle à la vie, elle est aussi une source importante d'oxygène et d'hydrogène via l'hydrolyse et comme masse de réaction pour les moteurs fusée.
-    -   Métaux légers: fer, aluminium, etc, ils sont utilisés partout.
-    -   Métaux nobles: essentiels dans l'électronique et certaines méthodes de production d'énergie.
-    -   Composés organiques: principalement autour de la chimie du carbone et de l'azote, essentiels pour l'agriculture.
-    -   Isotopes Fissiles: présents dans certains sous sols et essentiels pour les réactions de fission nucléaire.
+-   Eau: essentielle à la vie, elle est aussi une source importante d'oxygène et d'hydrogène via l'hydrolyse et comme masse de réaction pour les moteurs fusée.
+-   Métaux légers: fer, aluminium, etc, ils sont utilisés partout.
+-   Métaux nobles: essentiels dans l'électronique et certaines méthodes de production d'énergie.
+-   Composés organiques: principalement autour de la chimie du carbone et de l'azote, essentiels pour l'agriculture.
+-   Isotopes Fissiles: présents dans certains sous sols et essentiels pour les réactions de fission nucléaire.
 
 ####  Manufacturées
 
-    -   Hydrogène: obtenu par électrolyse, il peut être un carburant, seul ou en combinaison avec de l'oxygène.
-    -   Oxygène: essentiel aux support vie des humains, c'est aussi un ingrédient très courant de nombreux carburants.
-    -   Nourriture
-    -   Matériaux de construction: très divers, ils sont surtout produits à partir de métaux légers (acier, alliages) ou de composants organiques carbonés.
-    -   Carburant: utilisés pour les vols interplanétaire, il peut aussi servir à la production d'énergie.
-    -   Composants électroniques.
+-   Hydrogène: obtenu par électrolyse, il peut être un carburant, seul ou en combinaison avec de l'oxygène.
+-   Oxygène: essentiel aux support vie des humains, c'est aussi un ingrédient très courant de nombreux carburants.
+-   Nourriture
+-   Matériaux de construction: très divers, ils sont surtout produits à partir de métaux légers (acier, alliages) ou de composants organiques carbonés.
+-   Carburant: utilisés pour les vols interplanétaire, il peut aussi servir à la production d'énergie.
+-   Composants électroniques.
 
 ####  Autres
 
-    -   Travail: qualifié ou non, il est produit par les humains résidant dans les villes des corps célestes.
-    -   Énergie: d'origine solaire ou non, elle est essentielle à toutes les activités industrielles. Elle peut être stockée par divers moyens.
-
-
-
+-   Travail: qualifié ou non, il est produit par les humains résidant dans les villes des corps célestes.
+-   Énergie: d'origine solaire ou non, elle est essentielle à toutes les activités industrielles. Elle peut être stockée par divers moyens.
 
 ### Source de chacune des ressources
 
 ####  Extraction via des mines sur des gisement dans le sous sol des corps célestes.
 
-    -   Eau
-    -   Métaux légers
-    -   Métaux nobles
-    -   Composés organiques
-    -   Isotopes Fissiles
+-   Eau
+-   Métaux légers
+-   Métaux nobles
+-   Composés organiques
+-   Isotopes Fissiles
     
-    Le coût d'une extraction est: 500 Énergie -> X unité extraite. La valeur de X dépend du gisement.
-    Les gisement sont considérés comme non épuisables mais la quantité de ressource qu'on peut en extraire à chaque tour est variable selon le gisement et les moyens utilisés pour l'extraction.
+Le coût d'une extraction est: 500 Énergie -> X unité extraite. La valeur de X dépend du gisement.
+Les gisement sont considérés comme non épuisables mais la quantité de ressource qu'on peut en extraire à chaque tour est variable selon le gisement et les moyens utilisés pour l'extraction.
 
 ####  Manufacturées
 
-    -   Hydrogène: Par électrolyse de l'eau. 1500 Énergie + 300 Eau -> 300 Hydrogène + 300 Oxygène
-    -   Oxygène: Par électrolyse de l'eau. 1500 Énergie + 300 Eau -> 300 Hydrogène + 300 Oxygène
-    -   Nourriture: Dans des usines: 500 Énergie + 500 Eau + 500 Composés organiques -> 1000 Nourriture
-    -   Matériaux de construction: Plusieurs recettes possibles:
-        -   500 Énergie + 1000 Métaux légers -> 500 Matériaux de construction
-        -   500 Énergie + 500 Métaux légers + 500 Composés organiques -> 500 Matériaux de construction
-        -   500 Énergie + 1000 Composés organiques -> 500 Matériaux de construction
-    -   Carburant:
-        -   300 Oxygène + 300 Hydrogène + 500 Énergie -> 1500 Carburant
-        -   300 Oxygène + 300 Hydrogène + 500 Métaux légers + 100 énergie -> 1500 Carburant
-    -   Composants électroniques:
-        -   500 Métaux Nobles + 1000 Métaux Légers + 1500 Énergie -> 500 Composants
+-   Hydrogène: Par électrolyse de l'eau. 1500 Énergie + 300 Eau -> 300 Hydrogène + 300 Oxygène
+-   Oxygène: Par électrolyse de l'eau. 1500 Énergie + 300 Eau -> 300 Hydrogène + 300 Oxygène
+-   Nourriture: Dans des usines: 500 Énergie + 500 Eau + 500 Composés organiques -> 1000 Nourriture
+-   Matériaux de construction: Plusieurs recettes possibles:
+    -   500 Énergie + 1000 Métaux légers -> 500 Matériaux de construction
+    -   500 Énergie + 500 Métaux légers + 500 Composés organiques -> 500 Matériaux de construction
+    -   500 Énergie + 1000 Composés organiques -> 500 Matériaux de construction
+-   Carburant:
+    -   300 Oxygène + 300 Hydrogène + 500 Énergie -> 1500 Carburant
+    -   300 Oxygène + 300 Hydrogène + 500 Métaux légers + 100 énergie -> 1500 Carburant
+-   Composants électroniques:
+    -   500 Métaux Nobles + 1000 Métaux Légers + 1500 Énergie -> 500 Composants
 
 ####  Autres
 
-    -   Travail: pour chaque habitant: 100 Nourriture + 100 Oxygène -> 500 Travail.
-    -   Énergie: Plusieurs recettes possibles selon le type d'installation
-        -   300 Oxygène + 300 Hydrogène -> 1000 Énergie + 300 Eau (électrolyse inverse)
-        -   Rien -> X Énergie (centrale solaire, X est déterminé par l'exposition solaire du corps céleste à travers sa distance au soleil)
-        -   500 Isotope Fissile -> 2500 Énergie (centrale à fission nucléaire)
-        -   400 Hydrogène -> 10 000 énergie (centrale à fusion nucléaire)
-        -   500 Carburant -> 600 Énergie (centrale thermique classique)
-
-
-
+-   Travail: pour chaque habitant: 100 Nourriture + 100 Oxygène -> 500 Travail.
+-   Énergie: Plusieurs recettes possibles selon le type d'installation
+    -   300 Oxygène + 300 Hydrogène -> 1000 Énergie + 300 Eau (électrolyse inverse)
+    -   Rien -> X Énergie (centrale solaire, X est déterminé par l'exposition solaire du corps céleste à travers sa distance au soleil)
+    -   500 Isotope Fissile -> 2500 Énergie (centrale à fission nucléaire)
+    -   400 Hydrogène -> 10 000 énergie (centrale à fusion nucléaire)
+    -   500 Carburant -> 600 Énergie (centrale thermique classique)
 
 ## Corps célestes
 
 Les corps célestes sont là où les organisations extraient leurs ressources.
 Ces objets, normalement en mouvement sont ici considérés comme fixe du point de vue de la distance entre ceux ci pour les usages du jeu (en particulier les vaisseau de commerce et leur consommation de carburant).
 
-
-
-
 ### Fonctionnement d'un corps céleste
 
 Chaque corps céleste est constitué de cases hexagonales composant la carte de celui ci. Chacune de ces cases peut être acquise par une organisation pour exploitation. Sur ces cases sont accessibles des gisement de matière première: eau, métaux légers et nobles, fissiles, organiques. Chaque case peut contenir un bâtiment de l'organisation qui possède cette case.
 La production d'énergie solaire est la même sur chaque case d'un corps céleste et dépend uniquement de la distance de ce corps au soleil.
 
-
-
-
 ### Acquisition des cases
 
 Durant chaque tour, les organisations peuvent miser une certaine somme d'argent sur les cases non acquises. En fin de tour, si une seule organisation a misé sur une case, elle l'obtient gratuitement, dans le cas où plusieurs organisations ont misé pour acquérir la case, l'organisation ayant misé le plus débourse la 2e mise la plus haute et obtient la propriété de la case.
-
-
-
 
 ### Corps du système solaire
 
@@ -554,38 +531,20 @@ Les différents corps du système solaire accessibles sont:
 - Vesta (7 cases, exposition solaire nulle)
 - Terra (pas de surface exploitable)
 
-
-
-
 ### Distances entre corps du système solaire
 
 [TODO](/ideas-celestial-map/)
 
-
-
 ## Bâtiments
 TODO
 
-
-
 ### La construction d'un bâtiment
-
-
-
 
 ### La destruction d'un bâtiment
 
-
-
-
 ### Les différents bâtiments
 
-
-
-
 ## Projets
-
-
 
 ### Fonctionnement général
 
@@ -604,69 +563,66 @@ Pour un projet compétitif, seul la première organisation à compléter le proj
 
 Pour les projets coopératifs, si plus d'étapes que nécessaire ont été réalisées, lors de la résolution, on applique les contributions des organisations par ordre de nombre d'étapes décroissante, et dès qu'on dépasse on annule les contributions suivantes (qui ne sont plus nécessaires).
 
-
-
-
 ### Liste des projets
 
 #### Projets objectifs
 
 ##### Télescope gravitationnel géant - conception
 
-        -   Nombre d'étapes: 4
-        -   Projet collaboratif
-        -   Coût de chaque étape: 1500 énergie, 1500 travail, 500 composants électroniques
-        -   Effet: débloque le projet "Télescope gravitationnel géant - construction"
-        -   Description: Conception d'un immense télescope gravitationnel à effet de lentille en orbite.
+-   Nombre d'étapes: 4
+-   Projet collaboratif
+-   Coût de chaque étape: 1500 énergie, 1500 travail, 500 composants électroniques
+-   Effet: débloque le projet "Télescope gravitationnel géant - construction"
+-   Description: Conception d'un immense télescope gravitationnel à effet de lentille en orbite.
         
-        ##### Télescope gravitationnel géant - construction
+##### Télescope gravitationnel géant - construction
         
-        -   Débloqué par un autre projet: Télescope gravitationnel géant - conception
-        -   Nombre d'étapes: 16
-        -   Projet compétitif
-        -   Coût de chaque étape: 500 Travail 2000 énergie, 2000 matériaux de construction, 1500 composants électroniques, 500 métaux nobles, 1000 métaux légers, 2000 Carburant
-        -   Effet: Fournit le trait "télescope gravitationnel" à l'organisation qui réalise ce projet.
-        -   Description: Transformation d'un astéroïde en télescope gravitationnel géant et ajustement de son orbite.
+-   Débloqué par un autre projet: Télescope gravitationnel géant - conception
+-   Nombre d'étapes: 16
+-   Projet compétitif
+-   Coût de chaque étape: 500 Travail 2000 énergie, 2000 matériaux de construction, 1500 composants électroniques, 500 métaux nobles, 1000 métaux légers, 2000 Carburant
+-   Effet: Fournit le trait "télescope gravitationnel" à l'organisation qui réalise ce projet.
+-   Description: Transformation d'un astéroïde en télescope gravitationnel géant et ajustement de son orbite.
         
-        ##### Vaisseau générationnel - conception
+##### Vaisseau générationnel - conception
         
-        -   Nombre d'étapes: 7
-        -   Projet collaboratif
-        -   Coût de chaque étape: 1500 énergie, 1500 travail, 500 composants électroniques
-        -   Effet: débloque le projet "Vaisseau générationnel - construction"
-        -   Description: Conception d'un vaisseau générationnel pour un voyage interstellaire
+-   Nombre d'étapes: 7
+-   Projet collaboratif
+-   Coût de chaque étape: 1500 énergie, 1500 travail, 500 composants électroniques
+-   Effet: débloque le projet "Vaisseau générationnel - construction"
+-   Description: Conception d'un vaisseau générationnel pour un voyage interstellaire
         
-        ##### Vaisseau générationnel - construction
+##### Vaisseau générationnel - construction
         
-        -   Débloqué par un autre projet: Vaisseau générationnel - conception
-        -   Nombre d'étapes: 26
-        -   Projet collaboratif
-        -   Coût de chaque étape: 3000 Travail 3000 énergie, 5000 matériaux de construction, 2500 composants électroniques, 1500 métaux nobles, 5000 métaux légers, 1000 Carburant, 5000 Isotopes fissiles, 5000 Composés organiques
-        -   Effet: Fournit le trait "vaisseau générationnel" à chaque organisation réalisant au moins 3 étapes.
-        -   Description: Construction d'un vaisseau générationnel pour le voyage interstellaire.
+-   Débloqué par un autre projet: Vaisseau générationnel - conception
+-   Nombre d'étapes: 26
+-   Projet collaboratif
+-   Coût de chaque étape: 3000 Travail 3000 énergie, 5000 matériaux de construction, 2500 composants électroniques, 1500 métaux nobles, 5000 métaux légers, 1000 Carburant, 5000 Isotopes fissiles, 5000 Composés organiques
+-   Effet: Fournit le trait "vaisseau générationnel" à chaque organisation réalisant au moins 3 étapes.
+-   Description: Construction d'un vaisseau générationnel pour le voyage interstellaire.
         
-        ##### Habitat orbital - conception
+##### Habitat orbital - conception
         
-        -   Nombre d'étapes: 3
-        -   Projet collaboratif
-        -   Coût de chaque étape: 1500 énergie, 1500 travail, 500 composants électroniques
-        -   Effet: débloque le projet "Habitat orbital - construction"
-        -   Description: Conception d'un habitat en orbite accueillant des centaines de milliers de personnes.
+-   Nombre d'étapes: 3
+-   Projet collaboratif
+-   Coût de chaque étape: 1500 énergie, 1500 travail, 500 composants électroniques
+-   Effet: débloque le projet "Habitat orbital - construction"
+-   Description: Conception d'un habitat en orbite accueillant des centaines de milliers de personnes.
         
-        ##### Habitat orbital - construction
+##### Habitat orbital - construction
         
-        -   Débloqué par un autre projet: Habitat orbital - conception
-        -   Une version disponible pour chaque corps du système solaire
-        -   Nombre d'étapes: 12
-        -   Projet collaboratif
-        -   Coût de chaque étape: 2000 Travail, 2000 énergie, 2000 matériaux de construction, 2000 composants électroniques, 1000 métaux nobles, 2000 métaux légers, 1000 carburant, 1000 composés organiques
-        -   Effet: Distribution de 100 000 unités d'argent entre les organisations ayant participé. Ces fonds sont pris dans les caisses de la ville. Augmentation du niveau de la ville d'une unité. Autorise le passage de la ville au niveau métropole.
-        -   Description: Construction en orbite d'un corps céleste d'un module d'habitation étendant la ville présente à la surface.
+-   Débloqué par un autre projet: Habitat orbital - conception
+-   Une version disponible pour chaque corps du système solaire
+-   Nombre d'étapes: 12
+-   Projet collaboratif
+-   Coût de chaque étape: 2000 Travail, 2000 énergie, 2000 matériaux de construction, 2000 composants électroniques, 1000 métaux nobles, 2000 métaux légers, 1000 carburant, 1000 composés organiques
+-   Effet: Distribution de 100 000 unités d'argent entre les organisations ayant participé. Ces fonds sont pris dans les caisses de la ville. Augmentation du niveau de la ville d'une unité. Autorise le passage de la ville au niveau métropole.
+-   Description: Construction en orbite d'un corps céleste d'un module d'habitation étendant la ville présente à la surface.
         
 
 ####  Projets en lien avec la Terre
 
-    Voir la section suivante.
+Voir la section suivante.
 
 #### [Autres idées (TODO)](/ideas-projects/)
 
@@ -679,8 +635,6 @@ Pour chacune de ces régions, l'activité humaine y est représentée par trois 
 L'activité humaine sur terre alimente une piste de pollution mondiale qui dérègle le climat.
 Le dérèglement du climat est représenté par un ensemble de cartes événements, chacune ayant un impact négatif sur l'activité humaine. Lors de chaque tour, on tire un ensemble de cartes événement dans ce paquet et on résout les effets de ceux ci sur l'activité humaine. Le nombre de cartes et les effets des événements augmentent avec l'importance du dérèglement climatique. En plus du dérèglement climatique, la terre doit faire face à une montée du niveau de la mer dont le rythme peut être chaotique et les effets dévastateurs.
 Les joueurs peuvent, via les organisations qu'ils contrôlent, interagir avec la terre de plusieurs manières: fournir des ressources en échange de financement (mais pas en acheter, à cause du coût de mise en orbite), investir dans les activités sur terre ou participer à la dépollution, la transition et la protections des infrastructures et populations des régions de la terre. Cette interaction peut se faire pour aider l'humanité sur terre, ou bien simplement pour des intérêts extérieurs à la terre (commerce, investissement local, objectifs des joueurs).
-
-
 
 ### Activité humaine dans les régions de la Terre
 
@@ -699,173 +653,173 @@ Le niveau de protection agit de manière complémentaire en réduisant l'exposit
 
 ####  Liens entre régions
 
-    Les différentes activités humaines d'une même région ou entre région peuvent avoir des liens de dépendance mutuelle ou de compétition entre elles.
-    Si deux pistes ont un lien de dépendance mutuelle entre elles, lorsque l'une d'elle augmente d'un niveau (respectivement baisse d'un niveau) la jauge d'évolution de l'autre augmente de 3 niveaux (respectivement baisse de 3 niveaux).
-    Si deux pistes ont un lien de compétition entre elles, lorsque l'une d'elle augmente d'un niveau (respectivement diminue d'un niveau) la jauge d'évolution de l'autre diminue de 3 niveaux (respectivement diminue de 3 niveaux).
-    Dans une relation de compétition les variations sont en sens inverse, dans une relation de dépendance mutuelle elles sont dans le même sens.
+Les différentes activités humaines d'une même région ou entre région peuvent avoir des liens de dépendance mutuelle ou de compétition entre elles.
+Si deux pistes ont un lien de dépendance mutuelle entre elles, lorsque l'une d'elle augmente d'un niveau (respectivement baisse d'un niveau) la jauge d'évolution de l'autre augmente de 3 niveaux (respectivement baisse de 3 niveaux).
+Si deux pistes ont un lien de compétition entre elles, lorsque l'une d'elle augmente d'un niveau (respectivement diminue d'un niveau) la jauge d'évolution de l'autre diminue de 3 niveaux (respectivement diminue de 3 niveaux).
+Dans une relation de compétition les variations sont en sens inverse, dans une relation de dépendance mutuelle elles sont dans le même sens.
     
-    Au sein d'une même région il y a toujours un lien de dépendance mutuelle entre la population et l'industrie et entre la population et l'agriculture.
-    Chaque piste de population a une chance sur 4 d'avoir un lien de compétition avec une autre piste de population d'une autre région. Ceci représente les mouvement migratoires. Ces liens sont déterminés en début de partie.
-    Chaque piste d'agriculture a une chance sur 4 d'avoir un lien de dépendance mutuelle avec une autre piste d'agriculture d'une autre région. Ces liens sont déterminés en début de partie.
-    Chaque piste d'industrie a une chance sur 4 d'avoir un lien avec une autre piste d'industrie d'une autre région. Ce lien est choisi aléatoirement entre dépendance mutuelle et compétition. Ces liens sont déterminés en début de partie.
+Au sein d'une même région il y a toujours un lien de dépendance mutuelle entre la population et l'industrie et entre la population et l'agriculture.
+Chaque piste de population a une chance sur 4 d'avoir un lien de compétition avec une autre piste de population d'une autre région. Ceci représente les mouvement migratoires. Ces liens sont déterminés en début de partie.
+Chaque piste d'agriculture a une chance sur 4 d'avoir un lien de dépendance mutuelle avec une autre piste d'agriculture d'une autre région. Ces liens sont déterminés en début de partie.
+Chaque piste d'industrie a une chance sur 4 d'avoir un lien avec une autre piste d'industrie d'une autre région. Ce lien est choisi aléatoirement entre dépendance mutuelle et compétition. Ces liens sont déterminés en début de partie.
 
 ####  Interaction des organisations avec la terre
 
-    Les organisations contrôlées par les joueurs peuvent interagir avec la terre avec l'objectif de modifier l'état de celle ci, ou bien simplement pour en tirer un avantage matériel. Cette interaction se fait sous quatre formes: le commerce, l'investissement, l'implication politique et la participation à des projets, .
+Les organisations contrôlées par les joueurs peuvent interagir avec la terre avec l'objectif de modifier l'état de celle ci, ou bien simplement pour en tirer un avantage matériel. Cette interaction se fait sous quatre formes: le commerce, l'investissement, l'implication politique et la participation à des projets, .
     
-    ##### Commerce avec la Terre
+##### Commerce avec la Terre
     
-        Les organisations contrôlées par les joueurs peuvent vendre à la terre des ressources. Il est par contre impossible d'en acheter en raison du coût énergétique trop important pour acheminer ces ressources en orbite.
-        Le prix d'achat de ces ressource est déterminé par la quantité de ressources vendues récemment et la somme des niveaux des pistes humaines de chaque réion.
+Les organisations contrôlées par les joueurs peuvent vendre à la terre des ressources. Il est par contre impossible d'en acheter en raison du coût énergétique trop important pour acheminer ces ressources en orbite.
+Le prix d'achat de ces ressource est déterminé par la quantité de ressources vendues récemment et la somme des niveaux des pistes humaines de chaque réion.
         
-        Le niveaux des pistes humaines fixe un prix de repos. Chaque unité de ressource vendue fait baisser ce prix d'1%. Chaque ressources achetée pour des projets locaux fait monter ce prix d'1%.
+Le niveaux des pistes humaines fixe un prix de repos. Chaque unité de ressource vendue fait baisser ce prix d'1%. Chaque ressources achetée pour des projets locaux fait monter ce prix d'1%.
         
-        Cette variation a lieu en fin de tour, après la vente et l'achat des ressources sur la base de la balance nette de ressources vendues et achetées. Avant la variation due au commerce, le prix de chaque ressource se rapproche de son prix de repos en parcourant 1/3 de la distance à celui ci.
+Cette variation a lieu en fin de tour, après la vente et l'achat des ressources sur la base de la balance nette de ressources vendues et achetées. Avant la variation due au commerce, le prix de chaque ressource se rapproche de son prix de repos en parcourant 1/3 de la distance à celui ci.
         
-        Il est possible d'y vendre les ressources suivantes:
+Il est possible d'y vendre les ressources suivantes:
         
-        -   Nourriture prix de repos = $10 \times \left(1+\frac{Population}{1+2\times Agriculture}\right)$
-        -   Métaux nobles prix de repos = $30 \times \left(1+\frac{Population}{1+2\times Industrie}\right)$
-        -   Métaux légers prix de repos = $10 \times \left(1+\frac{Population}{1+3\times Industrie}\right)$
-        -   Composants électroniques prix de repos = $40 \times \left(1+\frac{Population}{1 + 4 \times Industrie}\right)$
+-   Nourriture prix de repos = $10 \times \left(1+\frac{Population}{1+2\times Agriculture}\right)$
+-   Métaux nobles prix de repos = $30 \times \left(1+\frac{Population}{1+2\times Industrie}\right)$
+-   Métaux légers prix de repos = $10 \times \left(1+\frac{Population}{1+3\times Industrie}\right)$
+-   Composants électroniques prix de repos = $40 \times \left(1+\frac{Population}{1 + 4 \times Industrie}\right)$
         
-        ##### Investissement et influence politique sur les régions
+##### Investissement et influence politique sur les régions
         
-        Chaque organisation peu choisir d'investir dans les filières agricoles et industrielles d'un région. Cet investissement va augmenter de 1 la jauge d'évolution de la filière. Chaque région garde en mémoire les investissement passés d'une organisation via un niveau d'influence de l'organisation qui progresse d'un pour chaque investissement.
+Chaque organisation peu choisir d'investir dans les filières agricoles et industrielles d'un région. Cet investissement va augmenter de 1 la jauge d'évolution de la filière. Chaque région garde en mémoire les investissement passés d'une organisation via un niveau d'influence de l'organisation qui progresse d'un pour chaque investissement.
         
-        Une organisation peut, pour une action, investir  autant de fois qu'elle le souhaite dans une région donnée, sous réserve de paiement du coût de cet investissement.
-        En fin de tour, les régions de la terre vont distribuer des éventuels bénéfices aux organisations ayant investi. Ces bénéfices sont égaux à la somme des agricultures et industries de toutes les régions, moins la somme de toutes les populations, multiplié par 1000 et répartis uniformément entre les organisations, en proportion de leur niveau d'influence. Si cette valeur est négative, les bénéfices distribués sont nuls.
+Une organisation peut, pour une action, investir  autant de fois qu'elle le souhaite dans une région donnée, sous réserve de paiement du coût de cet investissement.
+En fin de tour, les régions de la terre vont distribuer des éventuels bénéfices aux organisations ayant investi. Ces bénéfices sont égaux à la somme des agricultures et industries de toutes les régions, moins la somme de toutes les populations, multiplié par 1000 et répartis uniformément entre les organisations, en proportion de leur niveau d'influence. Si cette valeur est négative, les bénéfices distribués sont nuls.
         
-        En plus de fournir des bénéfices, le niveau d'influence débloque l'accès à certains projets de nature plus politique (décroissance de la population, de l'industrie ou de l'agriculture).
+En plus de fournir des bénéfices, le niveau d'influence débloque l'accès à certains projets de nature plus politique (décroissance de la population, de l'industrie ou de l'agriculture).
         
-        Chaque investissement dans une région coûte:
+Chaque investissement dans une région coûte:
         
-        -   Pour l'agriculture, 20\*(1 + (le niveau atteint par la jauge d'évolution de la piste (en valeur absolue) après investissement)) métaux légers et 5 composants électroniques, achetés au prix du marché sur terre.
-        -   Pour l'industrie, 20\*(1 + (le niveau atteint par la jauge d'évolution de la piste (en valeur absolue) après investissement)) métaux nobles et composants électroniques, achetés au prix du marché sur terre.
+-   Pour l'agriculture, 20\*(1 + (le niveau atteint par la jauge d'évolution de la piste (en valeur absolue) après investissement)) métaux légers et 5 composants électroniques, achetés au prix du marché sur terre.
+-   Pour l'industrie, 20\*(1 + (le niveau atteint par la jauge d'évolution de la piste (en valeur absolue) après investissement)) métaux nobles et composants électroniques, achetés au prix du marché sur terre.
         
-        Il est aussi possible, pour une action de:
+Il est aussi possible, pour une action de:
         
-        -   Réduire de 1 le niveau de la population (sans passer sous la valeur 1) si cette diminution ne provoque pas une réduction de l'industrie ou de l'agriculture. Cette actions remet à 0 le nombre de jetons d'évolution de la piste population, ne modifie pas la jauge d'évolution sur les autres pistes éventuellement liées et divise par 2 l'influence de l'organisation qui la conduit dans la région considérée. Une influence en 15 au moins est nécessaire pour organiser une telle action.
-        -   Faire de même pour le niveau d'agriculture ou d'industrie. Dans ce cas, aucune contrainte ne s'applique vis à vis des niveaux des autres pistes et les jetons de dégâts sont bien propagés aux pistes liées. Toute l'influence de l'organisation dans la région est perdue. Une influence de 10 au moins est nécessaire pour organiser une telle action. Cette action modifie bien la jauge d'évolution sur les autres pistes éventuellement liées.
+-   Réduire de 1 le niveau de la population (sans passer sous la valeur 1) si cette diminution ne provoque pas une réduction de l'industrie ou de l'agriculture. Cette actions remet à 0 le nombre de jetons d'évolution de la piste population, ne modifie pas la jauge d'évolution sur les autres pistes éventuellement liées et divise par 2 l'influence de l'organisation qui la conduit dans la région considérée. Une influence en 15 au moins est nécessaire pour organiser une telle action.
+-   Faire de même pour le niveau d'agriculture ou d'industrie. Dans ce cas, aucune contrainte ne s'applique vis à vis des niveaux des autres pistes et les jetons de dégâts sont bien propagés aux pistes liées. Toute l'influence de l'organisation dans la région est perdue. Une influence de 10 au moins est nécessaire pour organiser une telle action. Cette action modifie bien la jauge d'évolution sur les autres pistes éventuellement liées.
         
-        ##### Projets régionaux
+##### Projets régionaux
         
-        En plus des interactions individuelles des organisations dans les régions de la terre, ces régions organisent leur transition via la mise en place de projets coopératifs accessibles à toutes les organisations. Ces projets n'ont pas d'influence directe sur les niveaux des pistes, mais ont un coût indexé sur les prix des ressources locales.
-        Chacun de ces projets est relancé dès sa completion.
+En plus des interactions individuelles des organisations dans les régions de la terre, ces régions organisent leur transition via la mise en place de projets coopératifs accessibles à toutes les organisations. Ces projets n'ont pas d'influence directe sur les niveaux des pistes, mais ont un coût indexé sur les prix des ressources locales.
+Chacun de ces projets est relancé dès sa completion.
         
-        1.  Transition de l'agriculture
+######  Transition de l'agriculture
         
-            -   Nombre d'étapes: 20
-            -   Projet collaboratif
-            -   Coût de chaque étape: (1+\text{Niveau actuel de transition})$\times$(\text{400 métaux légers + 100 composants électroniques + 100 métaux nobles})\
-            -   Effet: augmente de 1 le niveau de transition de la piste considérée.
-            -   Description: Changement dans les techniques agricoles pour réduire les effets sur l'environnement
+-   Nombre d'étapes: 20
+-   Projet collaboratif
+-   Coût de chaque étape: (1+\text{Niveau actuel de transition})$\times$(\text{400 métaux légers + 100 composants électroniques + 100 métaux nobles})
+-   Effet: augmente de 1 le niveau de transition de la piste considérée.
+-   Description: Changement dans les techniques agricoles pour réduire les effets sur l'environnement
         
-        2.  Transition de l'industrie
+######  Transition de l'industrie
         
-            -   Nombre d'étapes: 20
-            -   Projet collaboratif
-            -   Coût de chaque étape: (1+Niveau actuel de transition)$\times$(100 métaux légers + 500 composants électroniques + 500 métaux nobles)
-            -   Effet: augmente de 1 le niveau de transition de la piste considérée.
-            -   Description: Changement dans les techniques industrielles pour réduire les effets sur l'environnement
+-   Nombre d'étapes: 20
+-   Projet collaboratif
+-   Coût de chaque étape: (1+Niveau actuel de transition)$\times$(100 métaux légers + 500 composants électroniques + 500 métaux nobles)
+-   Effet: augmente de 1 le niveau de transition de la piste considérée.
+-   Description: Changement dans les techniques industrielles pour réduire les effets sur l'environnement
         
-        3.  Protection de l'agriculture
+######  Protection de l'agriculture
         
-            -   Nombre d'étapes: 15
-            -   Projet collaboratif
-            -   Coût de chaque étape: (1+Niveau actuel de protection)$\times$(700 métaux légers + 100 composants électroniques + 100 métaux nobles)
-            -   Effet: augmente de 1 le niveau de protection de la piste considérée. Distribue 10 d'influence dans la région répartis entre les participants, en proportion de la participation avec un minimum de 1 par participant
-            -   Description: Protection des infrastructures agricoles pour réduire leur exposition aux éléments.
+-   Nombre d'étapes: 15
+-   Projet collaboratif
+-   Coût de chaque étape: (1+Niveau actuel de protection)$\times$(700 métaux légers + 100 composants électroniques + 100 métaux nobles)
+-   Effet: augmente de 1 le niveau de protection de la piste considérée. Distribue 10 d'influence dans la région répartis entre les participants, en proportion de la participation avec un minimum de 1 par participant
+-   Description: Protection des infrastructures agricoles pour réduire leur exposition aux éléments.
         
-        4.  Protection de l'industrie
+######  Protection de l'industrie
         
-            -   Nombre d'étapes: 15
-            -   Projet collaboratif
-            -   Coût de chaque étape: (1+Niveau actuel de protection)$\times$(500 métaux légers + 300 composants électroniques + 100 métaux nobles)
-            -   Effet: augmente de 1 le niveau de protection de la piste considérée. Distribue 10 d'influence dans la région répartis entre les participants, en proportion de la participation avec un minimum de 1 par participant
-            -   Description: Protection des infrastructures industrielles pour réduire leur exposition aux éléments.
+-   Nombre d'étapes: 15
+-   Projet collaboratif
+-   Coût de chaque étape: (1+Niveau actuel de protection)$\times$(500 métaux légers + 300 composants électroniques + 100 métaux nobles)
+-   Effet: augmente de 1 le niveau de protection de la piste considérée. Distribue 10 d'influence dans la région répartis entre les participants, en proportion de la participation avec un minimum de 1 par participant
+-   Description: Protection des infrastructures industrielles pour réduire leur exposition aux éléments.
         
-        5.  Protection de la population
+######  Protection de la population
         
-            -   Nombre d'étapes: 25
-            -   Projet collaboratif
-            -   Coût de chaque étape: (1+Niveau actuel de protection)$\times$(1500 métaux légers + 1000 composants électroniques + 500 métaux nobles)
-            -   Effet: augmente de 1 le niveau de protection de la piste considérée. Distribue 20 d'influence dans la région répartis entre les participants, en proportion de la participation avec un minimum de 1 par participant
-            -   Description: Protection des infrastructures industrielles pour réduire leur exposition aux éléments.
+-   Nombre d'étapes: 25
+-   Projet collaboratif
+-   Coût de chaque étape: (1+Niveau actuel de protection)$\times$(1500 métaux légers + 1000 composants électroniques + 500 métaux nobles)
+-   Effet: augmente de 1 le niveau de protection de la piste considérée. Distribue 20 d'influence dans la région répartis entre les participants, en proportion de la participation avec un minimum de 1 par participant
+-   Description: Protection des infrastructures industrielles pour réduire leur exposition aux éléments.
             
-            ##### Projets globaux
+##### Projets globaux
             
-        Les régions coordonnent les efforts de lutte contre le changement climatique au niveau mondial, ouvrant aux organisation la participation à certains projets à cette échelle.
+Les régions coordonnent les efforts de lutte contre le changement climatique au niveau mondial, ouvrant aux organisation la participation à certains projets à cette échelle.
         
-        1.  Dépollution
+######  Dépollution
         
-            -   Nombre d'étapes: 50
-            -   Projet collaboratif
-            -   Coût de chaque étape: (101-Niveau actuel de pollution)/10\*(500 métaux légers + 1 composants électroniques + 500 métaux nobles)
-            -   Effet: diminue de 1 le niveau de pollution mondial. Distribue 5 d'influence dans chaque région répartis entre les participants de manière aléatoire. Augmente de 25 niveaux au total les jauges d'évolution, es jauges augmentées sont choisies au hasard.
-            -   Description: Extraction du CO2 de l'atmosphère et des déchets divers de l'environnement. Relancé à chaque completion.
+-   Nombre d'étapes: 50
+-   Projet collaboratif
+-   Coût de chaque étape: (101-Niveau actuel de pollution)/10\*(500 métaux légers + 1 composants électroniques + 500 métaux nobles)
+-   Effet: diminue de 1 le niveau de pollution mondial. Distribue 5 d'influence dans chaque région répartis entre les participants de manière aléatoire. Augmente de 25 niveaux au total les jauges d'évolution, es jauges augmentées sont choisies au hasard.
+-   Description: Extraction du CO2 de l'atmosphère et des déchets divers de l'environnement. Relancé à chaque completion.
         
-        2.  Système d'observation et de contrôle climatique - conception
+######  Système d'observation et de contrôle climatique - conception
         
-            -   Prérequis: Technologie régulation climatique
-            -   Nombre d'étapes: 5
-            -   Projet collaboratif
-            -   Coût de chaque étape: (500 métaux légers + 500 composants électroniques + 100 métaux nobles)
-            -   Effet: débloque le projet Système d'observation et de contrôle climatique - construction. Distribue 5 points d'influence par régions, répartis au hasard.
-            -   Description: Conception d'un réseau de stations et de modèles pour modéliser, prédire et contrôler le climat et la météo.
+-   Prérequis: Technologie régulation climatique
+-   Nombre d'étapes: 5
+-   Projet collaboratif
+-   Coût de chaque étape: (500 métaux légers + 500 composants électroniques + 100 métaux nobles)
+-   Effet: débloque le projet Système d'observation et de contrôle climatique - construction. Distribue 5 points d'influence par régions, répartis au hasard.
+-   Description: Conception d'un réseau de stations et de modèles pour modéliser, prédire et contrôler le climat et la météo.
         
-        3.  Système d'observation et de contrôle climatique - construction
+######  Système d'observation et de contrôle climatique - construction
         
-            -   Prérequis: Système d'observation et de contrôle climatique - conception
-            -   Nombre d'étapes: 20
-            -   Projet collaboratif
-            -   Coût de chaque étape: (1500 métaux légers + 1500 composants électroniques + 500 métaux nobles)
-            -   Effet: Lors de la résolution des événement climatiques, chaque jeton de dégât a 5% de chance d'être annulé. Distribue 15 points d'influence par région, répartis au hasard. Augmente de 50 niveaux au total les jauges d'évolution des pistes terrestres, les jauges augmentées sont choisies au hasard.
-            -   Description: Construction d'un réseau de stations et de modèles pour modéliser, prédire et contrôler le climat et la météo.
+-   Prérequis: Système d'observation et de contrôle climatique - conception
+-   Nombre d'étapes: 20
+-   Projet collaboratif
+-   Coût de chaque étape: (1500 métaux légers + 1500 composants électroniques + 500 métaux nobles)
+-   Effet: Lors de la résolution des événement climatiques, chaque jeton de dégât a 5% de chance d'être annulé. Distribue 15 points d'influence par région, répartis au hasard. Augmente de 50 niveaux au total les jauges d'évolution des pistes terrestres, les jauges augmentées sont choisies au hasard.
+-   Description: Construction d'un réseau de stations et de modèles pour modéliser, prédire et contrôler le climat et la météo.
         
-        4.  Stabilisation climatique
+######  Stabilisation climatique
         
-            -   Prérequis: Système d'observation et de contrôle climatique.
-            -   Nombre d'étapes: 30
-            -   Projet collaboratif
-            -   Coût de chaque étape: (1000 métaux légers + 1000 composants électroniques + 1000 métaux nobles)
-            -   Effet: Réduisez de 1 le nombre d'événement climatiques piochés à chaque tour. Distribue 5 d'influence dans chaque région répartie entre les participants de manière aléatoire.
-            -   Description: Stabilisation des sous systèmes régulant le climat sur terre. Reconduit à chaque completion.
+-   Prérequis: Système d'observation et de contrôle climatique.
+-   Nombre d'étapes: 30
+-   Projet collaboratif
+-   Coût de chaque étape: (1000 métaux légers + 1000 composants électroniques + 1000 métaux nobles)
+-   Effet: Réduisez de 1 le nombre d'événement climatiques piochés à chaque tour. Distribue 5 d'influence dans chaque région répartie entre les participants de manière aléatoire.
+-   Description: Stabilisation des sous systèmes régulant le climat sur terre. Reconduit à chaque completion.
         
-        5.  Régulation des événements climatiques extrêmes
+######  Régulation des événements climatiques extrêmes
         
-            -   Prérequis: Technologie régulation climatique
-            -   Nombre d'étapes: 30
-            -   Projet collaboratif
-            -   Coût de chaque étape: (1000 métaux légers + 1000 composants électroniques + 1000 métaux nobles)
-            -   Effet: Diminuez de 1 le niveau d'un des événement au hasard dans l'ensemble de ceux disponibles. Distribue 5 d'influence dans chaque région répartie entre les participants de manière aléatoire.
-            -   Description: Prévention des conditions de formation des événement extrêmes. Reconduit à chaque complétion, avec un événement au hasard comme cible.
+-   Prérequis: Technologie régulation climatique
+-   Nombre d'étapes: 30
+-   Projet collaboratif
+-   Coût de chaque étape: (1000 métaux légers + 1000 composants électroniques + 1000 métaux nobles)
+-   Effet: Diminuez de 1 le niveau d'un des événement au hasard dans l'ensemble de ceux disponibles. Distribue 5 d'influence dans chaque région répartie entre les participants de manière aléatoire.
+-   Description: Prévention des conditions de formation des événement extrêmes. Reconduit à chaque complétion, avec un événement au hasard comme cible.
         
-        6.  Reconstruction des calottes glaciaires
+######  Reconstruction des calottes glaciaires
         
-            -   Prérequis: Un niveau de pollution de 5 ou moins.
-            -   Nombre d'étapes: 50
-            -   Projet collaboratif
-            -   Coût de chaque étape: (1000 métaux légers + 500 composants électroniques + 100 métaux nobles)
-            -   Effet: Diminuez de 1 Diminuez de 1 le niveau de la mer. Distribue 5 d'influence dans chaque région répartie entre les participants de manière aléatoire.
-            -   Description: Les calotte glaciaire sont reformées par congélation de l'eau liquide.
+-   Prérequis: Un niveau de pollution de 5 ou moins.
+-   Nombre d'étapes: 50
+-   Projet collaboratif
+-   Coût de chaque étape: (1000 métaux légers + 500 composants électroniques + 100 métaux nobles)
+-   Effet: Diminuez de 1 Diminuez de 1 le niveau de la mer. Distribue 5 d'influence dans chaque région répartie entre les participants de manière aléatoire.
+-   Description: Les calotte glaciaire sont reformées par congélation de l'eau liquide.
         
-        7.  Campagne de dépollution avancée
+######  Campagne de dépollution avancée
         
-            -   Nombre d'étapes: 50
-            -   Projet collaboratif
-            -   Effet: permet au niveau de pollution mondiale de diminuer à la dizaine inférieure. Distribue 5 d'influence dans chaque région.
-            -   Coût de chaque étape: (5000 métaux légers + 2500 composants électroniques + 5000 métaux nobles)
-            -   Description: Passe dans l'autre sens une limite planétaire.
+-   Nombre d'étapes: 50
+-   Projet collaboratif
+-   Effet: permet au niveau de pollution mondiale de diminuer à la dizaine inférieure. Distribue 5 d'influence dans chaque région.
+-   Coût de chaque étape: (5000 métaux légers + 2500 composants électroniques + 5000 métaux nobles)
+-   Description: Passe dans l'autre sens une limite planétaire.
         
-        8.  Réseau de contrôle météorologique
+######  Réseau de contrôle météorologique
         
-            -   Prérequis: Technologie régulation climatique avancée
-            -   Nombre d'étapes: 6
-            -   Projet compétitif
-            -   Coût de chaque étape: (500 métaux légers + 500 composants électroniques + 500 métaux nobles)
-            -   Effet: Permet à l'organisation qui le contrôle, pour une action, de regarder les événements climatiques à venir et d'en annuler au plus un avec 50% de chances.
-            -   Description: Un réseau de station en orbite pour analyse et prévenir les événements climatiques à venir.
+-   Prérequis: Technologie régulation climatique avancée
+-   Nombre d'étapes: 6
+-   Projet compétitif
+-   Coût de chaque étape: (500 métaux légers + 500 composants électroniques + 500 métaux nobles)
+-   Effet: Permet à l'organisation qui le contrôle, pour une action, de regarder les événements climatiques à venir et d'en annuler au plus un avec 50% de chances.
+-   Description: Un réseau de station en orbite pour analyse et prévenir les événements climatiques à venir.
 
 
 
@@ -876,36 +830,36 @@ La dynamique du système climatique terrestre est alimentée uniquement par la p
 
 ####  Dynamique de la piste de pollution
 
-    L'activité agricole et industrielle de chacune des régions contribue à cette pollution et définit un niveau de repos de celle ci, entre 0 et 100. Ce niveau de repos est égal à la somme des niveaux des agricultures et industries des différentes régions de la terre, pondéré par le niveau de transition de ces industries et agricultures.
-    À chaque tour, le niveau de pollution évolue vers son niveau de repos de manière à réduire la distance entre le niveau actuel et le niveau de repos d'un tiers (avec une évolution minimum d'une unité). Cette évolution a lieu après la mise à jour des niveau d'activité humaines dans chacune des régions.
-    Chaque multiple de 20 du niveau de pollution bloque la descente du niveau de repos. Une fois ce niveau de repos passé au dessus d'un multiple de 20, il ne peut plus redescendre en dessous sans la réalisation d'un projet spécifique.
+L'activité agricole et industrielle de chacune des régions contribue à cette pollution et définit un niveau de repos de celle ci, entre 0 et 100. Ce niveau de repos est égal à la somme des niveaux des agricultures et industries des différentes régions de la terre, pondéré par le niveau de transition de ces industries et agricultures.
+À chaque tour, le niveau de pollution évolue vers son niveau de repos de manière à réduire la distance entre le niveau actuel et le niveau de repos d'un tiers (avec une évolution minimum d'une unité). Cette évolution a lieu après la mise à jour des niveau d'activité humaines dans chacune des régions.
+Chaque multiple de 20 du niveau de pollution bloque la descente du niveau de repos. Une fois ce niveau de repos passé au dessus d'un multiple de 20, il ne peut plus redescendre en dessous sans la réalisation d'un projet spécifique.
 
 ####  Effets de la pollution
 
-    Pour chaque augmentation d'un niveau de pollution complet, est choisi au hasard l'effet suivant:
+Pour chaque augmentation d'un niveau de pollution complet, est choisi au hasard l'effet suivant:
     
-    -   Augmentation du nombre de cartes événement à tirer à chaque tour.
-    -   Évolution défavorable d'un événement choisi au hasard dans l'ensemble de ceux déjà existants. Rien ne ne passe si tous sont déjà dans leur version la plus défavorable.
-    -   Augmentation de la fonte des glaces.
+-   Augmentation du nombre de cartes événement à tirer à chaque tour.
+-   Évolution défavorable d'un événement choisi au hasard dans l'ensemble de ceux déjà existants. Rien ne ne passe si tous sont déjà dans leur version la plus défavorable.
+-   Augmentation de la fonte des glaces.
     
-    Ces effets ne peuvent être déclenchés qu'une seule fois pour chaque niveau entier de pollution, tant que le niveau de repos de la pollution est au dessus du niveau concerné. Si le niveau de repos de la pollution devait baisser sous un niveau entier de pollution, les effets liés au passage de ce niveau de pollution pourraient être déclenchés à nouveau.
+Ces effets ne peuvent être déclenchés qu'une seule fois pour chaque niveau entier de pollution, tant que le niveau de repos de la pollution est au dessus du niveau concerné. Si le niveau de repos de la pollution devait baisser sous un niveau entier de pollution, les effets liés au passage de ce niveau de pollution pourraient être déclenchés à nouveau.
 
 ####  Dynamique du niveau de la mer
 
-    Le niveau de la mer est alimenté par la fontes des glaciers sur terres. Ceux ci sont au nombre de 4:
+Le niveau de la mer est alimenté par la fontes des glaciers sur terres. Ceux ci sont au nombre de 4:
     
-    -   Inlandsis Antarctique Oriental
-    -   Inlandsis Antarctique Occidental
-    -   Inlandsis du Groenland
-    -   Autres glaciers de terrestres.
+-   Inlandsis Antarctique Oriental
+-   Inlandsis Antarctique Occidental
+-   Inlandsis du Groenland
+-   Autres glaciers de terrestres.
     
-    Pour chacun de ces glaciers, on dispose d'un certain nombre de jetons. Quand ce nombre arrive à 10, le niveau de la mer augmente et on ajoute 8 de ces jetons répartis au hasard sur les 3 autres glaciers.
-    Lorsque la pollution déclenche la fonte des glaces, on place 8 jetons répartis au hasard entre les 4 glaciers.
-    Le niveau de la mer ne descend pas, sauf mention contraire.
+Pour chacun de ces glaciers, on dispose d'un certain nombre de jetons. Quand ce nombre arrive à 10, le niveau de la mer augmente et on ajoute 8 de ces jetons répartis au hasard sur les 3 autres glaciers.
+Lorsque la pollution déclenche la fonte des glaces, on place 8 jetons répartis au hasard entre les 4 glaciers.
+Le niveau de la mer ne descend pas, sauf mention contraire.
 
 ####  Effets du niveau de la mer
 
-    Lorsque le niveau de la mer augmente, on répartit 30 jetons de dégât au hasard entre les différents postes d'activité humaine des régions de la terre.
+Lorsque le niveau de la mer augmente, on répartit 30 jetons de dégât au hasard entre les différents postes d'activité humaine des régions de la terre.
 
 ####  Fonctionnement des événements climatiques
 
@@ -924,47 +878,44 @@ Une fois les événement résolus, on procède immédiatement au tirage des év�
 
 ##### Canicule
 
-        -   Niveau 1: Ajouter 2 jetons de dégâts à l'agriculture et 4 à la population d'une région. La région est choisie lors du tirage de la carte.
-        -   Niveau 2: Ajouter 3 jetons de dégâts à l'agriculture et 6 à la population de deux régions. Les régions sont choisies lors du tirage de la carte.
-        -   Niveau 3: Ajouter 4 jetons de dégâts à l'agriculture et 8 à la population de chaque région.
+-   Niveau 1: Ajouter 2 jetons de dégâts à l'agriculture et 4 à la population d'une région. La région est choisie lors du tirage de la carte.
+-   Niveau 2: Ajouter 3 jetons de dégâts à l'agriculture et 6 à la population de deux régions. Les régions sont choisies lors du tirage de la carte.
+-   Niveau 3: Ajouter 4 jetons de dégâts à l'agriculture et 8 à la population de chaque région.
         
-        ##### Chute de la bio diversité
+##### Chute de la bio diversité
         
-        -   Niveau 1: Ajouter 2 jetons de dégâts à l'agriculture et 2 à la population de deux régions. Les régions sont choisies lors du tirage de la carte.
-        -   Niveau 2: Ajouter 3 jetons de dégâts à l'agriculture et 3 à la population de chaque région.
-        -   Niveau 3: Ajouter 5 jetons de dégâts à l'agriculture, 5 à la population et 2 à l'industrie de chaque région.
+-   Niveau 1: Ajouter 2 jetons de dégâts à l'agriculture et 2 à la population de deux régions. Les régions sont choisies lors du tirage de la carte.
+-   Niveau 2: Ajouter 3 jetons de dégâts à l'agriculture et 3 à la population de chaque région.
+-   Niveau 3: Ajouter 5 jetons de dégâts à l'agriculture, 5 à la population et 2 à l'industrie de chaque région.
         
-        ##### Feux de forêt
+##### Feux de forêt
         
-        -   Niveau 1: Ajouter 3 jetons de dégâts à l'agriculture et 3 à l'industrie d'une région et un dixième de niveau de pollution. La région est choisie lors du tirage de la carte.
-        -   Niveau 2: Ajouter 5 jetons de dégâts à l'agriculture et 5 à l'industrie d'une région et un demi niveau de pollution. La région est choisie lors du tirage de la carte.
-        -   Niveau 3: Ajouter 2 jetons de dégâts à la population, 7 à l'agriculture et 7 à l'industrie d'une région et un niveau de pollution. La région est choisie lors du tirage de la carte.
+-   Niveau 1: Ajouter 3 jetons de dégâts à l'agriculture et 3 à l'industrie d'une région et un dixième de niveau de pollution. La région est choisie lors du tirage de la carte.
+-   Niveau 2: Ajouter 5 jetons de dégâts à l'agriculture et 5 à l'industrie d'une région et un demi niveau de pollution. La région est choisie lors du tirage de la carte.
+-   Niveau 3: Ajouter 2 jetons de dégâts à la population, 7 à l'agriculture et 7 à l'industrie d'une région et un niveau de pollution. La région est choisie lors du tirage de la carte.
         
-        ##### Vague de froid
+##### Vague de froid
         
-        -   Niveau 1: Ajouter 2 jetons de dégâts à l'agriculture et 4 à l'industrie d'une région. Retirer un jetons à un glacier. La région et le glacier sont choisis lors du tirage de la carte.
-        -   Niveau 2: Ajouter 3 jetons de dégâts à l'agriculture et 6 à la population de deux régions. Retirer un jeton à deux glaciers. Les régions et glaciers sont choisies lors du tirage de la carte.
-        -   Niveau 3: Ajouter 4 jetons de dégâts à l'agriculture et 8 à la population de chaque région. Retirer 1 jeton à chaque glacier.
+-   Niveau 1: Ajouter 2 jetons de dégâts à l'agriculture et 4 à l'industrie d'une région. Retirer un jetons à un glacier. La région et le glacier sont choisis lors du tirage de la carte.
+-   Niveau 2: Ajouter 3 jetons de dégâts à l'agriculture et 6 à la population de deux régions. Retirer un jeton à deux glaciers. Les régions et glaciers sont choisies lors du tirage de la carte.
+-   Niveau 3: Ajouter 4 jetons de dégâts à l'agriculture et 8 à la population de chaque région. Retirer 1 jeton à chaque glacier.
         
-        ##### Tempête
+##### Tempête
         
-        -   Niveau 1: Ajouter 3 jetons de dégâts à l'agriculture et 3 à l'industrie d'une région. La région est choisie lors du tirage de la carte.
-        -   Niveau 2: Ajouter 1 jetons de dégâts à la population, 5 l'agriculture et 5 à l'industrie d'une région. La région est choisie lors du tirage de la carte.
-        -   Niveau 3: Ajouter 2 jetons de dégâts à la population, 7 à l'agriculture et 7 à l'industrie d'une région. La région est choisie lors du tirage de la carte. Tirer une carte supplémentaire.
+-   Niveau 1: Ajouter 3 jetons de dégâts à l'agriculture et 3 à l'industrie d'une région. La région est choisie lors du tirage de la carte.
+-   Niveau 2: Ajouter 1 jetons de dégâts à la population, 5 l'agriculture et 5 à l'industrie d'une région. La région est choisie lors du tirage de la carte.
+-   Niveau 3: Ajouter 2 jetons de dégâts à la population, 7 à l'agriculture et 7 à l'industrie d'une région. La région est choisie lors du tirage de la carte. Tirer une carte supplémentaire.
         
-        ##### Inondations
+##### Inondations
         
-        -   Niveau 1: Ajouter 2 jetons de dégâts à l'agriculture, 3 à l'industrie et à la population d'une région. La région est choisie lors du tirage de la carte.
-        -   Niveau 2: Ajouter 5 jetons de dégâts à l'agriculture, 7 à l'industrie et à la population d'une région. La région est choisie lors du tirage de la carte.
-        -   Niveau 3: Ajouter 7 jetons de dégâts à l'agriculture, 9 à l'industrie et à la population d'une région. La région est choisie lors du tirage de la carte.
+-   Niveau 1: Ajouter 2 jetons de dégâts à l'agriculture, 3 à l'industrie et à la population d'une région. La région est choisie lors du tirage de la carte.
+-   Niveau 2: Ajouter 5 jetons de dégâts à l'agriculture, 7 à l'industrie et à la population d'une région. La région est choisie lors du tirage de la carte.
+-   Niveau 3: Ajouter 7 jetons de dégâts à l'agriculture, 9 à l'industrie et à la population d'une région. La région est choisie lors du tirage de la carte.
         
-        ##### [Idées autres](/ideas-climate-events/)
+##### [Idées autres](/ideas-climate-events/)
 
 
 ## Fonctionnement des marchés
-
-
-
 
 ### Échanges
 
@@ -975,22 +926,13 @@ Les marchés ne peuvent tomber à court de liquidités mais ajustent leur prix e
 Ces prix d'achat et de vente sont fixés à partir des historiques d'achat et de vente et indépendants entre eux d'une ressource à l'autre.
 Le marché ajoute une taxe de 10% pour chaque achat et vente de ressource: si le cours de la ressource est à x, l'achat auprès du marché se fait à 110% de x et la vente se fait à 90% de x.
 
-
-
-
 ### Formation des prix
 
 Pour chaque marché et chaque ressource, on tient à jour le nombre de ressources achetées et vendues chaque tour.
 Chaque marché tient le compte de l'évolution de l'offre et de la demande via deux nombres: les achats cumulés et le ventes cumulées. En fin de tour et pour chaque ressource, on met à jour ces deux nombres en y ajoutant les achats et ventes du tour. On met ensuite à jour le prix de la manière suivante: on calcule le volume total des transactions (achat + ventes), puis la balance (achat - ventes) et on divise la balance par le volume pour obtenir la balance relative. Puis, on fixe le nouveau prix à (1+balance relative) fois l'ancien prix, avec au minimum une variation de prix de 1.
 Ensuite, de manière à introduire une forme de retour à un équilibre dans le prix, on divise le nombre d'achats et ventes cumulées par 2.
 
-
-
-
 ## Commerce interplanétaire
-
-
-
 
 ### Vaisseaux de transport
 
@@ -1006,9 +948,6 @@ Il y a deux modèles de vaisseaux disponibles ayant un volume effectif similaire
 
 Un courrier nécessite un plus faible investissement initial et est viable si le carburant n'est pas prépondérant dans le coût de transport.
 Un cargo nécessite un investissement conséquent mais rend les coûts en carburants plus faibles.
-
-
-
 
 ### Lignes commerciales
 
@@ -1030,19 +969,12 @@ Une ligne commerciale peut opter pour deux modes de transport alternatifs pour s
 - En mode rapide, la vitesse de base des tous les vaisseaux de la ligne (et donc le volume effectif de la ligne) est augmentée de 20% et leur consommation de carburant est augmentée de 30%. Cela réduit le volume transporté par unité de carburant mais augmente le volume total transporté.
 - En mode économe, la vitesse de base de tous les vaisseaux de la ligne (et donc le volume effectif de la ligne) est réduite de 20% et leur consommation de carburant est diminuée de 30%. À l'inverse, cela réduit le volume effectif total mais augmente le nombre d'unités transportées par unité de carburant.
 
-
-
 ### Ressources non concernées par le commerce
 
 -   Le travail
 -   L'énergie
 
-
-
 ## Villes
-
-
-
 
 ### Fonctionnement des villes
 
@@ -1066,9 +998,6 @@ Voici le détail des consommations à chaque tour et des tailles:
 -   62500 énergie, 62500 oxygène, 62500 composé organique, 62500 eau, 12500 composants électroniques, 2500 carburant, 500 matériaux de construction
 -   Population maximale: 1 000 000
 
-
-
-
 ### Construction des villes
 
 Chaque corps céleste contient par défaut une ville au niveau 0: l'avant poste.
@@ -1084,16 +1013,10 @@ Chaque augmentation de taille est déclenchée quand les critères sont atteints
 -   Au moins 50% d'occupation de la population et 110% du budget pour payer les ressources disponibles dans les caisses.
 -   Disponible uniquement en cas de présence d'un habitat orbital.
 
-
-
-
 ### Fonctionnement de la population
 
 À chaque tour, la population d'une ville vend sa force de travail au marché local et achète de la nourriture, de l'eau et de l'oxygène. Chaque groupe de 100 population produit 1000 unités de travail et consomme 100 unités d'eau, de nourriture et d'oxygène, arrondi à l'inférieur.
 La ville paie pour les dépenses et récupère les salaires. Si après ces transactions (et la consommation fixe de la ville) le budget de la ville est positif, la population double, dans le cas contraire, elle baisse de 20%.
-
-
-
 
 ## Fonctionnement des organismes de financement
 
@@ -1101,29 +1024,17 @@ Les organismes de financement sont les institutions qui gèrent les dettes et pl
 
 Ces organismes de financement reçoivent les intérêt payés par les organisations, mais encaissent aussi les pertes excédentaires des entreprises lors des faillites.
 
-
-
-
 ### Création des organismes
 
 Durant leur tour, les organisations peuvent utiliser une de leurs actions pour créer un organisme de financement. Lors de la création, il faut choisir le niveau de risque de l'organisme, le nom de l'organisme, le capital initial, et la valeur d'une part. Ces parts permettent à d'autre organisations de participer au capital. Il est possible de désactiver la participation d'autres organisations au capital d'un fonds lors de sa création.
-
-
-
 
 ### Fermeture des organismes de financement
 
 Durant leur tour, les organisations peuvent gratuitement fermer un organisme de financement. 90% des fonds disponibles sont récupérés après fermeture et distribués au prorata des parts possédées par les organisations.
 
-
-
-
 ### Constitution du capital
 
 Lors de la création du fonds (organisme de financement), un capital initial est versé. Durant la suite du jeu, une organisation peut utiliser une action pour acheter un certain nombre de part d'un fonds, augmentant son capital de la valeur totale des parts acquises. Il est aussi possible de rendre tout ou partie de ses parts, pour une action, diminuant d'autant le capital du fonds.
-
-
-
 
 ### Répartition des intérêts
 
@@ -1135,17 +1046,11 @@ Le taux d'intérêt augmente donc en fonction du taux d'endettement de l'organis
 
 Ces intérêts sont directement envoyés aux organisations possédants des parts dans le fonds, au prorata des parts possédées. L'organisation possédant le fonds peut décider à sa création d'une taxe sur ces intérêt, en fixe ou en proportion des intérêts versés.
 
-
-
-
 ### Répartition des pertes
 
 Lors de la faillite d'une organisation, après liquidation de ses possessions, si la totalité des dettes n'ont pas été remboursées, ces pertes sont réparties entre les différents organismes de financement en proportion de leur capital et de leur niveau de risque, comme pour les intérêts.
 Ces pertes font diminuer le capital des organismes de financement.
 Si ces pertes font passer le capital en dessous de 0, l'organisme de financement disparaît et les fonds manquants sont retirés du budget de l'organisation qui possède le fonds. Les autres organisations ayants des parts dans le fonds ne perdent que leurs parts mais pas de budget.
-
-
-
 
 ### Subventions à l'investissement
 
@@ -1156,13 +1061,7 @@ Durant un même tour, toutes les subventions sont accordées. Si la quantité d'
 En cas de faillite avec une quantité d'argent négative, l'argent manquant est pris au capital du fonds avant de poursuivre la faillite.
 L'arrêt ou la modification des subventions nécessite une action de l'organisation contrôlant l'organisme.
 
-
-
-
 ## Opérations secrètes
-
-
-
 
 ### Fonctionnement général
 
@@ -1173,7 +1072,7 @@ Lors de l'organisation de l'opération il est possible de diminuer le niveau de 
 Les taux d'échec et de découverte associés sont les suivants (formule: $1 - \left(\frac{1}{1+e^{-\frac{x}{3.397}}} \right)$ avec x la difficulté):
 
 |-------------------------|--------------------------------------|
-|difficulté/surveillance  |\|   taux d'échec/d'attribution (en %)  |
+|difficulté/surveillance  |\|   taux d'échec/d'attribution (en %)|
 |-------------------------|--------------------------------------|
 |                      10 |                                    5 |
 |                       9 |                                  6.6 |
@@ -1203,82 +1102,73 @@ Il est aussi possible de réduire le coût d'une opération en planifiant celle 
 En plus des modifications de la difficulté et de la surveillance, il est possible d'augmenter l'effet E d'une opération, avec des conséquence décrite dans chaque opération.
 Le coût en ressources d'une opération est donné par le coût de base multiplié par $(S+D+E-2N-I)^2$ (minimum 1).
 
-
-
-
 ### Liste des opérations
 
 ####  Manipulations des cours des ressources (à la baisse ou à la hausse)
 
-    Sur le marché d'un corps céleste, le cours d'une ressource au choix augmente (ou diminue) de (3+2E)%, avec une variation d'au moins 1.
-    Coût: 100 Travail, 200 composant électronique.
-    Difficulté de base 1, surveillance de base -3.
+Sur le marché d'un corps céleste, le cours d'une ressource au choix augmente (ou diminue) de (3+2E)%, avec une variation d'au moins 1.
+Coût: 100 Travail, 200 composant électronique.
+Difficulté de base 1, surveillance de base -3.
 
 ####  Manipulations des cours des actions d'une société (à la baisse ou à la hausse)
 
-    Le cours d'une société par action au choix augmente (ou diminue) de (3+2E)%, avec une variation d'au moins 1. Le niveau de renseignement est celui du corps céleste sur lequel l'organisation visée possède le plus de bâtiments.
-    Coût: 100 Travail, 200 composant électronique.
-    Difficulté de base 1, surveillance de base -3.
+Le cours d'une société par action au choix augmente (ou diminue) de (3+2E)%, avec une variation d'au moins 1. Le niveau de renseignement est celui du corps céleste sur lequel l'organisation visée possède le plus de bâtiments.
+Coût: 100 Travail, 200 composant électronique.
+Difficulté de base 1, surveillance de base -3.
 
 ####  Sabotage d'un bâtiment (temporaire)
 
-    Un bâtiment ciblé est désactivé pendant 1 + $\frac{E}{3}$, arrondi à l'inférieur.
-    Coût: 300 Travail, 100 composant électronique.
-    Difficulté de base 1, surveillance de base 0.
+Un bâtiment ciblé est désactivé pendant 1 + $\frac{E}{3}$, arrondi à l'inférieur.
+Coût: 300 Travail, 100 composant électronique.
+Difficulté de base 1, surveillance de base 0.
 
 ####  Sabotage d'un bâtiment (définitif)
 
-    Un bâtiment ciblé est détruit. E n'as pas d'effet sur le résultat obtenu.
-    Coût: 300 Travail, 100 composant électronique, 100 carburant, 100 énergie.
-    Difficulté de base 3, surveillance de base -3.
+Un bâtiment ciblé est détruit. E n'as pas d'effet sur le résultat obtenu.
+Coût: 300 Travail, 100 composant électronique, 100 carburant, 100 énergie.
+Difficulté de base 3, surveillance de base -3.
 
 ####  Révélation des opérations en cours sur un corps céleste
 
-    2E opérations au hasard en cours d'organisation sur un corps céleste sont révélées au joueur contrôlant l'organisation qui réalise cette opération. Les opérations révélées sont celles d'organisations autres que celles contrôlées par le joueur.
-    Coût: 100 Travail, 100 composant électronique
-    Difficulté de base 0, surveillance de base 3.
+2E opérations au hasard en cours d'organisation sur un corps céleste sont révélées au joueur contrôlant l'organisation qui réalise cette opération. Les opérations révélées sont celles d'organisations autres que celles contrôlées par le joueur.
+Coût: 100 Travail, 100 composant électronique
+Difficulté de base 0, surveillance de base 3.
 
 ####  Sabotage d'une opération en cours
 
-    Une opération ciblée et déjà connue (via l'opération de révélation) échoue automatiquement. Ces opérations de sabotage sont résolues avant les autres opérations secrètes.
-    Coût: 100 Travail, 100 composant électronique
-    Difficulté de base 2, surveillance de base -5.
+Une opération ciblée et déjà connue (via l'opération de révélation) échoue automatiquement. Ces opérations de sabotage sont résolues avant les autres opérations secrètes.
+Coût: 100 Travail, 100 composant électronique
+Difficulté de base 2, surveillance de base -5.
 
 ####  Sabotage d'un vaisseau de commerce (temporaire)
 
-    Un vaisseau de commerce ciblé est inactif pour $\frac{E}{2}$ tours, arrondi à l'inférieur. Le coût et le niveau de renseignement sont déterminés comme si l'opération avait lieu sur un corps céleste à l'extrémité de la ligne commerciale à laquelle le vaisseau participe.
-    Coût: 200 Travail, 200 composant électronique, 2 carburant.
-    Difficulté de base -1, surveillance de base 0.
+Un vaisseau de commerce ciblé est inactif pour $\frac{E}{2}$ tours, arrondi à l'inférieur. Le coût et le niveau de renseignement sont déterminés comme si l'opération avait lieu sur un corps céleste à l'extrémité de la ligne commerciale à laquelle le vaisseau participe.
+Coût: 200 Travail, 200 composant électronique, 2 carburant.
+Difficulté de base -1, surveillance de base 0.
 
 ####  Sabotage d'un vaisseau de commerce (définitif)
 
-    Un vaisseau de commerce ciblé est détruit.
-    Le coût et le niveau de renseignement sont déterminés comme si l'opération avait lieu sur un corps céleste à l'extrémité de la ligne commerciale à laquelle le vaisseau participe.
-    Coût: 100 Travail, 300 composant électronique, 300 carburant.
-    Difficulté de base 3, surveillance de base 2.
+Un vaisseau de commerce ciblé est détruit.
+Le coût et le niveau de renseignement sont déterminés comme si l'opération avait lieu sur un corps céleste à l'extrémité de la ligne commerciale à laquelle le vaisseau participe.
+Coût: 100 Travail, 300 composant électronique, 300 carburant.
+Difficulté de base 3, surveillance de base 2.
 
 ####  Vol des fonds d'une organisation
 
-    2E% (max 10%) de la valeur d'une organisation ciblée est transférée à l'organisation réalisant cette opération. Si l'organisation ciblée ne dispose pas des fonds propres, la dette est augmentée de la valeur manquante.
-    Coût: 300 Travail, 300 composant électronique
-    Difficulté de base 3, surveillance de base 3.
+2E% (max 10%) de la valeur d'une organisation ciblée est transférée à l'organisation réalisant cette opération. Si l'organisation ciblée ne dispose pas des fonds propres, la dette est augmentée de la valeur manquante.
+Coût: 300 Travail, 300 composant électronique
+Difficulté de base 3, surveillance de base 3.
 
 #### Révélations des traits d'une organisation
 
-    Les traits d'une organisation ciblée sont révélés au joueur qui contrôle l'organisation qui réalise cette opération. La valeur de E n'influence pas les effets de cette opération.
-    Coût: 100 Travail, 100 composant électronique
-    Difficulté de base 1, surveillance de base -5.
-
-
-
+Les traits d'une organisation ciblée sont révélés au joueur qui contrôle l'organisation qui réalise cette opération. La valeur de E n'influence pas les effets de cette opération.
+Coût: 100 Travail, 100 composant électronique
+Difficulté de base 1, surveillance de base -5.
 
 ## Technologies
 
 Les progrès technologiques sont conduits d'abord par les organisations contrôlées par les joueurs.
 La représentation de ces progrès en jeu est centrée sur la lutte contre le dérèglement climatique ainsi que l'activité humaine dans le système solaire. Les technologies disponibles se répartissent entre les recherches publiques, développées en commun et fournissant des bonus communs, et les brevets privés, développés par les organisation et ne fournissant de bonus qu'à l'organisation réussissant à le développer en premier.
-
-
-
 
 ### Fonctionnement général
 
@@ -1305,140 +1195,137 @@ Un bureau d'études prospective produit par défaut 100 de capacité d'innovatio
 
 La capacité d'innovation réduit aussi le coût d'entretien d'une technologie en le divisant par $1+\frac{\text{capacité d'innovation}}{200}$
 
-
-
-
 ### Liste des technologies
 
 #### Publique
 
 ##### Régulation climatique
 
-        Prérequis: Aucun
-        Nombre d'étapes: 12
-        Effet: Ouvre l'accès à des projets de gestion du climat sur terre (Système d'observation et de contrôle climatique - conception, Régulation des événements climatiques extrêmes).
-        Nombre d'exemplaires: 2
+Prérequis: Aucun
+Nombre d'étapes: 12
+Effet: Ouvre l'accès à des projets de gestion du climat sur terre (Système d'observation et de contrôle climatique - conception, Régulation des événements climatiques extrêmes).
+Nombre d'exemplaires: 2
         
-        ##### Techniques de capture du CO2 (5 niveaux)
+##### Techniques de capture du CO2 (5 niveaux)
         
-        Prérequis: Le niveau précédent s'il existe
-        Nombre d'étape: 20 + 5 fois le niveau.
-        Effet: Ouvre l'accès aux projets collaboratifs "Campagne de dépollution avancée"
-        Effet: réduit de 5% le coût des projets Dépollution
-        Nombre d'exemplaires: 2
+Prérequis: Le niveau précédent s'il existe
+Nombre d'étape: 20 + 5 fois le niveau.
+Effet: Ouvre l'accès aux projets collaboratifs "Campagne de dépollution avancée"
+Effet: réduit de 5% le coût des projets Dépollution
+Nombre d'exemplaires: 2
         
-        ##### Techniques avancées de capture du CO2
+##### Techniques avancées de capture du CO2
         
-        Prérequis: techniques de capture du CO2 niveau 3
-        Nombre d'étapes: 20
-        Effet: Ouvre l'accès aux projets collaboratifs "Campagne de dépollution avancée"
-        Nombre d'exemplaires: 2
+Prérequis: techniques de capture du CO2 niveau 3
+Nombre d'étapes: 20
+Effet: Ouvre l'accès aux projets collaboratifs "Campagne de dépollution avancée"
+Nombre d'exemplaires: 2
         
-        ##### Techniques d'urbanisme flottant (5 niveaux)
+##### Techniques d'urbanisme flottant (5 niveaux)
         
-        Prérequis: Le niveau précédent s'il existe
-        Nombre d'étape: 20 + 5 fois le niveau.
-        Effet: réduit de 5% le coût des projets Protection de l'industrie et Protection de la population.
-        Nombre d'exemplaires: 2
+Prérequis: Le niveau précédent s'il existe
+Nombre d'étape: 20 + 5 fois le niveau.
+Effet: réduit de 5% le coût des projets Protection de l'industrie et Protection de la population.
+Nombre d'exemplaires: 2
         
-        ##### Techniques d'agriculture d'intérieur (5 niveaux)
+##### Techniques d'agriculture d'intérieur (5 niveaux)
         
-        Prérequis: Le niveau précédent s'il existe
-        Nombre d'étape: 20 + 5 fois le niveau.
-        Effet: réduit de 5% le coût des projets Protection de l'agriculture
-        Nombre d'exemplaires: 2
+Prérequis: Le niveau précédent s'il existe
+Nombre d'étape: 20 + 5 fois le niveau.
+Effet: réduit de 5% le coût des projets Protection de l'agriculture
+Nombre d'exemplaires: 2
         
-        ##### Maîtrise des écosystèmes agricoles (5 niveaux)
+##### Maîtrise des écosystèmes agricoles (5 niveaux)
         
-        Prérequis: Le niveau précédent s'il existe
-        Nombre d'étape: 20 + 5 fois le niveau.
-        Effet: réduit de 5% le coût des projets Transition de l'agriculture
-        Nombre d'exemplaires: 2
+Prérequis: Le niveau précédent s'il existe
+Nombre d'étape: 20 + 5 fois le niveau.
+Effet: réduit de 5% le coût des projets Transition de l'agriculture
+Nombre d'exemplaires: 2
         
-        ##### Procédés industriels propres
+##### Procédés industriels propres
         
-        Prérequis: Le niveau précédent s'il existe
-        Nombre d'étape: 20 + 5 fois le niveau.
-        Effet: réduit de 5% le coût des projets Transition de l'industrie
-        Nombre d'exemplaires: 2
+Prérequis: Le niveau précédent s'il existe
+Nombre d'étape: 20 + 5 fois le niveau.
+Effet: réduit de 5% le coût des projets Transition de l'industrie
+Nombre d'exemplaires: 2
         
-        ##### Matériaux supraconducteurs
+##### Matériaux supraconducteurs
         
-        Prérequis: Aucun
-        Nombre d'étape: 40
-        Effet: Prérequis d'autres technologies. 5% de réduction de consommation en énergie des bâtiments construits (ou modernisés) après la recherche de cette technologie.
-        Nombre d'exemplaires: 1
+Prérequis: Aucun
+Nombre d'étape: 40
+Effet: Prérequis d'autres technologies. 5% de réduction de consommation en énergie des bâtiments construits (ou modernisés) après la recherche de cette technologie.
+Nombre d'exemplaires: 1
         
-        ##### Régulation des systèmes financiers
+##### Régulation des systèmes financiers
         
-        Prérequis: Aucun
-        Nombre d'étape: 40
-        Effet: Réduction des taux d'intérêts de 1 (pour un minimum de 1)
-        Nombre d'exemplaires: 1
+Prérequis: Aucun
+Nombre d'étape: 40
+Effet: Réduction des taux d'intérêts de 1 (pour un minimum de 1)
+Nombre d'exemplaires: 1
 
 #### Privées
 
 ##### Méthodes de gouvernances efficaces
 
-        Prérequis: Aucun
-        Nombre d'étapes: 4
-        Effet: l'organisation dispose d'une action gratuite par tour.
-        Nombre d'exemplaires: 2
+Prérequis: Aucun
+Nombre d'étapes: 4
+Effet: l'organisation dispose d'une action gratuite par tour.
+Nombre d'exemplaires: 2
         
-        ##### Régulation climatique avancé
+##### Régulation climatique avancé
         
-        Prérequis: Régulation climatique.
-        Nombre d'étapes: 8
-        Effet: L'organisation peut lancer le projet Réseau de contrôle météorologique
-        Nombre d'exemplaires: 2
+Prérequis: Régulation climatique.
+Nombre d'étapes: 8
+Effet: L'organisation peut lancer le projet Réseau de contrôle météorologique
+Nombre d'exemplaires: 2
         
-        ##### Conception électrique économe (5 niveaux)
+##### Conception électrique économe (5 niveaux)
         
-        Prérequis: supraconducteurs et le niveau précédent s'il existe.
-        Nombre d'étape: 10
-        Effet: réduit de 5% la consommation d'énergie des bâtiments de l'organisation.
-        Nombre d'exemplaires: 2
+Prérequis: supraconducteurs et le niveau précédent s'il existe.
+Nombre d'étape: 10
+Effet: réduit de 5% la consommation d'énergie des bâtiments de l'organisation.
+Nombre d'exemplaires: 2
         
-        ##### Construction économe (5 niveaux)
+##### Construction économe (5 niveaux)
         
-        Prérequis: Le niveau précédent s'il existe
-        Nombre d'étape: 10
-        Effet: réduit de 5% le coût de construction d'un bâtiment.
-        Nombre d'exemplaires: 2
+Prérequis: Le niveau précédent s'il existe
+Nombre d'étape: 10
+Effet: réduit de 5% le coût de construction d'un bâtiment.
+Nombre d'exemplaires: 2
         
-        ##### Chaînes de production efficaces (5 niveaux)
+##### Chaînes de production efficaces (5 niveaux)
         
-        Prérequis: Le niveau précédent s'il existe
-        Nombre d'étape: 10
-        Effet: Augmente de 3% les quantités de ressources produites par les bâtiments
-        Nombre d'exemplaires: 3
+Prérequis: Le niveau précédent s'il existe
+Nombre d'étape: 10
+Effet: Augmente de 3% les quantités de ressources produites par les bâtiments
+Nombre d'exemplaires: 3
         
-        ##### Ingénierie de la dette (5 niveaux)
+##### Ingénierie de la dette (5 niveaux)
         
-        Prérequis: Le niveau précédent s'il existe
-        Nombre d'étape: 10
-        Effet: Réduit de 5% le montant des intérêts payés.
-        Nombre d'exemplaires: 3
+Prérequis: Le niveau précédent s'il existe
+Nombre d'étape: 10
+Effet: Réduit de 5% le montant des intérêts payés.
+Nombre d'exemplaires: 3
         
-        ##### Méthodes de recherche avancée (5 niveaux)
+##### Méthodes de recherche avancée (5 niveaux)
         
-        Prérequis: Le niveau précédent s'il existe
-        Nombre d'étape: 10
-        Effet: Réduit de 5% le coût des étapes de recherche d'une technologie privée.
-        Nombre d'exemplaires: 2
+Prérequis: Le niveau précédent s'il existe
+Nombre d'étape: 10
+Effet: Réduit de 5% le coût des étapes de recherche d'une technologie privée.
+Nombre d'exemplaires: 2
         
-        ##### Modèles statistiques de risque financier (5 niveaux)
+##### Modèles statistiques de risque financier (5 niveaux)
         
-        Prérequis: Le niveau précédent s'il existe
-        Nombre d'étape: 10
-        Effet: Augmente de 5% le niveau de risque lors de la perception des revenus
-        Nombre d'exemplaires: 2
+Prérequis: Le niveau précédent s'il existe
+Nombre d'étape: 10
+Effet: Augmente de 5% le niveau de risque lors de la perception des revenus
+Nombre d'exemplaires: 2
         
-        ##### Techniques d'exonération des investissements (5 niveaux)
-        
-        Prérequis: Le niveau précédent s'il existe
-        Nombre d'étape: 10
-        Effet: Augmente de 2% les capitaux déposés dans un fonds d'investissement.
-        Nombre d'exemplaires: 2
+##### Techniques d'exonération des investissements (5 niveaux)
 
-[TODO Idées de technologies](/ideas-tech-effects)
+Prérequis: Le niveau précédent s'il existe
+Nombre d'étape: 10
+Effet: Augmente de 2% les capitaux déposés dans un fonds d'investissement.
+Nombre d'exemplaires: 2
+
+##### [TODO Idées de technologies](/ideas-tech-effects)
