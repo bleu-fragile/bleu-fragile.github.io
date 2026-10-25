@@ -494,7 +494,7 @@ L'économie fonctionne autour de l'extraction, de la transformation et de la con
 2.  Manufacturées
 
     -   Hydrogène: obtenu par électrolyse, il peut être un carburant, seul ou en combinaison avec de l'oxygène.
-    -   Oxygène: essentiel à la présence d'humain, c'est aussi un ingrédient très courant de nombreux carburants.
+    -   Oxygène: essentiel aux support vie des humains, c'est aussi un ingrédient très courant de nombreux carburants.
     -   Nourriture
     -   Matériaux de construction: très divers, ils sont surtout produits à partir de métaux légers (acier, alliages) ou de composants organiques carbonés.
     -   Carburant: utilisés pour les vols interplanétaire, il peut aussi servir à la production d'énergie.
@@ -518,38 +518,38 @@ L'économie fonctionne autour de l'extraction, de la transformation et de la con
     -   Composés organiques
     -   Isotopes Fissiles
     
-    Le coût d'une extraction est: 5 Énergie -> X unité extraite. La valeur de X dépend du gisement.
+    Le coût d'une extraction est: 500 Énergie -> X unité extraite. La valeur de X dépend du gisement.
     Les gisement sont considérés comme non épuisables mais la quantité de ressource qu'on peut en extraire à chaque tour est variable selon le gisement et les moyens utilisés pour l'extraction.
 
 2.  Manufacturées
 
-    -   Hydrogène: Par électrolyse de l'eau. 15 Énergie + 3 Eau -> 3 Hydrogène + 3 Oxygène
-    -   Oxygène: Par électrolyse de l'eau. 15 Énergie + 3 Eau -> 3 Hydrogène + 3 Oxygène
-    -   Nourriture: Dans des usines: 5 Énergie + 5 Eau + 5 Composés organiques -> 10 Nourriture
+    -   Hydrogène: Par électrolyse de l'eau. 1500 Énergie + 300 Eau -> 300 Hydrogène + 300 Oxygène
+    -   Oxygène: Par électrolyse de l'eau. 1500 Énergie + 300 Eau -> 300 Hydrogène + 300 Oxygène
+    -   Nourriture: Dans des usines: 500 Énergie + 500 Eau + 500 Composés organiques -> 1000 Nourriture
     -   Matériaux de construction: Plusieurs recettes possibles:
-        -   5 Énergie + 10 Métaux légers -> 5 Matériaux de construction
-        -   5 Énergie + 5 Métaux légers + 5 Composés organiques -> 5 Matériaux de construction
-        -   5 Énergie + 10 Composés organiques -> 5 Matériaux de construction
+        -   500 Énergie + 1000 Métaux légers -> 500 Matériaux de construction
+        -   500 Énergie + 500 Métaux légers + 500 Composés organiques -> 500 Matériaux de construction
+        -   500 Énergie + 1000 Composés organiques -> 500 Matériaux de construction
     -   Carburant:
-        -   3 Oxygène + 3 Hydrogène + 5 Énergie -> 15 Carburant
-        -   3 Oxygène + 3 Hydrogène + 5 Métaux légers -> 15 Carburant
+        -   300 Oxygène + 300 Hydrogène + 500 Énergie -> 1500 Carburant
+        -   300 Oxygène + 300 Hydrogène + 500 Métaux légers + 100 énergie -> 1500 Carburant
     -   Composants électroniques:
-        -   5 Métaux Nobles + 10 Métaux Légers + 15 Énergie -> 5 Composants
+        -   500 Métaux Nobles + 1000 Métaux Légers + 1500 Énergie -> 500 Composants
 
 3.  Autres
 
-    -   Travail: pour chaque habitant: 1 Nourriture + 1 Oxygène -> 5 Travail.
+    -   Travail: pour chaque habitant: 100 Nourriture + 100 Oxygène -> 500 Travail.
     -   Énergie: Plusieurs recettes possibles selon le type d'installation
-        -   3 Oxygène + 3 Hydrogène -> 10 Énergie + 3 Eau (électrolyse inverse)
+        -   300 Oxygène + 300 Hydrogène -> 1000 Énergie + 300 Eau (électrolyse inverse)
         -   Rien -> X Énergie (centrale solaire, X est déterminé par l'exposition solaire du corps céleste à travers sa distance au soleil)
-        -   5 Isotope Fissile -> 25 Énergie (centrale à fission nucléaire)
-        -   4 Hydrogène -> 100 énergie (centrale à fusion nucléaire)
-        -   5 Carburant -> 6 Énergie (centrale thermique)
+        -   500 Isotope Fissile -> 2500 Énergie (centrale à fission nucléaire)
+        -   400 Hydrogène -> 10 000 énergie (centrale à fusion nucléaire)
+        -   500 Carburant -> 600 Énergie (centrale thermique classique)
 
 
 <a id="id2cb89a3"></a>
 
-## Corps célestes <code>[0/2]</code>
+## Corps célestes
 
 Les corps célestes sont là où les organisations extraient leurs ressources.
 Ces objets, normalement en mouvement sont ici considérés comme fixe du point de vue de la distance entre ceux ci pour les usages du jeu (en particulier les vaisseau de commerce et leur consommation de carburant).
@@ -576,17 +576,27 @@ Durant chaque tour, les organisations peuvent miser une certaine somme d'argent 
 
 Les différents corps du système solaire accessibles sont: 
 
--   Luna (19 cases, exposition solaire 3)
--   Mars (61 cases, exposition solaire 1)
--   Callisto (37 cases, exposition solaire nulle)
--   Ganymède (37 cases, exposition solaire nulle)
--   Io (19 cases, exposition solaire nulle)
--   Titan (37 cases, exposition solaire nulle)
--   Mercure (37 cases, exposition solaire 20)
--   Cérès (7 cases, exposition solaire nulle)
--   Vesta (7 cases, exposition solaire nulle)
--   Triton (19 cases, exposition solaire nulle)
--   Terra (pas de surface exploitable)
+- Mars (91 cases, exposition solaire 1)
+- Titan (61 cases, exposition solaire nulle)
+- Mercure (61 cases, exposition solaire 20)
+- Callisto (61 cases, exposition solaire nulle)
+- Ganymede (61 cases, exposition solaire nulle)
+- Luna (37 cases, exposition solaire 3)
+- Io (37 cases, exposition solaire nulle)
+- Triton (37 cases, exposition solaire nulle)
+- Europe (37 cases, exposition solaire nulle)
+- Titania (19 cases, exposition solaire nulle)
+- Oberon (19 cases, exposition solaire nulle)
+- Japet (19 cases, exposition solaire nulle)
+- Pluto (19 cases, exposition solaire nulle)
+- Umbriel (7 cases, exposition solaire nulle)
+- Ariel (7 cases, exposition solaire nulle)
+- Dione (7 cases, exposition solaire nulle)
+- Thetys (7 cases, exposition solaire nulle)
+- Charon (7 cases, exposition solaire nulle)
+- Ceres (7 cases, exposition solaire nulle)
+- Vesta (7 cases, exposition solaire nulle)
+- Terra (pas de surface exploitable)
 
 
 <a id="id4c82acd"></a>

@@ -14,7 +14,7 @@ description: Page du jeu Bleu Fragile
 8.  [Déplacements de population](#id9e6d50d)
 9.  [Bonus d'actions](#id0679552)
 10. [Autre formule de prix](#ida380a94)
-11. [Tailles des corps célestes:](#ide3e067e)
+11. [Tailles des corps célestes](#ide3e067e)
 12. [Comment fournir un substrat politique permettant le RP ?](#idb353b7f)
 13. [Modificateurs selon le corps céleste](#id3fa7f8e)
 14. [Modif des ressources](#id9b70c70)
@@ -24,7 +24,7 @@ description: Page du jeu Bleu Fragile
 17. [Implantation des organisations sur terre](#id6c71390)
 18. [Mergers](#id93e6c78)
 19. [Action en jeu](#idfa27e8a)
-20.  [Renommage](#id03a4b0c)
+20. [Renommage](#id03a4b0c)
 
 <a id="orgcdc4a84"></a>
 
