@@ -13,7 +13,7 @@
 #menu {
     float: left;
     font-family: Helvetica;
-    background-color:DarkSeaGreen;
+    background-color: RoyalBlue;
     color: black;
     width: 100%;
     letter-spacing: 0.15em;
@@ -59,7 +59,7 @@
     height: cover%;
     min-height: 42%;
     line-height:150%;
-    background-color: rgba(29, 103, 29, 0.2);
+    background-color: #B2BBF7;
 }
 body
 {
@@ -83,7 +83,7 @@ h1
     color: black;
 }
 a{
-    color: darkolivegreen;
+    color: navy;
     text-decoration: none;
     border-bottom: 1px dashed;
 }
