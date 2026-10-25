@@ -1226,7 +1226,7 @@ Lors de l'organisation de l'opération il est possible de diminuer le niveau de 
 Les taux d'échec et de découverte associés sont les suivants (formule: $1-\left(\frac{1}{1+e^{-\frac{x}{3.397}}}\right)}$ avec x la difficulté):
 
 |-------------------------|--------------------------------------|
-| difficulté/surveillance | taux d'échec/d'attribution (en %) |
+|difficulté/surveillance  |\|   taux d'échec/d'attribution (en %)  |
 |-------------------------|--------------------------------------|
 |                      10 |                                    5 |
 |                       9 |                                  6.6 |
