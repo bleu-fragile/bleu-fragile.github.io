@@ -8,7 +8,7 @@ description: Page du jeu Bleu Fragile
 Voici les règles du jeu Bleu Fragile.
 
 # Table des matières
-<details>
+<details markdown="1">
   <summary>Déplier</summary>
 
 1.  [Présentation](#ida56682e)
@@ -78,7 +78,7 @@ Voici les règles du jeu Bleu Fragile.
         4.  [Répartition des intérêts](#id97e4997)
         5.  [Répartition des pertes](#ida68b2a2)
         6.  [Subventions à l'investissement](#id2597036)
-    14. [Opérations clandestines](#id32ef1ab)
+    14. [Opérations secrètes](#id32ef1ab)
         1.  [Fonctionnement général](#idd6ce181)
         2.  [Liste des opérations](#id38078bf)
     15. [Technologies](#id591b549)
