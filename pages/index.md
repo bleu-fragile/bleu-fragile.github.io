@@ -1223,7 +1223,7 @@ Chaque organisation peut réaliser des opérations secrètes.
 Chacune de ces opérations a un coût en travail et en matériel, achetés directement sur les marchés.
 Chaque opération dispose par défaut d'un niveau de difficulté (D) et d'un niveau de surveillance (S). Ces deux grandeurs déterminent respectivement les chances de réussite de l'opération et les chances que celle ci soit attribuée à l'organisation qui l'a organisée. La réussite d'une opération et son attribution à une organisation sont complètement indépendantes l'une de l'autre. Ces deux grandeurs ne peuvent prendre des valeurs qu'entre -10 et 10.
 Lors de l'organisation de l'opération il est possible de diminuer le niveau de difficulté ou de surveillance. Cela a pour effet d'augmenter aussi le coût de l'opération considérée. 
-Les taux d'échec et de découverte associés sont les suivants (formule: $1-\left(\frac{1}{1+e^{-\frac{x}{3.397}}}\right)}$ avec x la difficulté):
+Les taux d'échec et de découverte associés sont les suivants (formule: $1 - \left(\frac{1}{1+e^{-\frac{x}{3.397}}} \right)$ avec x la difficulté):
 
 |-------------------------|--------------------------------------|
 |difficulté/surveillance  |\|   taux d'échec/d'attribution (en %)  |
@@ -1356,7 +1356,7 @@ Le nombre de technologies proposées est déterminé par une grandeur appelée "
 
 Un bureau d'études prospective produit par défaut 100 de capacité d'innovation. Au début de chaque tour, pour déterminer le nombre de technologies proposées à une organisation, on considère la capacité d'innovation totale, on la voit comme un pourcentage. Cela donne les chances d'obtenir une première technologie. Si cette technologie est obtenue, on divise par quatre la capacité d'innovation et on recommence. En cas d'échec, le processus s'arrête là. Il faut donc 100 de capacité d'innovation pour être certain d'avoir au moins une technologie, 400 pour être certain d'en avoir 2, 1600 pour être certain d'en avoir 3, etc.
 
-La capacité d'innovation réduit aussi le coût d'entretien d'une technologie en le divisant par 1+(capacité d'innovation/200).
+La capacité d'innovation réduit aussi le coût d'entretien d'une technologie en le divisant par $1+\frac{\text{capacité d'innovation}{200}$
 
 
 <a id="id4c9afb3"></a>
@@ -1487,11 +1487,11 @@ La capacité d'innovation réduit aussi le coût d'entretien d'une technologie e
         Effet: Augmente de 5% le niveau de risque lors de la perception des revenus
         Nombre d'exemplaires: 2
     
-    9.  (5 niveaux)
+    9.  Techniques d'exonération des investissements (5 niveaux)
     
         Prérequis: Le niveau précédent s'il existe
         Nombre d'étape: 10
-        Effet: Augmente de 1% les capitaux déposés dans un fonds d'investissement.
+        Effet: Augmente de 2% les capitaux déposés dans un fonds d'investissement.
         Nombre d'exemplaires: 2
 
 [TODO Idées de technologies](/ideas-tech-effects)
