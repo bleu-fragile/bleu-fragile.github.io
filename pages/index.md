@@ -27,6 +27,7 @@ Voici les règles du jeu Bleu Fragile.
         10. [Opérations](#idb6a901b)
         11. [Opérations clandestines](#id474ba66)
         12. [Vaisseaux de transport et routes commerciales](#idba14fdf)
+    4.  [Inspirations](#id308e9e4)
 2.  [Règles](#idd6e0265)
     1.  [Tour de jeu](#iddcbf4d4)
     2.  [Objectifs des joueurs](#id91d813b)
@@ -81,9 +82,6 @@ Voici les règles du jeu Bleu Fragile.
     15. [Technologies](#id591b549)
         1.  [Fonctionnement général](#id76d96e2)
         2.  [Liste des technologies](#id4c9afb3)
-3.  [Objectifs du jeu et inspiration](#id2415174)
-    1.  [Inspirations](#id308e9e4)
-    2.  [Objectifs du jeu](#id359a82f)
 
 </details>
 
@@ -281,6 +279,17 @@ La quantité de ressources transportée chaque tour et le coût en carburant dé
 
 
 <a id="idd6e0265"></a>
+<a id="id308e9e4"></a>
+
+## Inspirations
+
+- Terraforming Mars
+- Diplomacy
+- Offworld Trading Company
+- The Expanse
+- La trilogie de Mars (Robinson)
+- Bleue comme une orange (Spinrad)
+- Terra Invicta
 # Règles
 
 
@@ -1608,29 +1617,3 @@ La capacité d'innovation réduit aussi le coût d'entretien d'une technologie e
         Nombre d'exemplaires: 2
 
 [TODO](Idées de technologies)
-
-<a id="id2415174"></a>
-
-# Objectifs du jeu et inspiration
-
-
-<a id="id308e9e4"></a>
-
-## Inspirations
-
-- Terraforming Mars
-- Diplomacy
-- Offworld Trading Company
-- The Expanse
-- La trilogie de Mars (Robinson)
-- Bleue comme une orange (Spinrad)
-- Terra Invicta
-
-<a id="id359a82f"></a>
-
-## Objectifs du jeu
-
--   Donner la base minimale pour une première implémentation.
--   Coller autant que possible au format d'un jeu de plateau pour laisser une possibilité de l'implémenter sur papier
--   Permettre un jeu de durée réduite (6-10h à temps plein).
--   Fournir un support pour raconter des histoires (pas vraiment rempli en l'état)
