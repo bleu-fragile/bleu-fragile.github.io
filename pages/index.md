@@ -1356,7 +1356,7 @@ Le nombre de technologies proposées est déterminé par une grandeur appelée "
 
 Un bureau d'études prospective produit par défaut 100 de capacité d'innovation. Au début de chaque tour, pour déterminer le nombre de technologies proposées à une organisation, on considère la capacité d'innovation totale, on la voit comme un pourcentage. Cela donne les chances d'obtenir une première technologie. Si cette technologie est obtenue, on divise par quatre la capacité d'innovation et on recommence. En cas d'échec, le processus s'arrête là. Il faut donc 100 de capacité d'innovation pour être certain d'avoir au moins une technologie, 400 pour être certain d'en avoir 2, 1600 pour être certain d'en avoir 3, etc.
 
-La capacité d'innovation réduit aussi le coût d'entretien d'une technologie en le divisant par $1+\frac{\text{capacité d'innovation}{200}$
+La capacité d'innovation réduit aussi le coût d'entretien d'une technologie en le divisant par $1+\frac{\text{capacité d'innovation}}{200}$
 
 
 <a id="id4c9afb3"></a>
