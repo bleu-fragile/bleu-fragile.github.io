@@ -441,30 +441,30 @@ Sauf mention du contraire, ces traits ne sont pas révélés publiquement. Cepen
         Lors du versement de fonds à cette organisation, celle ci ne reçoit que 80% de la somme. Lors du versement de fonds de cette organisation vers son contrôleur, celui ci ne reçoit que 80% de la somme.
         Toute opération secrète sur un corps céleste sur lequel cette organisation possède un centre d'opérations, voit son coût augmenté de 10%. Le surplus est transféré à l'organisation criminelle.
     
-#####Réseau de contrebandiers
+##### Réseau de contrebandiers
     
         Quand cette organisation opère une ligne commerciale entre deux corps céleste, le niveau de renseignement sur chaque corps est égal au niveau de renseignement le plus élevé des deux corps, limité par le nombre de vaisseaux dans la ligne.
         Le volume transporté par chaque vaisseau est réduit de 5%.
     
-#####Too big to fail
+##### Too big to fail
     
         Les organismes de financement gérés par cette organisation opèrent avec un bonus de 10% à leur niveau de risque pour la perception des revenus. En cas de faillite, les dettes restantes sont réparties entre les autres organisations contrôlées par le contrôleur de cette organisation.
         Trait révélé publiquement.
     
-#####Techniques de placement liquides
+##### Techniques de placement liquides
     
         Les organismes de financements gérés par cette organisation coûtent une action à fermer mais récupèrent 95% des fonds disponibles au lieu de 90%.
     
-#####Réseaux financiers bien établis
+##### Réseaux financiers bien établis
     
         Les montants versés par les fonds d'investissement de cette organisation sont augmentés de 5% par rapport à la quantité d'intérêts perçus.
         Trait révélé publiquement.
     
-#####Gestion financière prudente
+##### Gestion financière prudente
     
         Le taux des intérêts payés par cette organisation est réduit de 3% (réduction absolue du taux d'intérêt: si le taux devait être à 5%, il est à 2% à la place, avec un minimum de 1%). Le seuil de faillite est abaissé à 90% de la valeur de l'organisation.
     
-#####Logistique en flux tendu
+##### Logistique en flux tendu
     
         La quantité de carburant nécessaire au fonctionnement des vaisseaux de transport est réduite de 10% (minimum 1) et le volume transporté part ceux ci est augmenté de 5%. Changer la répartition des vaisseaux d'une ligne commerciale coûte une action à l'organisation qui l'opère.
 
@@ -668,7 +668,7 @@ Pour les projets coopératifs, si plus d'étapes que nécessaire ont été réal
 
 ### Liste des projets
 
-####  Projets objectifs
+#### Projets objectifs
 
 ##### Télescope gravitationnel géant - conception
     
@@ -852,7 +852,7 @@ Le niveau de protection agit de manière complémentaire en réduisant l'exposit
             -   Effet: augmente de 1 le niveau de protection de la piste considérée. Distribue 20 d'influence dans la région répartis entre les participants, en proportion de la participation avec un minimum de 1 par participant
             -   Description: Protection des infrastructures industrielles pour réduire leur exposition aux éléments.
     
-    4.  Projets globaux
+##### Projets globaux
     
         Les régions coordonnent les efforts de lutte contre le changement climatique au niveau mondial, ouvrant aux organisation la participation à certains projets à cette échelle.
         
