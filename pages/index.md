@@ -1201,66 +1201,66 @@ La capacité d'innovation réduit aussi le coût d'entretien d'une technologie e
 
 ##### Régulation climatique
 
-- Prérequis: Aucun
+- Prérequis: Aucun.
 - Nombre d'étapes: 12
 - Effet: Ouvre l'accès à des projets de gestion du climat sur terre (Système d'observation et de contrôle climatique - conception, Régulation des événements climatiques extrêmes).
 - Nombre d'exemplaires: 2
         
 ##### Techniques de capture du CO2 (5 niveaux)
         
-- Prérequis: Le niveau précédent s'il existe
+- Prérequis: Le niveau précédent s'il existe.
 - Nombre d'étapes: 20 + 5 fois le niveau.
-- Effet: Ouvre l'accès aux projets collaboratifs "Campagne de dépollution avancée"
-- Effet: réduit de 5% le coût des projets Dépollution
+- Effet: Ouvre l'accès aux projets collaboratifs "Campagne de dépollution avancée".
+- Effet: réduit de 5% le coût des projets Dépollution.
 - Nombre d'exemplaires: 2
         
 ##### Techniques avancées de capture du CO2
         
-- Prérequis: techniques de capture du CO2 niveau 3
+- Prérequis: techniques de capture du CO2 niveau 3.
 - Nombre d'étapes: 20
-- Effet: Ouvre l'accès aux projets collaboratifs "Campagne de dépollution avancée"
+- Effet: Ouvre l'accès aux projets collaboratifs "Campagne de dépollution avancée".
 - Nombre d'exemplaires: 2
         
 ##### Techniques d'urbanisme flottant (5 niveaux)
         
-- Prérequis: Le niveau précédent s'il existe
+- Prérequis: Le niveau précédent s'il existe.
 - Nombre d'étapes: 20 + 5 fois le niveau.
 - Effet: réduit de 5% le coût des projets Protection de l'industrie et Protection de la population.
 - Nombre d'exemplaires: 2
         
 ##### Techniques d'agriculture d'intérieur (5 niveaux)
         
-- Prérequis: Le niveau précédent s'il existe
+- Prérequis: Le niveau précédent s'il existe.
 - Nombre d'étapes: 20 + 5 fois le niveau.
-- Effet: réduit de 5% le coût des projets Protection de l'agriculture
+- Effet: réduit de 5% le coût des projets Protection de l'agriculture.
 - Nombre d'exemplaires: 2
         
 ##### Maîtrise des écosystèmes agricoles (5 niveaux)
         
-- Prérequis: Le niveau précédent s'il existe
+- Prérequis: Le niveau précédent s'il existe.
 - Nombre d'étapes: 20 + 5 fois le niveau.
-- Effet: réduit de 5% le coût des projets Transition de l'agriculture
+- Effet: réduit de 5% le coût des projets Transition de l'agriculture.
 - Nombre d'exemplaires: 2
         
 ##### Procédés industriels propres
         
-- Prérequis: Le niveau précédent s'il existe
+- Prérequis: Le niveau précédent s'il existe.
 - Nombre d'étapes: 20 + 5 fois le niveau.
-- Effet: réduit de 5% le coût des projets Transition de l'industrie
+- Effet: réduit de 5% le coût des projets Transition de l'industrie.
 - Nombre d'exemplaires: 2
         
 ##### Matériaux supraconducteurs
         
-- Prérequis: Aucun
+- Prérequis: Aucun.
 - Nombre d'étapes: 40
 - Effet: Prérequis d'autres technologies. 5% de réduction de consommation en énergie des bâtiments construits (ou modernisés) après la recherche de cette technologie.
 - Nombre d'exemplaires: 1
         
 ##### Régulation des systèmes financiers
         
-- Prérequis: Aucun
+- Prérequis: Aucun.
 - Nombre d'étapes: 40
-- Effet: Réduction des taux d'intérêts de 1 (pour un minimum de 1)
+- Effet: Réduction des taux d'intérêts de 1 (pour un minimum de 1).
 - Nombre d'exemplaires: 1
 
 #### Privées
@@ -1276,7 +1276,7 @@ La capacité d'innovation réduit aussi le coût d'entretien d'une technologie e
         
 - Prérequis: Régulation climatique.
 - Nombre d'étapes: 8
-- Effet: L'organisation peut lancer le projet Réseau de contrôle météorologique
+- Effet: L'organisation peut lancer le projet Réseau de contrôle météorologique.
 - Nombre d'exemplaires: 2
         
 ##### Conception électrique économe (5 niveaux)
@@ -1288,7 +1288,7 @@ La capacité d'innovation réduit aussi le coût d'entretien d'une technologie e
         
 ##### Construction économe (5 niveaux)
         
-- Prérequis: Le niveau précédent s'il existe
+- Prérequis: Le niveau précédent s'il existe.
 - Nombre d'étapes: 10
 - Effet: réduit de 5% le coût de construction d'un bâtiment.
 - Nombre d'exemplaires: 2
@@ -1297,12 +1297,12 @@ La capacité d'innovation réduit aussi le coût d'entretien d'une technologie e
         
 - Prérequis: Le niveau précédent s'il existe
 - Nombre d'étapes: 10
-- Effet: Augmente de 3% les quantités de ressources produites par les bâtiments
+- Effet: Augmente de 3% les quantités de ressources produites par les bâtiments.
 - Nombre d'exemplaires: 3
         
 ##### Ingénierie de la dette (5 niveaux)
         
-- Prérequis: Le niveau précédent s'il existe
+- Prérequis: Le niveau précédent s'il existe.
 - Nombre d'étapes: 10
 - Effet: Réduit de 5% le montant des intérêts payés.
 - Nombre d'exemplaires: 3
@@ -1318,7 +1318,7 @@ La capacité d'innovation réduit aussi le coût d'entretien d'une technologie e
         
 - Prérequis: Le niveau précédent s'il existe
 - Nombre d'étapes: 10
-- Effet: Augmente de 5% le niveau de risque lors de la perception des revenus
+- Effet: Augmente de 5% le niveau de risque lors de la perception des revenus.
 - Nombre d'exemplaires: 2
         
 ##### Techniques d'exonération des investissements (5 niveaux)
