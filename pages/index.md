@@ -10,6 +10,7 @@ Voici les règles du jeu Bleu Fragile.
 # Table des matières
 <details>
   <summary>Déplier</summary>
+
 1.  [Présentation](#ida56682e)
     1.  [Synopsis](#id02af981)
     2.  [Cadre de jeu](#id6ad34ac)
@@ -83,6 +84,7 @@ Voici les règles du jeu Bleu Fragile.
     15. [Technologies](#id591b549)
         1.  [Fonctionnement général](#id76d96e2)
         2.  [Liste des technologies](#id4c9afb3)
+
 </details>
 
 <a id="ida56682e"></a>
