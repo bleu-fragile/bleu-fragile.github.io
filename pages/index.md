@@ -1223,7 +1223,7 @@ Chaque organisation peut réaliser des opérations secrètes.
 Chacune de ces opérations a un coût en travail et en matériel, achetés directement sur les marchés.
 Chaque opération dispose par défaut d'un niveau de difficulté (D) et d'un niveau de surveillance (S). Ces deux grandeurs déterminent respectivement les chances de réussite de l'opération et les chances que celle ci soit attribuée à l'organisation qui l'a organisée. La réussite d'une opération et son attribution à une organisation sont complètement indépendantes l'une de l'autre. Ces deux grandeurs ne peuvent prendre des valeurs qu'entre -10 et 10.
 Lors de l'organisation de l'opération il est possible de diminuer le niveau de difficulté ou de surveillance. Cela a pour effet d'augmenter aussi le coût de l'opération considérée. 
-Les taux d'échec et de découverte associés sont les suivants (formule: $1-\left(\frac{1}{1+e^{-\frac{x}{3.397}}\right)}$ avec x la difficulté):
+Les taux d'échec et de découverte associés sont les suivants (formule: $1-\left(\frac{1}{1+e^{-\frac{x}{3.397}}}\right)}$ avec x la difficulté):
 
 |-------------------------|--------------------------------------|
 | difficulté/surveillance | taux d'échec/d'attribution (en %) |
@@ -1250,128 +1250,6 @@ Les taux d'échec et de découverte associés sont les suivants (formule: $1-\le
 |                      -9 |                                 93.4 |
 |                     -10 |                                   95 |
 |-------------------------|--------------------------------------|
-
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-
-
-<colgroup>
-<col  class="org-right" />
-
-<col  class="org-right" />
-</colgroup>
-<thead>
-<tr>
-<th scope="col" class="org-right">difficulté/surveillance</th>
-<th scope="col" class="org-right">taux d'échec/d'attribution (en %)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="org-right">10</td>
-<td class="org-right">5</td>
-</tr>
-
-<tr>
-<td class="org-right">9</td>
-<td class="org-right">6.6</td>
-</tr>
-
-<tr>
-<td class="org-right">8</td>
-<td class="org-right">8.6</td>
-</tr>
-
-<tr>
-<td class="org-right">7</td>
-<td class="org-right">11.3</td>
-</tr>
-
-<tr>
-<td class="org-right">6</td>
-<td class="org-right">14.6</td>
-</tr>
-
-<tr>
-<td class="org-right">5</td>
-<td class="org-right">18.7</td>
-</tr>
-
-<tr>
-<td class="org-right">4</td>
-<td class="org-right">23.6</td>
-</tr>
-
-<tr>
-<td class="org-right">3</td>
-<td class="org-right">29.3</td>
-</tr>
-
-<tr>
-<td class="org-right">2</td>
-<td class="org-right">35.7</td>
-</tr>
-
-<tr>
-<td class="org-right">1</td>
-<td class="org-right">42.7</td>
-</tr>
-
-<tr>
-<td class="org-right">0</td>
-<td class="org-right">50</td>
-</tr>
-
-<tr>
-<td class="org-right">-1</td>
-<td class="org-right">57.3</td>
-</tr>
-
-<tr>
-<td class="org-right">-2</td>
-<td class="org-right">64.3</td>
-</tr>
-
-<tr>
-<td class="org-right">-3</td>
-<td class="org-right">70.8</td>
-</tr>
-
-<tr>
-<td class="org-right">-4</td>
-<td class="org-right">76.45</td>
-</tr>
-
-<tr>
-<td class="org-right">-5</td>
-<td class="org-right">81.33</td>
-</tr>
-
-<tr>
-<td class="org-right">-6</td>
-<td class="org-right">85.4</td>
-</tr>
-
-<tr>
-<td class="org-right">-7</td>
-<td class="org-right">88.7</td>
-</tr>
-
-<tr>
-<td class="org-right">-8</td>
-<td class="org-right">91.3</td>
-</tr>
-
-<tr>
-<td class="org-right">-9</td>
-<td class="org-right">93.4</td>
-</tr>
-
-<tr>
-<td class="org-right">-10</td>
-<td class="org-right">95</td>
-</tr>
-</tbody>
-</table>
 
 Il est possible de réduire le coût d'une opération via le niveau de renseignement d'une organisation sur un corps céleste. Ce niveau de renseignement est fourni par des bâtiments dédiés: les centres d'opération secrètes. Chaque centre d'opération secrète d'une organisation augmente le niveau de renseignement (I) de l'organisation qui le possède de 1 pour les opération sur le corps céleste sur lequel ce centre d'opérations secrètes est situé.
 Il est aussi possible de réduire le coût d'une opération en planifiant celle ci sur plusieurs tours (N). Celle ci est alors payée immédiatement et se réalise après N+1 tours.
@@ -1616,4 +1494,4 @@ La capacité d'innovation réduit aussi le coût d'entretien d'une technologie e
         Effet: Augmente de 1% les capitaux déposés dans un fonds d'investissement.
         Nombre d'exemplaires: 2
 
-[TODO](Idées de technologies)
+[TODO Idées de technologies](/ideas-tech-effects)
