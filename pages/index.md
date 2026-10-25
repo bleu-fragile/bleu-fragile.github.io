@@ -768,16 +768,16 @@ Le niveau de protection agit de manière complémentaire en réduisant l'exposit
         
         Il est possible d'y vendre les ressources suivantes:
         
-        -   Nourriture prix de repos = \\(10 \times \left(1+\frac{Population}{1+2\times Agriculture}\right)\\))
-        -   Métaux nobles prix de repos = $30 \times \left(1+\frac{Population}{1+2times Industrie}\right)$
-        -   Métaux légers prix de repos = $10 \times \left(1+\frac{Population}{1+3times Industrie}\right)$
+        -   Nourriture prix de repos = $10 \times \left(1+\frac{Population}{1+2\times Agriculture}\right)$
+        -   Métaux nobles prix de repos = $30 \times \left(1+\frac{Population}{1+2\times Industrie}\right)$
+        -   Métaux légers prix de repos = $10 \times \left(1+\frac{Population}{1+3\times Industrie}\right)$
         -   Composants électroniques prix de repos = $40 \times \left(1+\frac{Population}{1 + 4 \times Industrie}\right)$
     
     2.  Investissement et influence politique sur les régions
     
-        Chaque organisation peu choisir d'investir dans les filières agricoles et industrielles d'un région. Cet investissement va placer augmenter de 1 la jauge d'évolution de la filière. Chaque région garde en mémoire les investissement passés d'une organisation via un niveau d'influence de l'organisation qui progresse d'un pour chaque investissement.
+        Chaque organisation peu choisir d'investir dans les filières agricoles et industrielles d'un région. Cet investissement va augmenter de 1 la jauge d'évolution de la filière. Chaque région garde en mémoire les investissement passés d'une organisation via un niveau d'influence de l'organisation qui progresse d'un pour chaque investissement.
         
-        Un organisation peut, pour une action, investir  autant de fois qu'elle le souhaite dans une région donnée, sous réserve de paiement du coût de cet investissement.
+        Une organisation peut, pour une action, investir  autant de fois qu'elle le souhaite dans une région donnée, sous réserve de paiement du coût de cet investissement.
         En fin de tour, les régions de la terre vont distribuer des éventuels bénéfices aux organisations ayant investi. Ces bénéfices sont égaux à la somme des agricultures et industries de toutes les régions, moins la somme de toutes les populations, multiplié par 1000 et répartis uniformément entre les organisations, en proportion de leur niveau d'influence. Si cette valeur est négative, les bénéfices distribués sont nuls.
         
         En plus de fournir des bénéfices, le niveau d'influence débloque l'accès à certains projets de nature plus politique (décroissance de la population, de l'industrie ou de l'agriculture).
@@ -801,7 +801,7 @@ Le niveau de protection agit de manière complémentaire en réduisant l'exposit
         
             -   Nombre d'étapes: 20
             -   Projet collaboratif
-            -   Coût de chaque étape: (1+Niveau actuel de transition)\*(4 métaux légers + 1 composants électroniques + 1 métaux nobles)
+            -   Coût de chaque étape: (1+\text{Niveau actuel de transition})$\times$(\text{400 métaux légers + 100 composants électroniques + 100 métaux nobles})\
             -   Effet: augmente de 1 le niveau de transition de la piste considérée.
             -   Description: Changement dans les techniques agricoles pour réduire les effets sur l'environnement
         
@@ -809,7 +809,7 @@ Le niveau de protection agit de manière complémentaire en réduisant l'exposit
         
             -   Nombre d'étapes: 20
             -   Projet collaboratif
-            -   Coût de chaque étape: (1+Niveau actuel de transition)\*(1 métaux légers + 5 composants électroniques + 5 métaux nobles)
+            -   Coût de chaque étape: (1+Niveau actuel de transition)$\times$(1 métaux légers + 5 composants électroniques + 5 métaux nobles)
             -   Effet: augmente de 1 le niveau de transition de la piste considérée.
             -   Description: Changement dans les techniques industrielles pour réduire les effets sur l'environnement
         
@@ -817,7 +817,7 @@ Le niveau de protection agit de manière complémentaire en réduisant l'exposit
         
             -   Nombre d'étapes: 15
             -   Projet collaboratif
-            -   Coût de chaque étape: (1+Niveau actuel de protection)\*(7 métaux légers + 1 composants électroniques + 1 métaux nobles)
+            -   Coût de chaque étape: (1+Niveau actuel de protection)$\times$(7 métaux légers + 1 composants électroniques + 1 métaux nobles)
             -   Effet: augmente de 1 le niveau de protection de la piste considérée. Distribue 10 d'influence dans la région répartis entre les participants, en proportion de la participation avec un minimum de 1 par participant
             -   Description: Protection des infrastructures agricoles pour réduire leur exposition aux éléments.
         
