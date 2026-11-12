@@ -1260,6 +1260,13 @@ La capacité d'innovation réduit aussi le coût d'entretien d'une technologie e
 - Effet: Réduction des taux d'intérêts de 1 (pour un minimum de 1).
 - Nombre d'exemplaires: 1
 
+##### Principes avancés d'Astrodynamique 
+        
+- Prérequis: Aucun.
+- Nombre d'étapes: 20
+- Effet: Réduction du coût en carburant de 10% et augmentation de la vitesse de 10% pour tous les vaisseaux de commerce. 
+- Nombre d'exemplaires: 2
+
 #### Privées
 
 ##### Méthodes de gouvernances efficaces
@@ -1325,4 +1332,9 @@ La capacité d'innovation réduit aussi le coût d'entretien d'une technologie e
 - Effet: Augmente de 2% les capitaux déposés dans un fonds d'investissement.
 - Nombre d'exemplaires: 2
 
-##### [TODO Idées de technologies](/ideas-tech-effects)
+##### Astrodynamique appliquée (5 niveaux)
+
+- Prérequis: Le niveau précédent s'il existe et principes avancés d'Astrodynamique pour le premier niveau
+- Nombre d'étapes: 10
+- Effet: Réduit de 5% la quantité de carburant nécessaire pour les vaisseaux de transport.
+- Nombre d'exemplaires: 2

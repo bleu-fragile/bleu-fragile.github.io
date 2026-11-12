@@ -11,12 +11,12 @@ description: Page du jeu Bleu Fragile
 -   Augmentation de la production des bâtiments
 -   Réduction du taux d'intérêts (pas trop, sinon on va caper à 0 -> toujours un cap à 1 au moins ?)
 -   Réduction des coût de l'investissement dans un projet de brevet privé
--   Réduction du coût en carburant des vaisseaux
 -   Augmentation du niveau de risque lors de la perception des revenus
 -   Augmentation de la valeur déposée dans un fonds
 -   Réduction de la valeur perdue lors de la fermeture d'un fonds.
 -   Augmentation des intérêts perçus (un petit pourcentage ?)
 -   Augmentation de la poussée des vaisseaux (si existante)
+-   Réduction du coût en carburant des vaisseaux
 -   Augmentation du volume des vaisseaux
 -   Augmentation du niveau de renseignement
 -   Réduction du niveau de renseignement des opérations clandestines adverses
