@@ -4,6 +4,14 @@ title: Bleu Fragile - idées d'effets des technologies
 permalink: /ideas-techs-effects/
 description: Page du jeu Bleu Fragile
 ---
+# TODO 
+-   Effet d'automatisation «par défaut» (réduction du coût en travail en contrepartie d'une augmentation du coût en énergie/composants/calcul) ?
+-   Déblocage de projets spéciaux (terre ou objectifs) ou de seuils max pour telle ou telle grandeur ?
+-   Réduction de la propagation des dégâts environnementaux
+-   Option de customisation des usines.
+-   Réduction du coût de modernisation
+-   Réduction des risques de vieillissement des bâtiments
+# DONE
 -   Action gratuite pour la corpo
 -   Action pour regarder une pile d'événement (quelques cartes) et défausser l'une d'entre elles (pistes dérèglement climatique).
 -   Réduction du coût énergétique de production
@@ -21,16 +29,5 @@ description: Page du jeu Bleu Fragile
 -   Augmentation du niveau de renseignement
 -   Réduction du niveau de renseignement des opérations clandestines adverses
 -   Augmentation de l'effet des investissements en recherche publique
--   Déblocage de projets spéciaux (terre ou objectifs) ou de seuils max pour telle ou telle grandeur ?
--   Réduction du coût de participation aux certains projets.
--   Réduction des risques de vieillissement des bâtiments
--   Réduction du coût de modernisation
--   Effet d'automatisation «par défaut» (réduction du coût en travail en contrepartie d'une augmentation du coût en énergie/composants/calcul).
 -   Augmentation de l'effet des centres de recherche
--   Réduction de la propagation des dégâts environnementaux
--   déblocage de nouvelles recettes.
--   Option de customisation des usines.
-
-
-
-
+-   Réduction du coût de participation à certains projets.

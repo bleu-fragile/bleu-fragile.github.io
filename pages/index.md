@@ -447,7 +447,7 @@ L'économie fonctionne autour de l'extraction, de la transformation et de la con
 
 ####  Autres
 
--   Travail: qualifié ou non, il est produit par les humains résidant dans les villes des corps célestes.
+-   Travail: il est produit par les humains résidant dans les villes des corps célestes.
 -   Énergie: d'origine solaire ou non, elle est essentielle à toutes les activités industrielles. Elle peut être stockée par divers moyens.
 
 ### Source de chacune des ressources
@@ -470,8 +470,8 @@ Les gisement sont considérés comme non épuisables mais la quantité de ressou
 -   Nourriture: Dans des usines: 500 Énergie + 500 Eau + 500 Composés organiques -> 1000 Nourriture
 -   Matériaux de construction: Plusieurs recettes possibles:
     -   500 Énergie + 1000 Métaux légers -> 500 Matériaux de construction
-    -   500 Énergie + 500 Métaux légers + 500 Composés organiques -> 500 Matériaux de construction
-    -   500 Énergie + 1000 Composés organiques -> 500 Matériaux de construction
+    -   500 Énergie + 400 Métaux légers + 400 Composés organiques -> 500 Matériaux de construction
+    -   500 Énergie + 500 Composés organiques -> 500 Matériaux de construction
 -   Carburant:
     -   300 Oxygène + 300 Hydrogène + 500 Énergie -> 1500 Carburant
     -   300 Oxygène + 300 Hydrogène + 500 Métaux légers + 100 énergie -> 1500 Carburant
@@ -941,7 +941,7 @@ Un vaisseau plus rapide fera plus d'aller retour sur la durée d'un tour, ce qui
 Il y a deux modèles de vaisseaux disponibles ayant un volume effectif similaire:
 
 -   Le courrier, peu cher à construire (100 énergie, 1000 métaux légers, 100 métaux nobles, 100 composants électroniques, 200 travail), consommation de carburant faible (100 unités), volume faible (500 unités), vitesse de base importante (500). Le volume effectif est donc de 250 000.
--   Le cargo, assez cher à construire (500 énergie, 6000 métaux légers, 500 métaux nobles, 100 composants électroniques, 1000 travail), consommation de carburant haute (500 unités), volume très important(10 000 unités), vitesse de base faible (100). Le volume effectif est donc de 1 000 000.
+-   Le cargo, assez cher à construire (500 énergie, 6000 métaux légers, 500 métaux nobles, 100 composants électroniques, 1000 travail), consommation de carburant haute (500 unités), volume très important(20 000 unités), vitesse de base faible (100). Le volume effectif est donc de 2 000 000.
 
 Un courrier nécessite un plus faible investissement initial et est viable si le carburant n'est pas prépondérant dans le coût de transport.
 Un cargo nécessite un investissement conséquent mais rend les coûts en carburants plus faibles.
@@ -1184,7 +1184,7 @@ Le développement d'une recherche publique fonctionne comme un projet coopérati
 
 Le développement d'un brevet privé fonctionne comme un projet compétitif mais contrairement aux projets compétitifs classiques, seules les organisations ayant accès à la technologie lors de la distribution peuvent lancer le développement de ce projet.
 
-Le coût des technologies est en nombre d'étapes, dépendant uniquement de la technologie et des cours du marché pour les ressources concernées. Le coût d'une étape est de 300 unité de travail, 100 composants électronique et 300 unités d'énergie.
+Le coût des technologies est en nombre d'étapes, dépendant uniquement de la technologie et des cours du marché pour les ressources concernées. Le coût d'une étape est de 300 unité de travail, 100 composants électroniques et 300 unités d'énergie.
 
 Le nombre de technologies proposées est déterminé par une grandeur appelée "capacité d'innovation". Cette capacité d'innovation est produite par les bureaux d'études prospectives.
 
@@ -1250,7 +1250,7 @@ La capacité d'innovation réduit aussi le coût d'entretien d'une technologie e
         
 - Prérequis: Aucun.
 - Nombre d'étapes: 40
-- Effet: Prérequis d'autres technologies. 5% de réduction de consommation en énergie des bâtiments construits (ou modernisés) après la recherche de cette technologie.
+- Effet: Prérequis d'autres technologies. 15% de réduction de consommation en énergie des bâtiments construits (ou modernisés) après la recherche de cette technologie.
 - Nombre d'exemplaires: 1
         
 ##### Régulation des systèmes financiers
@@ -1261,15 +1261,53 @@ La capacité d'innovation réduit aussi le coût d'entretien d'une technologie e
 - Nombre d'exemplaires: 1
 
 ##### Principes avancés d'Astrodynamique 
-        
-- Prérequis: Aucun.
+
+- Prérequis: Aucun
 - Nombre d'étapes: 20
-- Effet: Réduction du coût en carburant de 10% et augmentation de la vitesse de 10% pour tous les vaisseaux de commerce. 
+- Effet: Réduction des coûts en carburant des vaisseaux de commerce de 10% et augmentation de la vitesse des vaisseaux de commerce de 10%.
+- Nombre d'exemplaires: 1
+
+##### Protocole d'échange de données ouverts
+        
+- Prérequis: Protocole d'échange de données fermés non développé.
+- Nombre d'étapes: 40
+- Effet: Augmentation du niveau de renseignement de 1, réduction du coût des étapes des projets de recherche de 10%.
+- Nombre d'exemplaires: 1
+
+##### Protocole d'échange de données fermés
+        
+- Prérequis: Protocole d'échange de données ouverts non développé.
+- Nombre d'étapes: 40
+- Effet: Réduction du niveau de renseignement de 1, augmentation du coût des étapes des projets de recherche de 10%.
+- Nombre d'exemplaires: 1
+
+##### Techniques de chiffrement post quantique efficaces
+        
+- Prérequis: Protocole d'échange de données ouverts 
+- Nombre d'étapes: 40
+- Effet: Réduit le niveau de renseignement de 1.
 - Nombre d'exemplaires: 2
+
+
+##### Formats de publication scientifique ouverts
+        
+- Prérequis: Aucun
+- Nombre d'étapes: 40
+- Effet: Réduit de 10% de coût des projets de recherche publics.
+- Nombre d'exemplaires: 1
+
+
+##### Fusion nucléaire
+        
+- Prérequis: Aucun
+- Nombre d'étapes: 80
+- Effet: Aucun 
+- Nombre d'exemplaires: 3
+
 
 #### Privées
 
-##### Méthodes de gouvernances efficaces
+##### Méthodes de gouvernance efficaces
 
 - Prérequis: Aucun
 - Nombre d'étapes: 4
@@ -1311,13 +1349,6 @@ La capacité d'innovation réduit aussi le coût d'entretien d'une technologie e
 - Effet: Réduit de 5% le montant des intérêts payés.
 - Nombre d'exemplaires: 3
         
-##### Méthodes de recherche avancée (5 niveaux)
-        
-- Prérequis: Le niveau précédent s'il existe
-- Nombre d'étapes: 10
-- Effet: Réduit de 5% le coût des étapes de recherche d'une technologie privée.
-- Nombre d'exemplaires: 2
-        
 ##### Modèles statistiques de risque financier (5 niveaux)
         
 - Prérequis: Le niveau précédent s'il existe
@@ -1332,9 +1363,138 @@ La capacité d'innovation réduit aussi le coût d'entretien d'une technologie e
 - Effet: Augmente de 2% les capitaux déposés dans un fonds d'investissement.
 - Nombre d'exemplaires: 2
 
-##### Astrodynamique appliquée (5 niveaux)
+##### Investissements liquides (5 niveaux)
+
+- Prérequis: Le niveau précédent s'il existe
+- Nombre d'étapes: 10
+- Effet: Augmente de 2% la quantité de capitaux récupérés à la fermeture d'un fonds d'investissement.
+- Nombre d'exemplaires: 2
+
+##### Effets de leviers avancés (5 niveaux)
+
+- Prérequis: Le niveau précédent s'il existe
+- Nombre d'étapes: 20
+- Effet: Augmente de 5% la quantité d'intérêts perçus sans affecter les intérêts perçus par les autres organisations.
+- Nombre d'exemplaires: 1
+
+##### Astrodynamique économe (5 niveaux)
 
 - Prérequis: Le niveau précédent s'il existe et principes avancés d'Astrodynamique pour le premier niveau
 - Nombre d'étapes: 10
 - Effet: Réduit de 5% la quantité de carburant nécessaire pour les vaisseaux de transport.
 - Nombre d'exemplaires: 2
+
+##### Astrodynamique rapide (5 niveaux)
+
+- Prérequis: Le niveau précédent s'il existe et principes avancés d'Astrodynamique pour le premier niveau
+- Nombre d'étapes: 10
+- Effet: Augmente la vitesse des vaisseaux de transport de 10.
+- Nombre d'exemplaires: 1
+
+##### Moteurs à fusion nucléaire (2 niveaux)
+
+- Prérequis: Le niveau précédent s'il existe et fusion nucléaire pour le premier 
+- Nombre d'étapes: 10
+- Effet: Augmente la vitesse des vaisseaux de transport de 200%
+- Nombre d'exemplaires: 2
+
+##### Coques spatiales efficaces (5 niveaux)
+
+- Prérequis: Le niveau précédent s'il existe.
+- Nombre d'étapes: 10
+- Effet: Augmente le volume des vaisseaux spatiaux de 50
+- Nombre d'exemplaires: 1
+
+
+##### Techniques de chiffrement avancées (3 niveaux)
+
+- Prérequis: Techniques de chiffrement post quantique efficaces 
+- Nombre d'étapes: 10
+- Effet: Réduit de 1 le niveau de renseignement pour les opérations ciblant les organisations possédant cette technologie. 
+- Nombre d'exemplaires: 3
+
+##### Agents de veille sur les réseaux (3 niveaux)
+
+- Prérequis: Protocoles d'échange de données ouverts.
+- Nombre d'étapes: 10
+- Effet: Augmente de 1 le niveau de renseignement pour les organisations possédant cette technologie. 
+- Nombre d'exemplaires: 3
+
+##### Rétro-ingénierie des protocoles d'échange (5 niveaux)
+
+- Prérequis: Protocoles d'échange de données fermés.
+- Nombre d'étapes: 10
+- Effet: Augmente de 2 le niveau de renseignement pour les organisations possédant cette technologie. 
+- Nombre d'exemplaires: 1
+
+##### Méthodes de recherche avancée (5 niveaux)
+        
+- Prérequis: Le niveau précédent s'il existe
+- Nombre d'étapes: 10
+- Effet: Réduit de 5% le coût des étapes de recherche d'une technologie privée.
+- Nombre d'exemplaires: 2
+        
+##### Veille bibliographique automatisée (10 niveaux) 
+
+- Prérequis: Formats de publication scientifique ouverte, le niveau précédent s'il existe.
+- Nombre d'étapes: 10
+- Effet: Augmente de 30% l'innovation produite par les bureaux d'études prospectives et de 10% leur coût en énergie. 
+- Nombre d'exemplaires: 3
+
+##### Outils de soutien au raisonnement (3 niveaux)
+
+- Prérequis: Le niveau précédent s'il existe. 
+- Nombre d'étapes: 10
+- Effet: Réduit de 30% le coût en travail d'un projet de recherche et augmente de 20% son coût en énergie et composants. 
+- Nombre d'exemplaires: 3
+
+##### Centrale à fusion nucléaire
+
+- Prérequis: Fusion nucléaire 
+- Nombre d'étapes: 10
+- Effet: Rend utilisable la recette de production d'énergie à base d'hydrogène.
+- Nombre d'exemplaires: 4
+
+
+##### Centrale à fission nucléaire compacte
+
+- Prérequis: Aucun
+- Nombre d'étapes: 10
+- Effet: Rend utilisable la recette de production d'énergie à base d'isotopes fissiles.
+- Nombre d'exemplaires: 4
+
+
+##### Matériaux de construction mixtes
+
+- Prérequis: Aucun
+- Nombre d'étapes: 10
+- Effet: Rend utilisable la recette de production de matériaux de construction à partir de composés organiques et de métaux légers.
+- Nombre d'exemplaires: 2
+
+##### Polymères de structure
+
+- Prérequis: Matériaux de constructions mixtes 
+- Nombre d'étapes: 10
+- Effet: Rend utilisable la recette de production de matériaux de construction à partir de composés organiques uniquement.
+- Nombre d'exemplaires: 2
+
+##### Ergols métalliques
+
+- Prérequis: Aucun
+- Nombre d'étapes: 10
+- Effet: Rend utilisable la recette de production de carburant à partir de métaux légers.
+- Nombre d'exemplaires: 3
+
+##### Procédés de fermentation avancés (5 niveaux)
+
+- Prérequis: Le niveau précédent s'il existe.
+- Nombre d'étapes: 10
+- Effet: Augmente la production de nourriture par les bâtiments de l'organisation de 5%.
+- Nombre d'exemplaires: 3
+
+##### Forage en gravité faible (5 niveaux)
+
+- Prérequis: Le niveau précédent s'il existe.
+- Nombre d'étapes: 10
+- Effet: Augmente la production de minerai par les mines de l'organisation de 5%.
+- Nombre d'exemplaires: 3
