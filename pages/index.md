@@ -86,7 +86,7 @@ Voici les règles du jeu Bleu Fragile.
         - [Habitat orbital - conception](#habitat-orbital---conception)
         - [Habitat orbital - construction](#habitat-orbital---construction)
       - [Projets en lien avec la Terre](#projets-en-lien-avec-la-terre)
-      - [[Autres idées (TODO)](/ideas-projects/)](#autres-ides-todoideas-projects)
+      - [Autres idées ](#autres-ides)
   - [Fonctionnement de la Terre](#fonctionnement-de-la-terre)
     - [Activité humaine dans les régions de la Terre](#activit-humaine-dans-les-rgions-de-la-terre)
       - [Liens entre régions](#liens-entre-rgions)
@@ -122,7 +122,7 @@ Voici les règles du jeu Bleu Fragile.
         - [Vague de froid](#vague-de-froid)
         - [Tempête](#tempte)
         - [Inondations](#inondations)
-        - [[Idées autres](/ideas-climate-events/)](#ides-autresideas-climate-events)
+        - [Idées autres](#ides-autres)
   - [Fonctionnement des marchés](#fonctionnement-des-marchs)
     - [Échanges](#changes)
     - [Formation des prix](#formation-des-prix)
@@ -745,8 +745,9 @@ Pour les projets coopératifs, si plus d'étapes que nécessaire ont été réal
 
 Voir la section suivante.
 
-#### [Autres idées (TODO)](/ideas-projects/)
+#### Autres idées 
 
+[TODO](/ideas-projects/)
 
 
 ## Fonctionnement de la Terre
@@ -1036,8 +1037,9 @@ Une fois les événements résolus, on procède immédiatement au tirage des év
 -   Niveau 2: Ajouter 5 jetons de dégâts à l'agriculture, 7 à l'industrie et à la population d'une région. La région est choisie lors du tirage de la carte.
 -   Niveau 3: Ajouter 7 jetons de dégâts à l'agriculture, 9 à l'industrie et à la population d'une région. La région est choisie lors du tirage de la carte.
         
-##### [Idées autres](/ideas-climate-events/)
+##### Idées autres
 
+[Idées autres](/ideas-climate-events/)
 
 ## Fonctionnement des marchés
 

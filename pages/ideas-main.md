@@ -4,6 +4,7 @@ title: Bleu Fragile - Idées
 permalink: /ideas/
 description: Page du jeu Bleu Fragile
 ---
+# TOC
 1.  [Technologie](#idcdc4a84)
 2.  [Mines/Usines indépendantes](#idedcb91c)
 3.  [Idées effets pour les corpos (tech ou traits)](#idccaec34)
@@ -27,34 +28,7 @@ description: Page du jeu Bleu Fragile
 20. [Renommage](#id03a4b0c)
 
 <a id="orgcdc4a84"></a>
-
-## Technologie
-
--   Il faut certainement en ajouter rapidement, sinon, il n'y aura que peu d'effet de progression
--   Système à la Terra Invicta avec des technologies publiques (recherche fondamentale) et des privées (projets appliqués).
--   Les technologies publiques débloquent des projets privés et des bonus globaux
--   Les technologies privées créent des brevets possédés par les organisations et leur octroyant des bonus à elles seules.
--   Il est possible de vendre ces brevets aux enchères.
--   Chaque organisation peut contribuer en dépensant de l'argent à une technologie privée ou publique. Les coût sont indexés sur ceux de l'énergie et du travail et des composants.
--   Les technologies publiques disponibles à la recherche sont en nombre limité et sont choisies par une vote à l'issue du développement de la technologie publique qu'elles remplacent. Chaque organisation vote avec un nombre de voix en proportion de sa contribution à la technologie qui vient d'être achevée.
--   Les fonds sont redistribués aux villes au prorata de leur population relative ? Et la Terre dans tout ça ? Elle contribue aussi aux recherches publiques ? -> Déjà dépensés en travail+énergie + composants donc redistribués en partie à la ville et en partie au marché.
--   Les projets privés sont disponibles à toutes les organisations, mais seule la première organisation à achever la recherche l'emporte, les autres perdent leur mise. En cas d'égalité dans la date de fin de recherche, c'est l'organisation qui a le plus investi qui l'emporte (y compris en dépassant le seuil de sous nécessaires pour débloquer le produit ?)
--   En cas de faillite sans rachat, le brevet est mis aux enchères puis défaussé et de nouveau disponible pour la recherche.
--   Simili draft avec chaque tour le choix entre plusieurs techs (débloquées):
-    -   Chaque organisation voit deux cartes et peut en mettre une de côté en payant un entretien
-    -   Sinon les cartes sont remises au pot et redistribuées au hasard en fin de tour
-    -   Il est possible de payer pour mettre une techno publique au pot commun en payant une petite somme. (étude publique préliminaire)
-    -   On peut développer 2 technos publiques fixées dès le début
-    -   Ensuite, le contrôleur de l'organisation ayant le plus contribué à développer une techno publique choisit la suivante (choisie au hasard parmi le pool si pas d'intervention du joueur).
-    -   On peut avoir des doublons/variantes de nom d'une tech correspondants à deux manières de faire la même chose, et donc immunisé au brevet de l'autre.
-    -   On peut construire des bureau d'études prospectives pour augmenter le nombre de cartes reçues: une carte par lot de 3 niveaux de modernité sur l'ensemble des bureaux. On peut garder une carte de plus par lot de 5 niveau de modernité sur l'ensemble des bureaux. Ou alors pour faire plus lisse, augmenter la chance d'avoir un certain nombre de cartes et diminuer le coût pour garder des cartes en levant la restriction en dur ?
--   Possibilité d'investir uniquement un certain niveau depuis chaque corps, selon le niveau du Bureau d'études prospectives.
--   Seules les organisation ayant ce bureau voient des cartes
--   Il faut une grandeur qui donne la distribution du nombre de cartes vues en fonction d'une quantité produite par le bureau.
-
-
-<a id="orgedcb91c"></a>
-
+# Idées en vrac à garder sous la main 
 ## Mines/Usines indépendantes
 
 -   Créées quand une ressources est très rentable mais non produite
@@ -139,31 +113,6 @@ description: Page du jeu Bleu Fragile
 
 <a id="orge3e067e"></a>
 
-## Tailles des corps célestes:
-
-Dans le cas général, le nombre de cases d'un corps dont le côté est k est $3(k-1)*k+1$
-
-
-<a id="org5e5d0f2"></a>
-
-### Autres corps dans le système solaire externe
-
--   Pas vraiment d'intermédiaire entre Cérès, Vesta et les autres lunes de saturne, Uranus et Neptune
--   Possible de les mettre à 7 cases, mais, c'est vraiment peu non ? Peut être avec une flotte commerciale suffisante c'est assez.
-
-k	nombre de cases
-1	1
-2	7	Ceres, Vesta, Umbriel, Ariel, Dione, Thetys, Charon
-3	19	Titania, Rhéa, Oberon, Japet, Pluton
-4	37	Luna, Io, Triton, Europe
-5	61	Mercure, Titan, Callisto, Ganymède
-6	91	Mars
-7	127
-8	169
-
-
-<a id="orgb353b7f"></a>
-
 ## Comment fournir un substrat politique permettant le RP ?
 
 -   Via des projets communs demandant des participations importantes et la collaboration de plusieurs joueurs: construction d'un vaisseau générationnel, d'un bouclier magnétique sur mars (voir vénus ?), de la terraformation de certaines planètes, d'installation scientifiques à très large échelle (télescope, accélérateur de particules). (Pour y acheminer des ressources, création d'un simili marché local, avec possibilité d'y amener des ressources via des routes commerciales).
@@ -199,7 +148,53 @@ k	nombre de cases
 
 <a id="org68a1175"></a>
 
-## Terre
+## Nombre d'organisation possédées par un joueur
+
+-   Modifiable en fonction des objectifs atteints ?
+-   Bof, les objectifs sont long termes
+
+
+<a id="org6c71390"></a>
+
+## Divers
+- Faire des opérations secrètes en lien avec la terre (par exemple pour provoquer des événements néfastes, ou pour augmenter ou diminuer l'influence d'une organisation).
+- Avoir des événements durables sur terre (guerre, famine, etc) et la possibilité d'interagir avec. Par un projet ou bien des opérations secrètes.
+- Faire un stade particulier de développement pour commencer à coloniser les corps célestes ?
+- Opération secrète de remise aux enchères du contrôle d'une organisation
+- Vente possible d'une organisation dans des circonstances normales ?
+- Nombre de techno possible selon le niveau: 5 au niveau 1 puis de moins en moins jusqu'à 1 au niveau 5.
+## Renommage
+
+-   Bleu fragile semble très bien -> le nouveau jeu bleu
+-   Un sous titre pour l'aspect corporate. Intérêts contraires ? The ecliptic board/ledger ?
+## DONE Technologie
+
+-   Il faut certainement en ajouter rapidement, sinon, il n'y aura que peu d'effet de progression
+-   Système à la Terra Invicta avec des technologies publiques (recherche fondamentale) et des privées (projets appliqués).
+-   Les technologies publiques débloquent des projets privés et des bonus globaux
+-   Les technologies privées créent des brevets possédés par les organisations et leur octroyant des bonus à elles seules.
+-   Il est possible de vendre ces brevets aux enchères.
+-   Chaque organisation peut contribuer en dépensant de l'argent à une technologie privée ou publique. Les coût sont indexés sur ceux de l'énergie et du travail et des composants.
+-   Les technologies publiques disponibles à la recherche sont en nombre limité et sont choisies par une vote à l'issue du développement de la technologie publique qu'elles remplacent. Chaque organisation vote avec un nombre de voix en proportion de sa contribution à la technologie qui vient d'être achevée.
+-   Les fonds sont redistribués aux villes au prorata de leur population relative ? Et la Terre dans tout ça ? Elle contribue aussi aux recherches publiques ? -> Déjà dépensés en travail+énergie + composants donc redistribués en partie à la ville et en partie au marché.
+-   Les projets privés sont disponibles à toutes les organisations, mais seule la première organisation à achever la recherche l'emporte, les autres perdent leur mise. En cas d'égalité dans la date de fin de recherche, c'est l'organisation qui a le plus investi qui l'emporte (y compris en dépassant le seuil de sous nécessaires pour débloquer le produit ?)
+-   En cas de faillite sans rachat, le brevet est mis aux enchères puis défaussé et de nouveau disponible pour la recherche.
+-   Simili draft avec chaque tour le choix entre plusieurs techs (débloquées):
+    -   Chaque organisation voit deux cartes et peut en mettre une de côté en payant un entretien
+    -   Sinon les cartes sont remises au pot et redistribuées au hasard en fin de tour
+    -   Il est possible de payer pour mettre une techno publique au pot commun en payant une petite somme. (étude publique préliminaire)
+    -   On peut développer 2 technos publiques fixées dès le début
+    -   Ensuite, le contrôleur de l'organisation ayant le plus contribué à développer une techno publique choisit la suivante (choisie au hasard parmi le pool si pas d'intervention du joueur).
+    -   On peut avoir des doublons/variantes de nom d'une tech correspondants à deux manières de faire la même chose, et donc immunisé au brevet de l'autre.
+    -   On peut construire des bureau d'études prospectives pour augmenter le nombre de cartes reçues: une carte par lot de 3 niveaux de modernité sur l'ensemble des bureaux. On peut garder une carte de plus par lot de 5 niveau de modernité sur l'ensemble des bureaux. Ou alors pour faire plus lisse, augmenter la chance d'avoir un certain nombre de cartes et diminuer le coût pour garder des cartes en levant la restriction en dur ?
+-   Possibilité d'investir uniquement un certain niveau depuis chaque corps, selon le niveau du Bureau d'études prospectives.
+-   Seules les organisation ayant ce bureau voient des cartes
+-   Il faut une grandeur qui donne la distribution du nombre de cartes vues en fonction d'une quantité produite par le bureau.
+
+
+<a id="orgedcb91c"></a>
+
+## DONE Terre
 
 
 <a id="org7502bcc"></a>
@@ -520,36 +515,36 @@ k	nombre de cases
 
 <a id="org1129c5a"></a>
 
-## Nombre d'organisation possédées par un joueur
+## DONE Tailles des corps célestes:
 
--   Modifiable en fonction des objectifs atteints ?
--   Bof, les objectifs sont long termes
-
-
-<a id="org6c71390"></a>
-
-## Implantation des organisations sur terre
-
--   Système de rente en fonction du niveau des prix et des pistes.
--   Sous forme d'un «produit financier» éventuellement cessible. Des organisations de la Terre avec des actions limitées a leur restructuration pour un changement de secteur éventuel ?
--   Permet une entrée d'argent et d'orienter le jeu des joueurs pour interagir avec la terre.
--   Création de produits financiers par les organisations financières ?
+Dans le cas général, le nombre de cases d'un corps dont le côté est k est $3(k-1)*k+1$
 
 
-<a id="org93e6c78"></a>
+<a id="org5e5d0f2"></a>
 
-## Mergers
+### Autres corps dans le système solaire externe
+
+-   Pas vraiment d'intermédiaire entre Cérès, Vesta et les autres lunes de saturne, Uranus et Neptune
+-   Possible de les mettre à 7 cases, mais, c'est vraiment peu non ? Peut être avec une flotte commerciale suffisante c'est assez.
+
+k	nombre de cases
+1	1
+2	7	Ceres, Vesta, Umbriel, Ariel, Dione, Thetys, Charon
+3	19	Titania, Rhéa, Oberon, Japet, Pluton
+4	37	Luna, Io, Triton, Europe
+5	61	Mercure, Titan, Callisto, Ganymède
+6	91	Mars
+7	127
+8	169
+
+
+<a id="orgb353b7f"></a>
+
+## CANCELLED Mergers
 
 -   Les organisation par action peuvent être mergées à l'initiative de n'importe qui pouvant se payer la fusion, via enchères -> inconvénient pour les compagnies par actions, moins safe et doivent faire attention à leur cours.
 -   Quel intérêt si ça réduit le nombre d'actions ? Il faudrait une limite sur le nombre d'organisations pour rendre ça intéressant, et ça pousse à la concentration, bof
 
 
 <a id="orgfa27e8a"></a>
-
-# Renommage
-
--   Bleu fragile semble très bien -> le nouveau jeu bleu
--   Un sous titre pour l'aspect corporate. Intérêts contraires ? The ecliptic board/ledger ?
-
-
 
