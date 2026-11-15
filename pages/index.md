@@ -9,12 +9,10 @@ Voici les règles du jeu Bleu Fragile.
     
 
 <details markdown="1">
-  <summary>## Table des matières</summary>
+  <summary>**Table des matières**</summary>
 
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
-**Table des matières**
 
-- [Table des matières](#table-des-matires)
 - [Présentation](#prsentation)
   - [Synopsis](#synopsis)
   - [Cadre de jeu](#cadre-de-jeu)
@@ -25,8 +23,8 @@ Voici les règles du jeu Bleu Fragile.
     - [Ressources](#ressources)
     - [Bâtiments](#btiments)
     - [Marchés](#marchs)
-    - [Faillite](#faillite)
     - [Organismes de financement](#organismes-de-financement)
+    - [Faillite](#faillite)
     - [Villes](#villes)
     - [Opérations](#oprations)
     - [Opérations secrètes](#oprations-secrtes)
@@ -40,11 +38,33 @@ Voici les règles du jeu Bleu Fragile.
     - [Opérations et actions](#oprations-et-actions)
     - [Faillite](#faillite-1)
     - [Traits de organisations](#traits-de-organisations)
+      - [Liste de traits](#liste-de-traits)
+        - [Société par actions](#socit-par-actions)
+        - [Techniques de d'extraction frugales](#techniques-de-dextraction-frugales)
+        - [Techniques de d'extraction puissantes](#techniques-de-dextraction-puissantes)
+        - [Startup](#startup)
+        - [Contacts dans l'industrie de construction](#contacts-dans-lindustrie-de-construction)
+        - [Infrastructure modulaire](#infrastructure-modulaire)
+        - [Agence de renseignements](#agence-de-renseignements)
+        - [Services spéciaux](#services-spciaux)
+        - [Organisation criminelle](#organisation-criminelle)
+        - [Réseau de contrebandiers](#rseau-de-contrebandiers)
+        - [Too big to fail](#too-big-to-fail)
+        - [Techniques de placement liquides](#techniques-de-placement-liquides)
+        - [Réseaux financiers bien établis](#rseaux-financiers-bien-tablis)
+        - [Gestion financière prudente](#gestion-financire-prudente)
+        - [Logistique en flux tendu](#logistique-en-flux-tendu)
     - [Contrôle des organisations](#contrle-des-organisations)
     - [Nouvelles organisations](#nouvelles-organisations)
   - [Ressources](#ressources-1)
     - [Liste des ressources](#liste-des-ressources)
+      - [Extraites](#extraites)
+      - [Manufacturées](#manufactures)
+      - [Autres](#autres)
     - [Source de chacune des ressources](#source-de-chacune-des-ressources)
+      - [Extraction via des mines sur des gisement dans le sous sol des corps célestes.](#extraction-via-des-mines-sur-des-gisement-dans-le-sous-sol-des-corps-clestes)
+      - [Manufacturées](#manufactures-1)
+      - [Autres](#autres-1)
   - [Corps célestes](#corps-clestes)
     - [Fonctionnement d'un corps céleste](#fonctionnement-dun-corps-cleste)
     - [Acquisition des cases](#acquisition-des-cases)
@@ -53,13 +73,56 @@ Voici les règles du jeu Bleu Fragile.
   - [Bâtiments](#btiments-1)
     - [La construction d'un bâtiment](#la-construction-dun-btiment)
     - [La destruction d'un bâtiment](#la-destruction-dun-btiment)
+    - [L'agrandissement d'un bâtiment](#lagrandissement-dun-btiment)
     - [Les différents bâtiments](#les-diffrents-btiments)
   - [Projets](#projets)
     - [Fonctionnement général](#fonctionnement-gnral)
     - [Liste des projets](#liste-des-projets)
+      - [Projets objectifs](#projets-objectifs)
+        - [Télescope gravitationnel géant - conception](#tlescope-gravitationnel-gant---conception)
+        - [Télescope gravitationnel géant - construction](#tlescope-gravitationnel-gant---construction)
+        - [Vaisseau générationnel - conception](#vaisseau-gnrationnel---conception)
+        - [Vaisseau générationnel - construction](#vaisseau-gnrationnel---construction)
+        - [Habitat orbital - conception](#habitat-orbital---conception)
+        - [Habitat orbital - construction](#habitat-orbital---construction)
+      - [Projets en lien avec la Terre](#projets-en-lien-avec-la-terre)
+      - [[Autres idées (TODO)](/ideas-projects/)](#autres-ides-todoideas-projects)
   - [Fonctionnement de la Terre](#fonctionnement-de-la-terre)
     - [Activité humaine dans les régions de la Terre](#activit-humaine-dans-les-rgions-de-la-terre)
+      - [Liens entre régions](#liens-entre-rgions)
+      - [Interaction des organisations avec la terre](#interaction-des-organisations-avec-la-terre)
+        - [Commerce avec la Terre](#commerce-avec-la-terre)
+        - [Investissement et influence politique sur les régions](#investissement-et-influence-politique-sur-les-rgions)
+        - [Projets régionaux](#projets-rgionaux)
+          - [Transition de l'agriculture](#transition-de-lagriculture)
+          - [Transition de l'industrie](#transition-de-lindustrie)
+          - [Protection de l'agriculture](#protection-de-lagriculture)
+          - [Protection de l'industrie](#protection-de-lindustrie)
+          - [Protection de la population](#protection-de-la-population)
+        - [Projets globaux](#projets-globaux)
+          - [Dépollution](#dpollution)
+          - [Système d'observation et de contrôle climatique - conception](#systme-dobservation-et-de-contrle-climatique---conception)
+          - [Système d'observation et de contrôle climatique - construction](#systme-dobservation-et-de-contrle-climatique---construction)
+          - [Stabilisation climatique](#stabilisation-climatique)
+          - [Régulation des événements climatiques extrêmes](#rgulation-des-vnements-climatiques-extrmes)
+          - [Reconstruction des calottes glaciaires](#reconstruction-des-calottes-glaciaires)
+          - [Campagne de dépollution avancée](#campagne-de-dpollution-avance)
+          - [Réseau de contrôle météorologique](#rseau-de-contrle-mtorologique)
     - [Fonctionnement du système climatique terrestre](#fonctionnement-du-systme-climatique-terrestre)
+      - [Dynamique de la piste de pollution](#dynamique-de-la-piste-de-pollution)
+      - [Effets de la pollution](#effets-de-la-pollution)
+      - [Dynamique du niveau de la mer](#dynamique-du-niveau-de-la-mer)
+      - [Effets du niveau de la mer](#effets-du-niveau-de-la-mer)
+      - [Fonctionnement des événements climatiques](#fonctionnement-des-vnements-climatiques)
+      - [Listes des événements climatiques](#listes-des-vnements-climatiques)
+        - [Sécheresse](#scheresse)
+        - [Canicule](#canicule)
+        - [Chute de la biodiversité](#chute-de-la-biodiversit)
+        - [Feux de forêt](#feux-de-fort)
+        - [Vague de froid](#vague-de-froid)
+        - [Tempête](#tempte)
+        - [Inondations](#inondations)
+        - [[Idées autres](/ideas-climate-events/)](#ides-autresideas-climate-events)
   - [Fonctionnement des marchés](#fonctionnement-des-marchs)
     - [Échanges](#changes)
     - [Formation des prix](#formation-des-prix)
@@ -82,9 +145,63 @@ Voici les règles du jeu Bleu Fragile.
   - [Opérations secrètes](#oprations-secrtes-1)
     - [Fonctionnement général](#fonctionnement-gnral-1)
     - [Liste des opérations](#liste-des-oprations)
+      - [Manipulations des cours des ressources (à la baisse ou à la hausse)](#manipulations-des-cours-des-ressources--la-baisse-ou--la-hausse)
+      - [Manipulations des cours des actions d'une société (à la baisse ou à la hausse)](#manipulations-des-cours-des-actions-dune-socit--la-baisse-ou--la-hausse)
+      - [Sabotage d'un bâtiment (temporaire)](#sabotage-dun-btiment-temporaire)
+      - [Sabotage d'un bâtiment (définitif)](#sabotage-dun-btiment-dfinitif)
+      - [Révélation des opérations en cours sur un corps céleste](#rvlation-des-oprations-en-cours-sur-un-corps-cleste)
+      - [Sabotage d'une opération en cours](#sabotage-dune-opration-en-cours)
+      - [Sabotage d'un vaisseau de commerce (temporaire)](#sabotage-dun-vaisseau-de-commerce-temporaire)
+      - [Sabotage d'un vaisseau de commerce (définitif)](#sabotage-dun-vaisseau-de-commerce-dfinitif)
+      - [Vol des fonds d'une organisation](#vol-des-fonds-dune-organisation)
+      - [Révélations des traits d'une organisation](#rvlations-des-traits-dune-organisation)
   - [Technologies](#technologies)
     - [Fonctionnement général](#fonctionnement-gnral-2)
     - [Liste des technologies](#liste-des-technologies)
+      - [Publique](#publique)
+        - [Régulation climatique](#rgulation-climatique)
+        - [Techniques de capture du CO2 (5 niveaux)](#techniques-de-capture-du-co2-5-niveaux)
+        - [Techniques avancées de capture du CO2](#techniques-avances-de-capture-du-co2)
+        - [Techniques d'urbanisme flottant (5 niveaux)](#techniques-durbanisme-flottant-5-niveaux)
+        - [Techniques d'agriculture d'intérieur (5 niveaux)](#techniques-dagriculture-dintrieur-5-niveaux)
+        - [Maîtrise des écosystèmes agricoles (5 niveaux)](#matrise-des-cosystmes-agricoles-5-niveaux)
+        - [Procédés industriels propres](#procds-industriels-propres)
+        - [Matériaux supraconducteurs](#matriaux-supraconducteurs)
+        - [Régulation des systèmes financiers](#rgulation-des-systmes-financiers)
+        - [Principes avancés d'astrodynamique ](#principes-avancs-dastrodynamique)
+        - [Protocole d'échange de données ouverts](#protocole-dchange-de-donnes-ouverts)
+        - [Protocole d'échange de données fermés](#protocole-dchange-de-donnes-ferms)
+        - [Techniques de chiffrement post quantique efficaces](#techniques-de-chiffrement-post-quantique-efficaces)
+        - [Formats de publication scientifique ouverts](#formats-de-publication-scientifique-ouverts)
+        - [Fusion nucléaire](#fusion-nuclaire)
+      - [Privées](#prives)
+        - [Méthodes de gouvernance efficaces](#mthodes-de-gouvernance-efficaces)
+        - [Régulation climatique avancé](#rgulation-climatique-avanc)
+        - [Conception électrique économe (5 niveaux)](#conception-lectrique-conome-5-niveaux)
+        - [Construction économe (5 niveaux)](#construction-conome-5-niveaux)
+        - [Chaînes de production efficaces (5 niveaux)](#chanes-de-production-efficaces-5-niveaux)
+        - [Ingénierie de la dette (5 niveaux)](#ingnierie-de-la-dette-5-niveaux)
+        - [Modèles statistiques de risque financier (5 niveaux)](#modles-statistiques-de-risque-financier-5-niveaux)
+        - [Techniques d'exonération des investissements (5 niveaux)](#techniques-dexonration-des-investissements-5-niveaux)
+        - [Investissements liquides (5 niveaux)](#investissements-liquides-5-niveaux)
+        - [Effets de leviers avancés (5 niveaux)](#effets-de-leviers-avancs-5-niveaux)
+        - [Astrodynamique: trajectoires économes (5 niveaux)](#astrodynamique-trajectoires-conomes-5-niveaux)
+        - [Astrodynamique rapide (5 niveaux)](#astrodynamique-rapide-5-niveaux)
+        - [Moteurs à fusion nucléaire (2 niveaux)](#moteurs--fusion-nuclaire-2-niveaux)
+        - [Coques spatiales efficaces (5 niveaux)](#coques-spatiales-efficaces-5-niveaux)
+        - [Techniques de chiffrement avancées (3 niveaux)](#techniques-de-chiffrement-avances-3-niveaux)
+        - [Agents de veille sur les réseaux (3 niveaux)](#agents-de-veille-sur-les-rseaux-3-niveaux)
+        - [Rétro-ingénierie des protocoles d'échange (5 niveaux)](#rtro-ingnierie-des-protocoles-dchange-5-niveaux)
+        - [Méthodes de recherche avancée (5 niveaux)](#mthodes-de-recherche-avance-5-niveaux)
+        - [Veille bibliographique automatisée (10 niveaux) ](#veille-bibliographique-automatise-10-niveaux)
+        - [Outils de soutien au raisonnement (3 niveaux)](#outils-de-soutien-au-raisonnement-3-niveaux)
+        - [Centrale à fusion nucléaire](#centrale--fusion-nuclaire)
+        - [Centrale à fission nucléaire compacte](#centrale--fission-nuclaire-compacte)
+        - [Matériaux de construction mixtes](#matriaux-de-construction-mixtes)
+        - [Polymères de structure](#polymres-de-structure)
+        - [Ergols métalliques](#ergols-mtalliques)
+        - [Procédés de fermentation avancés (5 niveaux)](#procds-de-fermentation-avancs-5-niveaux)
+        - [Forage en gravité faible (5 niveaux)](#forage-en-gravit-faible-5-niveaux)
 
 <!-- markdown-toc end -->
 
@@ -1270,7 +1387,7 @@ La capacité d'innovation réduit aussi le coût d'entretien d'une technologie e
 - Effet: Réduction des taux d'intérêts de 1 (pour un minimum de 1).
 - Nombre d'exemplaires: 1
 
-##### Principes avancés d'Astrodynamique 
+##### Principes avancés d'astrodynamique 
 
 - Prérequis: Aucun
 - Nombre d'étapes: 20
@@ -1311,7 +1428,7 @@ La capacité d'innovation réduit aussi le coût d'entretien d'une technologie e
         
 - Prérequis: Aucun
 - Nombre d'étapes: 80
-- Effet: Aucun 
+- Effet: Débloque des technologies privées. 
 - Nombre d'exemplaires: 3
 
 
@@ -1336,127 +1453,126 @@ La capacité d'innovation réduit aussi le coût d'entretien d'une technologie e
 - Prérequis: supraconducteurs et le niveau précédent s'il existe.
 - Nombre d'étapes: 10
 - Effet: réduit de 5% la consommation d'énergie des bâtiments de l'organisation.
-- Nombre d'exemplaires: 2
+- Nombre d'exemplaires: 6 moins 1 par niveau
         
 ##### Construction économe (5 niveaux)
         
 - Prérequis: Le niveau précédent s'il existe.
 - Nombre d'étapes: 10
 - Effet: réduit de 5% le coût de construction d'un bâtiment.
-- Nombre d'exemplaires: 2
+- Nombre d'exemplaires: 6 moins 1 par niveau
         
 ##### Chaînes de production efficaces (5 niveaux)
         
 - Prérequis: Le niveau précédent s'il existe
 - Nombre d'étapes: 10
 - Effet: Augmente de 3% les quantités de ressources produites par les bâtiments.
-- Nombre d'exemplaires: 3
+- Nombre d'exemplaires: 6 moins 1 par niveau
         
 ##### Ingénierie de la dette (5 niveaux)
         
 - Prérequis: Le niveau précédent s'il existe.
 - Nombre d'étapes: 10
 - Effet: Réduit de 5% le montant des intérêts payés.
-- Nombre d'exemplaires: 3
+- Nombre d'exemplaires: 6 moins 1 par niveau
         
 ##### Modèles statistiques de risque financier (5 niveaux)
         
 - Prérequis: Le niveau précédent s'il existe
 - Nombre d'étapes: 10
 - Effet: Augmente de 5% le niveau de risque lors de la perception des revenus.
-- Nombre d'exemplaires: 2
+- Nombre d'exemplaires: 6 moins 1 par niveau
         
 ##### Techniques d'exonération des investissements (5 niveaux)
 
 - Prérequis: Le niveau précédent s'il existe
 - Nombre d'étapes: 10
 - Effet: Augmente de 2% les capitaux déposés dans un fonds d'investissement.
-- Nombre d'exemplaires: 2
+- Nombre d'exemplaires: 6 moins 1 par niveau
 
 ##### Investissements liquides (5 niveaux)
 
 - Prérequis: Le niveau précédent s'il existe
 - Nombre d'étapes: 10
 - Effet: Augmente de 2% la quantité de capitaux récupérés à la fermeture d'un fonds d'investissement.
-- Nombre d'exemplaires: 2
+- Nombre d'exemplaires: 6 moins 1 par niveau
 
 ##### Effets de leviers avancés (5 niveaux)
 
 - Prérequis: Le niveau précédent s'il existe
 - Nombre d'étapes: 20
 - Effet: Augmente de 5% la quantité d'intérêts perçus sans affecter les intérêts perçus par les autres organisations.
-- Nombre d'exemplaires: 1
+- Nombre d'exemplaires: 6 moins 1 par niveau
 
-##### Astrodynamique économe (5 niveaux)
+##### Astrodynamique: trajectoires économes (5 niveaux)
 
-- Prérequis: Le niveau précédent s'il existe et principes avancés d'Astrodynamique pour le premier niveau
+- Prérequis: Le niveau précédent s'il existe et Principes avancés d'astrodynamique pour le premier niveau
 - Nombre d'étapes: 10
-- Effet: Réduit de 5% la quantité de carburant nécessaire pour les vaisseaux de transport.
-- Nombre d'exemplaires: 2
+- Effet: Réduit de 5% la quantité de carburant nécessaire pour les vaisseaux de transport opérés.
+- Nombre d'exemplaires: 6 moins 1 par niveau
 
 ##### Astrodynamique rapide (5 niveaux)
 
-- Prérequis: Le niveau précédent s'il existe et principes avancés d'Astrodynamique pour le premier niveau
+- Prérequis: Le niveau précédent s'il existe et principes avancés d'astrodynamique pour le premier niveau
 - Nombre d'étapes: 10
-- Effet: Augmente la vitesse des vaisseaux de transport de 10.
-- Nombre d'exemplaires: 1
+- Effet: Augmente la vitesse des vaisseaux de transport possédés de 10.
+- Nombre d'exemplaires: 6 moins 1 par niveau
 
 ##### Moteurs à fusion nucléaire (2 niveaux)
 
 - Prérequis: Le niveau précédent s'il existe et fusion nucléaire pour le premier 
 - Nombre d'étapes: 10
-- Effet: Augmente la vitesse des vaisseaux de transport de 200%
-- Nombre d'exemplaires: 2
+- Effet: Augmente la vitesse des vaisseaux de transport construits de 200%
+- Nombre d'exemplaires: 3 moins 1 par niveau
 
 ##### Coques spatiales efficaces (5 niveaux)
 
 - Prérequis: Le niveau précédent s'il existe.
 - Nombre d'étapes: 10
-- Effet: Augmente le volume des vaisseaux spatiaux de 50
-- Nombre d'exemplaires: 1
-
+- Effet: Augmente le volume des vaisseaux de transport construits de 50
+- Nombre d'exemplaires: 6 moins 1 par niveau
 
 ##### Techniques de chiffrement avancées (3 niveaux)
 
 - Prérequis: Techniques de chiffrement post quantique efficaces 
 - Nombre d'étapes: 10
 - Effet: Réduit de 1 le niveau de renseignement pour les opérations ciblant les organisations possédant cette technologie. 
-- Nombre d'exemplaires: 3
+- Nombre d'exemplaires: 6 moins 1 par niveau
 
 ##### Agents de veille sur les réseaux (3 niveaux)
 
 - Prérequis: Protocoles d'échange de données ouverts.
 - Nombre d'étapes: 10
 - Effet: Augmente de 1 le niveau de renseignement pour les organisations possédant cette technologie. 
-- Nombre d'exemplaires: 3
+- Nombre d'exemplaires: 6 moins 1 par niveau
 
 ##### Rétro-ingénierie des protocoles d'échange (5 niveaux)
 
 - Prérequis: Protocoles d'échange de données fermés.
 - Nombre d'étapes: 10
 - Effet: Augmente de 2 le niveau de renseignement pour les organisations possédant cette technologie. 
-- Nombre d'exemplaires: 1
+- Nombre d'exemplaires: 6 moins 1 par niveau
 
 ##### Méthodes de recherche avancée (5 niveaux)
         
 - Prérequis: Le niveau précédent s'il existe
 - Nombre d'étapes: 10
 - Effet: Réduit de 5% le coût des étapes de recherche d'une technologie privée.
-- Nombre d'exemplaires: 2
+- Nombre d'exemplaires: 6 moins 1 par niveau
         
 ##### Veille bibliographique automatisée (10 niveaux) 
 
 - Prérequis: Formats de publication scientifique ouverte, le niveau précédent s'il existe.
 - Nombre d'étapes: 10
 - Effet: Augmente de 30% l'innovation produite par les bureaux d'études prospectives et de 10% leur coût en énergie. 
-- Nombre d'exemplaires: 3
+- Nombre d'exemplaires: 11 moins 1 par niveau
 
 ##### Outils de soutien au raisonnement (3 niveaux)
 
 - Prérequis: Le niveau précédent s'il existe. 
 - Nombre d'étapes: 10
 - Effet: Réduit de 30% le coût en travail d'un projet de recherche et augmente de 20% son coût en énergie et composants. 
-- Nombre d'exemplaires: 3
+- Nombre d'exemplaires: 4 moins 1 par niveau
 
 ##### Centrale à fusion nucléaire
 
@@ -1500,11 +1616,11 @@ La capacité d'innovation réduit aussi le coût d'entretien d'une technologie e
 - Prérequis: Le niveau précédent s'il existe.
 - Nombre d'étapes: 10
 - Effet: Augmente la production de nourriture par les bâtiments de l'organisation de 5%.
-- Nombre d'exemplaires: 3
+- Nombre d'exemplaires: 6 moins 1 par niveau
 
 ##### Forage en gravité faible (5 niveaux)
 
 - Prérequis: Le niveau précédent s'il existe.
 - Nombre d'étapes: 10
 - Effet: Augmente la production de minerai par les mines de l'organisation de 5%.
-- Nombre d'exemplaires: 3
+- Nombre d'exemplaires: 6 moins 1 par niveau
