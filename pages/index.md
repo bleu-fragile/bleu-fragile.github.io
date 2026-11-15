@@ -397,11 +397,47 @@ Durant le tour de jeu, on résout les actions dans l'ordre suivant:
     
 ## Objectifs des joueurs
 
-[TODO: À préciser](/ideas-obj-players/)
+En début de partie, chaque joueur se voit attribuer des objectifs pour la partie. Ceux ci peuvent être choisis par un maître du jeu ou bien distribués plus ou moins au hasard.
+
+Les objectifs des joueurs peuvent être de quatre types:
+- Instantanés, c'est à dire que leur validation se fait dès la condition atteinte. Ils sont repérés par un I.
+- De fin de partie, c'est à dire qu'on regarde en fin de partie si la condition est bien atteinte. Ils sont repérés par un F.
+- Globaux, c'est à dire qu'ils concerne l'état du système solaire dans son entièreté. Ils sont repérés par un G.
+- Spécifiques aux organisation contrôlées par le joueur, c'est à dire qu'on ne vérifie si la condition est vérifiée que dans les organisation contrôlées par le joueur. Ils sont repérés par un S.
+
+### Répartition des objectifs
+
+Il est possible d'attribuer les objectifs de 3 manières:
+- Un maître du jeu compose des lots de 3 objectifs, dont au moins 1 de fin de partie et 1 global. Il en réalise 2 par joueur. Avant de commencer la partie, chaque joueur se voit proposer deux de ces jeux d'objectifs, en choisit 1 et passe l'autre au joueur suivant. Après avoir fait une transmission par joueur, chaque joueur fait un choix définitif d'un lot parmi les deux qu'il lui reste. Il n'est pas possible de séparer les objectifs du reste de leurs lots.
+- Même chose, mais les lots sont composés au hasard (avec au moins 1 global et 1 de fin de partie) et les objectifs qui les composent peuvent être désassemblés lors de la transmission: à chaque transmission chaque joueur choisit 3 objectifs parmi les 6 disponible et en transmet 3. Il faut toujours en garder au moins un global ou un de fin de partie.
+- Des lots de 3 objectifs dont au moins 1 global et 1 de fin de partie sont constitués aléatoirement et assignés aux joueurs. Chaque joueur reçoit 2 lots, choisit entre ces deux lots et il n'y a pas de phase de draft ensuite.
+
+Lors de la réalisation d'un objectif instantané, chaque joueur doit choisir un nouvel objectif entre 3.
+
+### Liste des objectifs
+- Nationaliste (FG): Le niveau de protection de la région est d'au moins 7 et sa piste de population, d'industrie et d'agriculture sont d'au moins 5. Un objectif disponible par région de la terre avec au plus le nombre de joueurs moins 1. Une organisation au choix du joueur possédant cet objectif reçoit 5 d'influence dans la région considérée.
+- Gardien de la terre (FG): Chaque région de la terre a un niveau de protection d'au moins 5 et une piste de population d'au moins 1. Une organisation au choix du joueur possédant cet objectif reçoit 1 d'influence dans chaque région de la terre.
+- Écologiste (FG): Le niveau de pollution sur terre est de moins de 50 et le niveau des mers est en dessous de 10 augmentations. Le premier niveau de la technologie Procédés industriels propres est déjà recherché. 2 exemplaires si 4 joueurs ou plus.
+- Il n'y a plus de planète A (FG): La somme des niveaux de population, d'industrie et d'agriculture sur les 5 régions de la terre est inférieur à 15. 2 exemplaires si 5 joueurs ou plus.
+- Indépendantiste (FG): Il existe 5 corps célestes dont le niveau de la ville est au dessus de la région de la terre avec la population la plus importante. Incompatible avec Nationaliste.
+- Transhumaniste (FG): La moyenne, pondérée par la taille des bâtiments, du niveau d'automatisation sur les bâtiments de l'ensemble des corps céleste est supérieure à 6. Incompatible avec humaniste. 2 exemplaires si 5 joueurs ou plus.
+- Humaniste (FG): La moyenne, pondérée par la taille des bâtiments, du niveau d'automatisation sur les bâtiments de l'ensemble des corps céleste est supérieure à 4. Incompatible avec Transhumaniste. 2 exemplaires si 5 joueurs ou plus.
+- Capitaliste (FG): Les sociétés par action constituent plus de la majorité de la valeur des organisation du système solaire.
+- Home sweet home (IG): Une instance par corps céleste, au plus une par joueur, dans l'ordre des tailles des corps célestes décroissantes. Le niveau de la ville sur ce corps céleste est de 4. 
+- Expansionniste (IG): La somme du niveau des villes sur les corps céleste du système est d'au moins 15. Deux exemplaires si 4 joueurs ou plus.
+- Anticapitaliste (IG): 3 sociétés par actions ont subi une faillite et ont été dissoutes.
+- Réalisation d'un projet objectif (IG): Voire la section projet. Deux exemplaires par projet si 4 joueurs ou plus.
+- Opportuniste (IS): Obtenir le contrôle simultané de 3 organisation préalablement contrôlées par d'autres joueurs.
+- Mauvais gestionnaire (IS): Avoir contrôlé 3 organisations distinctes ayant subi une faillite.
+- Prince Marchand (IS): Contrôler des organisations opérant des lignes commerciales avec strictement plus de la moitié du volume effectif total des lignes commerciales du système solaire, et contenant au moins 100 vaisseaux de transport. Présent en deux exemplaires si 4 joueurs ou plus.
+- Financier (IS): Contrôler des organisations avec des fonds possédant strictement plus de la moitié des capitaux du système solaire et au moins 10 000 000.
+- Monopoliste (IS): Une instance par ressource (sauf travail). Produire plus de la ressource que toutes les autres organisations sur au moins 4 corps céleste où la ressources est produite à plus de 10 000 unités.
+- Barbouze (IS): 3 mener 100 opérations secrètes. 2 exemplaires si 4 joueurs ou plus.
+- Prêteur sur gages (IS): Obtenir plus de 1 000 000 de revenus via les intérêts de la dette. 2 exemplaires si 4 joueurs ou plus.
 
 ## Critère de clôture de la partie
 
-[TODO: À préciser](/ideas-end-condition/)
+Quand il reste moins de 5 objectifs disponibles ou qu'aucun joueur n'a d'objectif instantané non validé, la partie se termine. Il faut au moins 30 tours de jeu avant la fin de partie.
 
 ## Fonctionnement des organisations
 
@@ -1395,7 +1431,7 @@ La capacité d'innovation réduit aussi le coût d'entretien d'une technologie e
 - Effet: réduit de 5% le coût des projets Transition de l'agriculture.
 - Nombre d'exemplaires: 2
         
-##### Procédés industriels propres
+##### Procédés industriels propres (5 niveaux)
         
 - Prérequis: Le niveau précédent s'il existe.
 - Nombre d'étapes: 20 + 5 fois le niveau.
@@ -1467,7 +1503,7 @@ La capacité d'innovation réduit aussi le coût d'entretien d'une technologie e
 - Effet: l'organisation dispose d'une action gratuite par tour.
 - Nombre d'exemplaires: 2
         
-##### Régulation climatique avancé
+##### Régulation climatique avancée
         
 - Prérequis: Régulation climatique.
 - Nombre d'étapes: 8
@@ -1607,14 +1643,12 @@ La capacité d'innovation réduit aussi le coût d'entretien d'une technologie e
 - Effet: Rend utilisable la recette de production d'énergie à base d'hydrogène.
 - Nombre d'exemplaires: 4
 
-
 ##### Centrale à fission nucléaire compacte
 
 - Prérequis: Aucun
 - Nombre d'étapes: 10
 - Effet: Rend utilisable la recette de production d'énergie à base d'isotopes fissiles.
 - Nombre d'exemplaires: 4
-
 
 ##### Matériaux de construction mixtes
 

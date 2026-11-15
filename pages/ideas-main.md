@@ -45,16 +45,6 @@ description: Page du jeu Bleu Fragile
 
 <a id="orgccaec34"></a>
 
-## Idées effets pour les corpos (tech ou traits)
-
--   Augmenter l'influence gagnée sur terre
--   Augmenter les sous perçus de la terre via l'influence
--   Quantité initiale d'influence sur terre (dans une région donnée) -> peut aller avec un objectif.
--   Réduction des coûts des centre de recherche
-
-
-<a id="org72e7f19"></a>
-
 ## Customisation des usines
 
 -   Possibilité d'activer des options (à la mobilisation de V3) qui modifient un peu les conditions de production
@@ -162,7 +152,6 @@ description: Page du jeu Bleu Fragile
 - Faire un stade particulier de développement pour commencer à coloniser les corps célestes ?
 - Opération secrète de remise aux enchères du contrôle d'une organisation
 - Vente possible d'une organisation dans des circonstances normales ?
-- Nombre de techno possible selon le niveau: 5 au niveau 1 puis de moins en moins jusqu'à 1 au niveau 5.
 ## Renommage
 
 -   Bleu fragile semble très bien -> le nouveau jeu bleu
