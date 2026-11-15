@@ -633,7 +633,7 @@ Les gisement sont considérés comme non épuisables mais la quantité de ressou
 
 ####  Autres
 
--   Travail: pour chaque habitant: 100 Nourriture + 100 Oxygène -> 500 Travail.
+-   Travail: pour chaque lot de 10 habitants: 100 Nourriture + 100 Oxygène -> 100 Travail.
 -   Énergie: Plusieurs recettes possibles selon le type d'installation
     -   300 Oxygène + 300 Hydrogène -> 1000 Énergie + 300 Eau (électrolyse inverse)
     -   Rien -> X Énergie (centrale solaire, X est déterminé par l'exposition solaire du corps céleste à travers sa distance au soleil)
@@ -1126,23 +1126,37 @@ Ensuite, de manière à introduire une forme de retour à un équilibre dans le 
 ### Vaisseaux de transport
 
 Les vaisseaux de transport permettent d'acheminer des ressources entre corps célestes. Ceux ci sont construits par les organisations, sur des corps célestes via un bâtiment spécifique: le chantier spatial.
+
 Un vaisseau est caractérisé par son volume de transport, sa vitesse de base et sa consommation de carburant. La consommation de carburant est exprimée pour une utilisation du vaisseau pendant un tour complet. 
 Pour un trajet donné, le volume de transport et la vitesse de base permettent d'obtenir le volume effectif: $\frac{\text{vitesse de base}\times\text{volume de transport}}{\text{longueur du trajet}}$.
-Un vaisseau plus rapide fera plus d'aller retour sur la durée d'un tour, ce qui explique que la vitesse permette d'augmenter le volume effectif. Cependant cela se fait au prix d'une dépense plus importante de carburant.
+
+Un vaisseau plus rapide fera plus d'aller-retour sur la durée d'un tour, ce qui explique que la vitesse permette d'augmenter le volume effectif. Cependant cela se fait au prix d'une dépense plus importante de carburant.
 
 Il y a deux modèles de vaisseaux disponibles ayant un volume effectif similaire:
 
 -   Le courrier, peu cher à construire (100 énergie, 1000 métaux légers, 100 métaux nobles, 100 composants électroniques, 200 travail), consommation de carburant faible (100 unités), volume faible (500 unités), vitesse de base importante (500). Le volume effectif est donc de 250 000.
--   Le cargo, assez cher à construire (500 énergie, 6000 métaux légers, 500 métaux nobles, 100 composants électroniques, 1000 travail), consommation de carburant haute (500 unités), volume très important(20 000 unités), vitesse de base faible (100). Le volume effectif est donc de 2 000 000.
+-   Le cargo, assez cher à construire (800 énergie, 8000 métaux légers, 800 métaux nobles, 100 composants électroniques, 1600 travail), consommation de carburant haute (500 unités), volume très important(20 000 unités), vitesse de base faible (100). Le volume effectif est donc de 2 000 000.
 
 Un courrier nécessite un plus faible investissement initial et est viable si le carburant n'est pas prépondérant dans le coût de transport.
 Un cargo nécessite un investissement conséquent mais rend les coûts en carburants plus faibles.
+
+Une fois un vaisseau de transport construit par une organisation, il peut être affecté à une ligne commerciale de cette organisation, ou bien mis aux enchères où les autres organisations pourront l'acquérir.
+
+### Commerce des vaisseaux de transport
+
+Chaque vaisseau de transport non affecté à une ligne commerciale peut être mis en vente aux enchères. Sans dépenser d'action, l'organisation qui le possède peut le mettre en vente à un prix fixé à l'avance. Il y reste tant qu'aucune offre n'a été faite.
+
+Certaines technologies permettent de rendre les vaisseaux produits plus efficaces. Ces bonus sont attachés au vaisseau et suivent celui ci lors de sa vente. 
+
+Si plusieurs vaisseaux identiques du point de vue de leur caractéristiques sont en vente, une offre ne fera pas de différence entre ces vaisseaux. La résolution des offres se fait de la manière suivante: s'il y a moins d'offres que de vaisseaux en vente, le prix payé est celui décidé par l'organisation qui les a mis en vente. S'il y a plus d'offre que de vaisseaux en vente, seules les offres les plus importantes sont remplies, et le tarif payé est le même pour toutes ces offres: la valeur de l'offre la plus haute n'ayant pas pu être remplie.
+
+En cas d'égalité, il y a tirage au sort.
 
 ### Lignes commerciales
 
 Les organisations peuvent établir des lignes commerciales entre les différents corps du système solaire.
 L'établissement d'une telle ligne permet des échanges de ressources entre différents marchés locaux.
-Une organisation peut, lors de son tour utiliser une action pour établir une ligne en choisissant deux corps du système solaire et pour chaque corps des ressources à y acheter (pour les vendre sur l'autre corps).
+Une organisation peut, lors de son tour, utiliser une action pour établir une ligne en choisissant deux corps du système solaire et pour chaque corps des ressources à y acheter (pour les vendre sur l'autre corps).
 
 Il est ensuite possible d'affecter à une ligne commerciale des vaisseaux pour réaliser le transport. L'ensemble des vaisseaux affectés à une ligne donne le volume effectif de marchandises déplacé par la ligne (la somme des volumes effectifs de chaque vaisseau) ainsi que la consommation en carburant de la ligne (la somme des consommations de chaque vaisseau).
 À chaque tour, la ligne commerciale achète dans les marchés des extrémités les ressources et les revend à l'autre extrémité. Le carburant nécessaire est acheté à l'extrémité où il est le moins cher.
@@ -1150,6 +1164,8 @@ Il est ensuite possible d'affecter à une ligne commerciale des vaisseaux pour r
 Il est possible d'ajouter gratuitement des vaisseaux à une ligne ou bien de changer les ressources achetées et vendues aux deux extrémités, mais pour changer ces extrémités, il est nécessaire de recréer une ligne.
 
 Une ligne commerciale à laquelle plus aucun vaisseau n'est affecté disparaît.
+
+À chaque tour, chaque vaisseau dans une ligne a une chance sur 30 d'être endommagé. Dans ce cas le vaisseau disparaît et l'organisation reçoit 90% de la valeur des ressources nécessaires à sa construction, qui sont vendues sur le marché à l'extrémité pour laquelle cette valeur est la plus haute.
 
 ### Modes de transport
 
@@ -1160,8 +1176,8 @@ Une ligne commerciale peut opter pour deux modes de transport alternatifs pour s
 
 ### Ressources non concernées par le commerce
 
--   Le travail
--   L'énergie
+- Le travail
+- L'énergie
 
 ## Villes
 
@@ -1171,40 +1187,35 @@ Les villes sont des entités indépendantes accueillant la population humaine da
 Les villes s'organisent en différents niveaux représentants leur taille. Au fur et à mesure de la progression des niveau elles consomment plus de ressources et accueillent plus de population.
 Voici le détail des consommations à chaque tour et des tailles:
 
--   Niveau 0 - Avant poste scientifique
--   100 énergie, 100 oxygène, 100 composé organique, 100 eau
--   Population maximale: 100
--   Niveau 1 - Petite ville
--   500 énergie, 500 oxygène, 500 composé organique, 500 eau, 100 composant électronique
--   Population maximale: 1000
--   Niveau 2 - Ville moyenne
--   2500 énergie, 2500 oxygène, 2500 composé organique, 2500 eau, 500 composants électroniques, 100 carburant
--   Population maximale: 10 000
--   Niveau 3 - Grande ville
--   12500 énergie, 12500 oxygène, 12500 composé organique, 12500 eau, 2500 composants électroniques, 500 carburant, 100 matériaux de construction
--   Population maximale: 100 000
--   Niveau 4 - Métropole
--   62500 énergie, 62500 oxygène, 62500 composé organique, 62500 eau, 12500 composants électroniques, 2500 carburant, 500 matériaux de construction
--   Population maximale: 1 000 000
+- Niveau 0 - Avant poste scientifique
+  - 100 énergie, 100 oxygène, 100 composé organique, 100 eau
+  - Population maximale: 100
+- Niveau 1 - Petite ville
+  - 500 énergie, 500 oxygène, 500 composé organique, 500 eau, 100 composant électronique
+  - Population maximale: 1000
+- Niveau 2 - Ville moyenne
+  - 2500 énergie, 2500 oxygène, 2500 composé organique, 2500 eau, 500 composants électroniques, 100 carburant
+  - Population maximale: 10 000
+- Niveau 3 - Grande ville
+  - 12500 énergie, 12500 oxygène, 12500 composé organique, 12500 eau, 2500 composants électroniques, 500 carburant, 100 matériaux de construction
+  - Population maximale: 100 000
+- Niveau 4 - Métropole
+  - 62500 énergie, 62500 oxygène, 62500 composé organique, 62500 eau, 12500 composants électroniques, 2500 carburant, 500 matériaux de construction
+  - Population maximale: 1 000 000
 
 ### Construction des villes
 
 Chaque corps céleste contient par défaut une ville au niveau 0: l'avant poste.
 Chaque augmentation de taille est déclenchée quand les critères sont atteints et entraîne l'achat des ressources suivantes par la ville:
 
--   Passage au niveau 1:
--   Au moins 50% d'occupation de la population et 110% du budget pour payer les ressources disponibles dans les caisses et une vente de matériaux de construction non nulle dans le marché local.
--   Passage au niveau 2:
--   Au moins 50% d'occupation de la population et 110% du budget pour payer les ressources disponibles dans les caisses et une vente de carburant non nulle dans le marché local.
--   Passage au niveau 3:
--   Au moins 50% d'occupation de la population et 110% du budget pour payer les ressources disponibles dans les caisses et une vente de composants non nulle dans le marché local.
--   Passage au niveau 4:
--   Au moins 50% d'occupation de la population et 110% du budget pour payer les ressources disponibles dans les caisses.
--   Disponible uniquement en cas de présence d'un habitat orbital.
+- Passage au niveau 1: Au moins 50% d'occupation de la population et 110% du budget pour payer les ressources disponibles dans les caisses et une vente de matériaux de construction non nulle dans le marché local.
+- Passage au niveau 2: Au moins 50% d'occupation de la population et 110% du budget pour payer les ressources disponibles dans les caisses et une vente de carburant non nulle dans le marché local.
+- Passage au niveau 3: Au moins 50% d'occupation de la population et 110% du budget pour payer les ressources disponibles dans les caisses et une vente de composants non nulle dans le marché local.
+- Passage au niveau 4: Au moins 50% d'occupation de la population et 110% du budget pour payer les ressources disponibles dans les caisses. Disponible uniquement en cas de présence d'un habitat orbital.
 
 ### Fonctionnement de la population
 
-À chaque tour, la population d'une ville vend sa force de travail au marché local et achète de la nourriture, de l'eau et de l'oxygène. Chaque groupe de 100 population produit 1000 unités de travail et consomme 100 unités d'eau, de nourriture et d'oxygène, arrondi à l'inférieur.
+À chaque tour, la population d'une ville vend sa force de travail au marché local et achète de la nourriture, de l'eau et de l'oxygène. Chaque groupe de 10 population produit 100 unités de travail et consomme 10 unités d'eau, de nourriture et d'oxygène, arrondi à l'inférieur.
 La ville paie pour les dépenses et récupère les salaires. Si après ces transactions (et la consommation fixe de la ville) le budget de la ville est positif, la population double, dans le cas contraire, elle baisse de 20%.
 
 ## Fonctionnement des organismes de financement
