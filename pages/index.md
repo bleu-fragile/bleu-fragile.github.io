@@ -667,7 +667,6 @@ Les différents corps du système solaire accessibles sont:
 - Luna (37 cases, exposition solaire 3)
 - Io (37 cases, exposition solaire nulle)
 - Triton (37 cases, exposition solaire nulle)
-- Europe (37 cases, exposition solaire nulle)
 - Titania (19 cases, exposition solaire nulle)
 - Oberon (19 cases, exposition solaire nulle)
 - Japet (19 cases, exposition solaire nulle)
@@ -675,11 +674,12 @@ Les différents corps du système solaire accessibles sont:
 - Umbriel (7 cases, exposition solaire nulle)
 - Ariel (7 cases, exposition solaire nulle)
 - Dione (7 cases, exposition solaire nulle)
-- Thetys (7 cases, exposition solaire nulle)
+- Tethys (7 cases, exposition solaire nulle)
 - Charon (7 cases, exposition solaire nulle)
 - Ceres (7 cases, exposition solaire nulle)
 - Vesta (7 cases, exposition solaire nulle)
 - Terra (pas de surface exploitable)
+<!-- - Europe (37 cases, exposition solaire nulle) Réservée pour les projets objectif spécial-->
 
 ### Distances entre corps du système solaire
 
@@ -814,7 +814,7 @@ Voir la section suivante.
 
 #### Autres idées 
 
-[TODO](/ideas-projects/)
+[à développer](/ideas-projects/)
 
 ## Fonctionnement de la Terre
 
