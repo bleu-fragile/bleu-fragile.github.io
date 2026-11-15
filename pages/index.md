@@ -7,10 +7,9 @@ description: Page du jeu Bleu Fragile
 
 Voici les règles du jeu Bleu Fragile.
     
-## Table des matières
 
 <details markdown="1">
-  <summary>Déplier  </summary>
+  <summary>## Table des matières</summary>
 
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
 **Table des matières**
@@ -91,7 +90,7 @@ Voici les règles du jeu Bleu Fragile.
 
 
 </details>
-
+<br>
 
 # Présentation
 
