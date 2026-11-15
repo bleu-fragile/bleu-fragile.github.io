@@ -11,6 +11,10 @@ description: Page du jeu Bleu Fragile
 -   Option de customisation des usines.
 -   Réduction du coût de modernisation
 -   Réduction des risques de vieillissement des bâtiments
+-   Augmenter l'influence gagnée sur terre
+-   Augmenter les sous perçus de la terre via l'influence
+-   Quantité initiale d'influence sur terre (dans une région donnée) -> peut aller avec un objectif.
+
 # DONE
 -   Action gratuite pour la corpo
 -   Action pour regarder une pile d'événement (quelques cartes) et défausser l'une d'entre elles (pistes dérèglement climatique).

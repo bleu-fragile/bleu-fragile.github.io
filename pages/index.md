@@ -243,13 +243,7 @@ Ce jeu tente de mettre en place trois aspects principaux:
 
 Il vise un nombre de joueurs allant de 3 à 6 en plus d'un éventuel meneur de jeu dont le rôle sera d'élaborer la base des éléments roleplay qui introduisent la situation initiale et d'animer le déroulement de la partie.
 
-
-
-
 ## Principes généraux de jeu
-
-
-
 
 ### Situation de la Terre
 
@@ -378,23 +372,27 @@ Durant le tour de jeu, on résout les actions dans l'ordre suivant:
 
 - Résolution des opérations secrètes. Dans un ordre aléatoire.
 - Mise à jour des lignes de commerce interplanétaires.
-- Activation des lignes commerciales: chaque ligne achète et vend les ressources.
+- Activation des lignes commerciales: chaque ligne achète et vend les ressources (paiement en fin de tour).
 - Résolution de la participation aux projets.
 - Résolution des enchères pour les cases (portion de terrain).
 - Remise à disposition des cases libérées.
-- Construction puis destruction de bâtiments.
-- Fonctionnement des bâtiments: chaque bâtiment consomme et produit les ressources nécessaires à son fonctionnement
+- Construction, agrandissement puis destruction de bâtiments.
+- Changement des recettes de production.
+- Fonctionnement des bâtiments: chaque bâtiment consomme et produit les ressources nécessaires à son fonctionnement.
 - Résolution de la participation aux projets.
-- Paiement des intérêts de la dette.
 - Vente des actions d'organisations.
 - Résolution des enchères d'achat des actions d'organisations.
-- Paiement des dividendes des organisations.
-- Résolutions des faillites.
 - Évolution des populations dans les villes.
 - Mise à niveau des villes.
 - Résolution du fonctionnement de la terre.
-  - TODO détailler ici.
+  - Résolution des événements
+  - Résolution de la participation aux projets.
+  - Mise à jour des prix
 - Mise à jour des prix des ressources.
+- Résolution des transactions.
+- Paiement des intérêts de la dette.
+- Paiement des dividendes des organisations.
+- Résolution des faillites.
 - Vérifications de objectifs.
     
 ## Objectifs des joueurs
@@ -423,11 +421,13 @@ Les opérations possibles pour une organisation sont:
 -   Miser pour l'acquisition d'une case de terrain (gratuit).
 -   Construire ou agrandir un bâtiment sur une case de terrain déjà possédée (coût: une action).
 -   Désassembler un bâtiment possédé (gratuit).
+-   Changer la recette de production d'un bâtiment (coût: une action).
 -   Remettre en vente une case de terrain possédée (coût: une action). Lors de cette remise en vente, la somme payée pour l'acquisition est remboursée et la case de terrain sera disponible pour acquisition au tour suivant.
 -   Réaliser une opération secrète (coût: une action). La description des actions secrètes est faite plus loin dans les règles.
--   Construire un vaisseau de commerce dans un chantier spatial (coût: une action).
+-   Construire des vaisseaux de commerce dans un chantier spatial (coût: une action).
 -   Ouvrir une ligne de commerce interplanétaire (coût: une action).
 -   Placer ou retirer un vaisseau de commerce sur une ligne de commerce (gratuit).
+-   Enchérir pour l'acquisition d'un ou plusieurs vaisseaux de transport (gratuit).
 -   Mettre en vente ou enchérir des actions d'une société par actions (gratuit).
 -   Créer un organisme financier (coût: une action).
 -   Fermer un organisme financier (gratuit).
@@ -435,7 +435,7 @@ Les opérations possibles pour une organisation sont:
 -   Transférer des fonds à son contrôleur (gratuit): cela n'est possible que si l'organisation ne possède pas de dettes.
 -   Recevoir des fonds de son contrôleur (coût: une action)
 
-Chaque organisation dispose par défaut d'une action par tour de jeu. S'y ajoutent éventuellement, deux actions supplémentaires que chaque joueur peut distribuer parmi l'ensemble des organisations qu'il contrôle.
+Chaque organisation dispose par défaut de deux actions par tour de jeu. S'y ajoutent éventuellement, deux actions supplémentaires que chaque joueur peut utiliser avec l'ensemble des organisations qu'il contrôle.
 
 ### Faillite
 
@@ -501,7 +501,7 @@ Toute opération secrète sur un corps céleste sur lequel cette organisation po
         
 ##### Réseau de contrebandiers
         
-Quand cette organisation opère une ligne commerciale entre deux corps céleste, le niveau de renseignement sur chaque corps est égal au niveau de renseignement le plus élevé des deux corps, limité par le nombre de vaisseaux dans la ligne.
+Quand cette organisation opère une ligne commerciale entre deux corps célestes, le niveau de renseignement sur chaque corps est égal au niveau de renseignement le plus élevé des deux corps, limité par le nombre de vaisseaux dans la ligne.
 Le volume transporté par chaque vaisseau est réduit de 5%.
         
 ##### Too big to fail
@@ -650,21 +650,53 @@ Les différents corps du système solaire accessibles sont:
 [TODO](/ideas-celestial-map/)
 
 ## Bâtiments
-TODO
+Les bâtiments jouent un rôle centrale dans l'activité économique: ils produisent et transforment les ressources.
+Chaque bâtiment occupe une case d'un corps céleste et est possédé par une organisation.
+Les bâtiments sont construit à des dimensions réduites mais peuvent être agrandis par la suite, pour un coût important et en augmentant leurs effets de manière importante.
+Chaque bâtiment peut être détruit par l'organisation qui le possède, qui récupère alors 90% des ressources nécessaires à sa construction, ou plutôt leur valeur, au cours actuel.
 
-### La construction d'un bâtiment
+À chaque bâtiment de production est associé une recette qui indique les ressources consommées et produites par ce bâtiment. Cette recette peut être changée par l'organisation qui possède le bâtiment, au prix d'une action, rendant le bâtiment improductif pendant un tours complet.
+
+### Les différents bâtiments
+
+Les différents bâtiments qu'il est possible de construire sont:
+- Mine: Elle extrait les ressources naturelles disponibles sur la case. Elle possède une recette possible par gisement sur la case. Coût de construction de base: 500 matériaux de construction, 500 travail, 500 énergie, 500 métaux léger, 100 composants électroniques.
+- Usine: Elle produit des ressources manufacturées à partir de ressources de base. Les recettes disponibles sont celles de toutes les ressources, certaines sont conditionnées par des technologies. Coût de construction de base: 1000 matériaux de construction, 1000 travail, 500 énergie, 500 métaux léger, 500 composants électroniques.
+- Centrale: Elle produit l'énergie nécessaire à l'activité humaine. Les recettes possibles sont celles détaillées dans la sections décrivant les ressources, certaines sont conditionnées par des technologies. Coût de construction de base: 1000 matériaux de construction, 1000 travail, 1000 énergie, 500 métaux léger, 500 métaux nobles, 500 composants électroniques.
+- Centres d'opérations: Il permet de préparer les opérations secrètes. Apparaît sur la carte pour toute les organisations sauf celle qui le possède comme un Bureaux d'études prospectives. N'a qu'une seule recette possible consistant uniquement en de la consommation: 500 travail, 100 énergie, 100 composants électroniques. Coût de construction de base: 500 matériaux de construction, 100 travail, 100 énergie, 100 métaux léger, 100 composants électroniques.
+- Bureaux d'études prospectives: Il permet de conduire la recherches technologique des organisations.N'a qu'une seule recette possible consistant uniquement en de la consommation: 500 travail, 500 énergie, 100 composants électroniques. Coût de construction de base: 500 matériaux de construction, 100 travail, 100 énergie, 100 métaux léger, 100 composants électroniques.
+- Chantier spatial: Il permet de produire les vaisseaux de transport de ressources. Contrairement aux autres bâtiments, il ne fonctionne pas avec une recette mais via des commandes. Chaque organisation peut commander (pour une action) la construction de vaisseaux de transport à un chantier, pour une quantité limitée par la taille du chantier. L'organisation paie alors le coût des vaisseaux au prix du marché plus 10% de ce coût versés à l'organisation qui possède le chantier spatial.
+
+Pour construire un bâtiment, il est nécessaire que l'organisation possède les droits sur la case de construction. 
 
 ### La destruction d'un bâtiment
 
+Une organisation peut décider de détruire un bâtiments sans dépenser d'action. Lors de cette destruction elle récupère 90% de la valeur des matériaux utilisés pour la construction et l'agrandissement du bâtiment, à leur cours actuel.
+
 ### L'agrandissement d'un bâtiment
 
-### Les différents bâtiments
-- Mines
-- Usines
-- Centrales
-- Centres d'opérations
-- Bureaux d'études prospectives
-- Chantier spatial
+Lors de sa construction, un bâtiment possède une taille de base de 100. Après cette construction, il est possible d'agrandir cette taille. Pour une action, il est possible de multiplier la taille par 2.
+Le coût d'un agrandissement est égal au coût de base du bâtiment, multiplié par la taille atteinte par le bâtiment après agrandissement: le coût d'agrandissement double à chaque nouvel agrandissement.
+Une fois agrandit, un bâtiment multiplie les quantités de sa recette par $\frac{\text{taille}}{100}^{0.59}. Le coût d'agrandissement augmente plus vite que les effets sur la production. 
+Avec la formule précédente, si on multiplie la taille par 2, on multiplie l'effet de la recette par un peu plus d'1.5.
+En plus des coûts strictement liés à la production de ressources elle même, chaque bâtiment a un coût de fonctionnement propre, en fonction de sa taille qui est de 2 unité de travail, 1 unité d'énergie et 1 composant électronique par taille.
+
+### Le vieillissement d'un bâtiment
+
+Lors de chaque tour de production, un bâtiment a une chance sur 10 de subir un vieillissement. Cela a pour effet de réduire sa taille de 20%. Cet effet ne peut pas faire passer la taille du bâtiment en dessous de 100. Il faut donc agrandir régulièrement les bâtiments pour lutter contre le vieillissement (c'est à dire la diminution en taille) de ceux-ci. Au bout de 3 vieillissements il faut de nouveau agrandir un bâtiment pour lui faire retrouver sa taille initiale.
+
+### Production automatisée
+
+Il est possible d'automatiser la production des bâtiments, réduisant les besoins de main d'oeuvre humaine mais augmentant les coûts en énergie et composants électroniques.
+
+Lors de la construction, le niveau d'automatisation d'un bâtiment est par défaut à 0. Il est possible de l'augmenter d'une unité par tour de jeu jusqu'à un maximum de 10, sans dépenser d'action.
+Le changement de recette d'un bâtiment remet à 0 le niveau d'automatisation.
+
+Chaque niveau d'automatisation d'un bâtiment réduit de 30% (multiplicatifs) le coût en travail pour le fonctionnement propre du bâtiment et augmente de 30% (multiplicatif) le coût en énergie et en composants électroniques. 
+
+Ainsi au niveau maximal d'automatisation, pour un bâtiment de taille 100, le coût d'opération en travail est d'approximativement $6 = 2\times 100\times(0.7)^{10}$ au lieux de 200 et son coût en énergie et composants est approximativement de $1378 = 1\times (1.3)^10$ au lieu de 100.
+
+
 ## Projets
 
 ### Fonctionnement général
@@ -739,7 +771,6 @@ Pour les projets coopératifs, si plus d'étapes que nécessaire ont été réal
 -   Coût de chaque étape: 2000 Travail, 2000 énergie, 2000 matériaux de construction, 2000 composants électroniques, 1000 métaux nobles, 2000 métaux légers, 1000 carburant, 1000 composés organiques
 -   Effet: Distribution de 100 000 unités d'argent entre les organisations ayant participé. Ces fonds sont pris dans les caisses de la ville. Augmentation du niveau de la ville d'une unité. Autorise le passage de la ville au niveau métropole.
 -   Description: Construction en orbite d'un corps céleste d'un module d'habitation étendant la ville présente à la surface.
-        
 
 ####  Projets en lien avec la Terre
 
@@ -748,7 +779,6 @@ Voir la section suivante.
 #### Autres idées 
 
 [TODO](/ideas-projects/)
-
 
 ## Fonctionnement de la Terre
 
@@ -946,9 +976,6 @@ Les régions coordonnent les efforts de lutte contre le changement climatique au
 -   Effet: Permet à l'organisation qui le contrôle, pour une action, de regarder les événements climatiques à venir et d'en annuler au plus un avec 50% de chances.
 -   Description: Un réseau de station en orbite pour analyse et prévenir les événements climatiques à venir.
 
-
-
-
 ### Fonctionnement du système climatique terrestre
 
 La dynamique du système climatique terrestre est alimentée uniquement par la pollution liée aux activités humaines. Cette pollution est représentée par une piste de progression du niveau de cette pollution.
@@ -1055,7 +1082,7 @@ Le marché ajoute une taxe de 10% pour chaque achat et vente de ressource: si le
 ### Formation des prix
 
 Pour chaque marché et chaque ressource, on tient à jour le nombre de ressources achetées et vendues chaque tour.
-Chaque marché tient le compte de l'évolution de l'offre et de la demande via deux nombres: les achats cumulés et le ventes cumulées. En fin de tour et pour chaque ressource, on met à jour ces deux nombres en y ajoutant les achats et ventes du tour. On met ensuite à jour le prix de la manière suivante: on calcule le volume total des transactions (achat + ventes), puis la balance (achat - ventes) et on divise la balance par le volume pour obtenir la balance relative. Puis, on fixe le nouveau prix à (1+balance relative) fois l'ancien prix, avec au minimum une variation de prix de 1.
+Chaque marché tient le compte de l'évolution de l'offre et de la demande via deux nombres: les achats cumulés et le ventes cumulées. En fin de tour et pour chaque ressource, on met à jour ces deux nombres en y ajoutant les achats et ventes du tour. On met ensuite à jour le prix de la manière suivante: on calcule le volume total des transactions (achat + ventes), puis la balance (achat - ventes) et on divise la balance par le (volume+100) pour obtenir la balance relative. Puis, on fixe le nouveau prix à (1+balance relative) fois l'ancien prix, avec au minimum une variation de prix de 1.
 Ensuite, de manière à introduire une forme de retour à un équilibre dans le prix, on divise le nombre d'achats et ventes cumulées par 2.
 
 ## Commerce interplanétaire
@@ -1200,27 +1227,27 @@ Les taux d'échec et de découverte associés sont les suivants (formule: $1 - \
 |-------------------------|--------------------------------------|
 |difficulté/surveillance  |\|   taux d'échec/d'attribution (en %)|
 |-------------------------|--------------------------------------|
-|                      -10 |                                    5 |
-|                       -9 |                                  6.6 |
-|                       -8 |                                  8.6 |
-|                       -7 |                                 11.3 |
-|                       -6 |                                 14.6 |
-|                       -5 |                                 18.7 |
-|                       -4 |                                 23.6 |
-|                       -3 |                                 29.3 |
-|                       -2 |                                 35.7 |
-|                       -1 |                                 42.7 |
-|                       -0 |                                   50 |
-|                      1 |                                 57.3 |
-|                      2 |                                 64.3 |
-|                      3 |                                 70.8 |
-|                      4 |                                76.45 |
-|                      5 |                                81.33 |
-|                      6 |                                 85.4 |
-|                      7 |                                 88.7 |
-|                      8 |                                 91.3 |
-|                      9 |                                 93.4 |
-|                     10 |                                   95 |
+|                     -10 |                                    5 |
+|                      -9 |                                  6.6 |
+|                      -8 |                                  8.6 |
+|                      -7 |                                 11.3 |
+|                      -6 |                                 14.6 |
+|                      -5 |                                 18.7 |
+|                      -4 |                                 23.6 |
+|                      -3 |                                 29.3 |
+|                      -2 |                                 35.7 |
+|                      -1 |                                 42.7 |
+|                      -0 |                                   50 |
+|                       1 |                                 57.3 |
+|                       2 |                                 64.3 |
+|                       3 |                                 70.8 |
+|                       4 |                                76.45 |
+|                       5 |                                81.33 |
+|                       6 |                                 85.4 |
+|                       7 |                                 88.7 |
+|                       8 |                                 91.3 |
+|                       9 |                                 93.4 |
+|                      10 |                                   95 |
 |-------------------------|--------------------------------------|
 
 Il est possible de réduire le coût d'une opération via le niveau de renseignement d'une organisation sur un corps céleste. Ce niveau de renseignement est fourni par des bâtiments dédiés: les centres d'opération secrètes. Chaque centre d'opération secrète d'une organisation augmente le niveau de renseignement (I) de l'organisation qui le possède de 1 pour les opération sur le corps céleste sur lequel ce centre d'opérations secrètes est situé.
@@ -1417,7 +1444,6 @@ La capacité d'innovation réduit aussi le coût d'entretien d'une technologie e
 - Effet: Réduit le niveau de renseignement de 1.
 - Nombre d'exemplaires: 2
 
-
 ##### Formats de publication scientifique ouverts
         
 - Prérequis: Aucun
@@ -1425,14 +1451,12 @@ La capacité d'innovation réduit aussi le coût d'entretien d'une technologie e
 - Effet: Réduit de 10% de coût des projets de recherche publics.
 - Nombre d'exemplaires: 1
 
-
 ##### Fusion nucléaire
         
 - Prérequis: Aucun
 - Nombre d'étapes: 80
 - Effet: Débloque des technologies privées. 
 - Nombre d'exemplaires: 3
-
 
 #### Privées
 
