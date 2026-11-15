@@ -9,7 +9,7 @@ Voici les règles du jeu Bleu Fragile.
     
 
 <details markdown="1">
-  <summary>**Table des matières**</summary>
+  <summary><bold>Table des matières</bold></summary>
 
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
 
